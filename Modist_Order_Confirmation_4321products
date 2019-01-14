@@ -1,0 +1,1929 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Modist</title>
+
+    <style type="text/css">
+        
+        body,
+        table,
+        td,
+        a {
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+            text-decoration: none;
+        }
+        
+        table,
+        td {
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
+        
+        img {
+            -ms-interpolation-mode: bicubic;
+        }
+        
+        img {
+            border: 0;
+            height: auto;
+            line-height: 100%;
+            outline: none;
+            text-decoration: none;
+        }
+        
+        table {
+            border-collapse: collapse !important;
+            border-spacing: 0;
+        }
+        
+        body {
+            height: 100% !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            width: 100% !important;
+        }
+        u + #body a {
+            color: inherit;
+            text-decoration: none;
+            font-size: inherit;
+            font-family: inherit;
+            font-weight: inherit;
+            line-height: inherit;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        div[style*="margin: 16px 0"] {
+            margin: 0 auto !important;
+        }
+        
+        body {
+            margin: 0 auto !important;
+        }
+        
+        a[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+        
+        .black a {
+            text-decoration: none;
+            color: #000001;
+        }
+        
+        .white a {
+            text-decoration: none;
+            color: #ffffff;
+        }
+        
+        a[href^="tel"],
+        a[href^="sms"] {
+            text-decoration: none;
+            color: #000001;
+            pointer-events: none;
+            cursor: default;
+        }
+        
+        .mobile_link a[href^="tel"],
+        .mobile_link a[href^="sms"] {
+            text-decoration: default;
+            color: #000001 !important;
+            pointer-events: auto;
+            cursor: default;
+        }
+
+         u + #body a {
+        color: inherit !important;
+        text-decoration: none !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+}
+     
+
+        
+        @media only screen and (max-width: 740px) {
+            .nomob {
+                display: none !important;
+            }
+            .nopadding {
+                padding: 0 0 0 0 !important;
+            }
+            .nobg {
+                background: none !important;
+            }
+            .table {
+                width: 100% !important;
+            }
+            .button-white a {
+                background: #ffffff !important;
+                width: 100% !important;
+                display: block !important;
+                padding: 14px 0 11px !important;
+            }
+            .button-black a {
+                background: #000000 !important;
+                width: 100% !important;
+                display: block !important;
+                padding: 14px 0 11px !important;
+            }
+           
+            .hero-header {
+                font-size: 50px !important;
+                line-height: 50px !important;
+            }
+            .hero-text {
+                font-size: 16px !important;
+                line-height: 24px !important;
+            }
+            .message-text {
+                font-size: 19px !important;
+                line-height: 30px !important;
+            }
+
+            .max-width {
+                width: 100% !important;
+                max-width: none !important;
+            }
+            .half-width {
+                width: 100% !important;
+                max-width: 280px !important;
+           }
+           .threequarter-width{
+                width: 100% !important;
+                max-width: 420px !important;
+           }
+            .product-div {
+                width: 50% !important;
+                max-width: none !important;
+                float: none;
+
+            }
+             .product-div3 {
+                width: 33.333% !important;
+                max-width: none !important;
+                 min-width: 0 !important;
+                float: none;
+
+            }
+            .product-table {
+                width: 100% !important;
+                max-width: none !important;
+                float: none;
+            }
+             .product {
+                width: 90% !important;
+            }
+           
+        }
+        
+
+          @media only screen and (max-width: 625px) {
+            .half-width {
+                width: 100% !important;
+                max-width: none !important;
+            }
+            .threequarter-width{
+                width: 100% !important;
+                max-width: none !important;
+            }
+            .product-div {
+                width: 45% !important;
+            }
+            .product-div3 {
+                width: 45% !important;
+            }
+            .product {
+                width: 100% !important;
+            }
+            .float-l {
+               float: left;
+            }
+            .float-r {
+               float: right;
+            }
+            .pad25 {
+               padding: 0 25px;
+           }
+             .column-three.product-div3 {
+             display: block !important;
+
+         }
+        }
+
+        @media only screen and (max-width: 360px) {
+            
+            .hero-header {
+           
+            }
+         }
+
+         @media only screen and (max-width: 340px) {
+            .product-div {
+                width: 100% !important;
+                min-width: 0 !important;
+            }
+            .product-div3 {
+                 width: 100% !important;
+                min-width: 0 !important;
+            }
+            .product-table {
+                width: 100% !important;
+               min-width: 0 !important;
+            }
+         }
+
+         
+       
+    </style>
+
+</head>
+
+
+<body bgcolor="#ffffff" style="background-color: #ffffff !important; font-family: Verdana, Arial, sans-serif; height: 100% !important; margin: 0 auto !important; width: 100% !important;padding:0" id="body">
+ 
+    <!-- preheader start -->
+    <div class="preheader" style="color: #ffffff; display: none; font-family: Verdana, Arial, sans-serif; font-size: #000000; line-height: 1px; max-height: 0; max-width: 0; opacity: 0; overflow: hidden;">
+    </div>
+    <!-- preheader end -->
+
+ <!-- shipping start -->
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+            <td align="center" valign="top" width="100%" bgcolor="#000000" style="padding: 10px 0;">
+                <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="730">
+            <tr>
+            <td align="center" valign="top" width="730">
+            <![endif]-->
+                <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:730px;">
+
+                    <tr>
+                        <td align="center" valign="top" style="padding: 0;font-family: Arial, sans-serif;color: #ffffff;font-size: 9px;line-height: 16px;letter-spacing: 3px;margin: 0;text-transform: uppercase;padding: 0 25px;">
+                            <a href="#LINK" style="color: #ffffff; text-decoration: none" target="_blank">FREE SHIPPING WORLDWIDE FOR PURCHASEs OVER&nbsp;£400</a>
+
+                        </td>
+                    </tr>
+                </table>
+                <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+            </td>
+        </tr>
+    </table>
+    <!-- shipping end -->
+
+    <!-- container-open start -->
+    <center class="container" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background-color: #ffffff; table-layout: fixed; width: 100%;">
+        <!-- defined colour bg full width in yahoo -->
+        <div class="webkit" style="margin: 0 auto; max-width: 730px;">
+            <!--[if (gte mso 9)|(IE)]>
+        <table width="730" align="center"  border="0" cellspacing="0" cellpadding="0" >
+            <tr>
+                <td>
+                <![endif]-->
+            <table class="main-table" align="center" style="Margin: 0 auto; background-color: #ffffff; border-spacing: 0; color: #000000; font-family: sans-serif; max-width: 730px; width: 100%;">
+                <!-- container-open end -->
+
+                <!-- header start -->
+                <tr>
+                    <td class="one-column module-outer" valign="top" style="padding: 7px 25px;" bgcolor="#ffffff">
+                        <table border="0" cellspacing="0" cellpadding="0" width="100%" style="color: #888888; font-family: sans-serif;">
+                            <tr>
+                                <td class="module-inner contents header" align="right" bgcolor="#ffffff" valign="top" style="-webkit-text-size-adjust: none; color: #888888; font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif; font-size: 10px; line-height: 16px; margin: 0; text-decoration: none; width: 100%;">
+                                    <a href="#LINK" target="_blank" style="color:#000000;text-decoration:underline; font-style:italic;">Click</a> to view an online&nbsp;version</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <!-- header end -->
+
+                <!-- logo start -->
+                <tr>
+                    <td class="logo module-outer" align="center" valign="top" style="padding: 24px 25px 28px 25px;">
+                        <!--[if !(IE)]><!-->
+                        <table border="0" cellspacing="0" cellpadding="0" style="color: #000000; font-family: sans-serif;mso-hide:all;">
+                            <tr>
+                                <td align="center" valign="top" class="image-inner">
+                                    <a href="#LINK" target="_blank"><img src="http://hosting-source.bm23.com/37540/public/2016/email/header/logo-themodist.gif" alt="The Modist. Modist Fashion Uncovered" width="100%" height="auto" style="border: 0;display: block;height: auto;line-height: 100%;max-width: 286px;outline: none;text-decoration: none;width: 100%;"></a>
+                                </td>
+                            </tr>
+
+                        </table>
+                        <!--<![endif]-->
+                        
+                        <!-- Fix so high res image does not display full size in OL2013 or other mso versions-->
+
+                        <!--[if (gte mso 9)|(IE)]>
+                        <table border="0" cellspacing="0" cellpadding="0" style="color: #000000; font-family: sans-serif;">
+                            <tr>
+                                <td class="one-column module-outer" align="left" valign="top">
+                                    <img src="http://hosting-source.bm23.com/37540/public/2016/email/header/logo-themodist.gif" width="286" height="auto" style="border: 0; display: block; height: auto; line-height: 100%; outline: none; text-decoration: none;"></td>
+                            </tr>
+                        </table>
+                    
+                   <![endif]-->
+                    </td>
+                </tr>
+
+                <!-- logo end -->
+
+  <!-- container-close start -->
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+                </td>
+            </tr>
+        </table>
+        <![endif]-->
+        </div>
+    </center>
+    <!-- container-close end -->
+
+    <!-- Nav Section start -->
+    <!-- divider -->
+    <table border="0" cellpadding="0" cellspacing="0" width="100%" class="nomob">
+
+        <tr>
+            <td class="one-column" valign="top" align="center">
+                <table border="0" cellpadding="0" cellspacing="0" class="table" style="border-top: 1px solid #e8e8e8; color: #000000; font-family: sans-serif;" width="100%" bgcolor="#ffffff">
+                    <tr style="font-size:1px; line-height:0; -webkit-text-size-adjust:none;">
+                        <td height="1" align="center" valign="top">&nbsp;</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <!-- divider -->
+    
+
+    <!-- container-open start -->
+    <center class="container nomob" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background-color: #ffffff; table-layout: fixed; width: 100%;">
+        <!-- defined colour bg full width in yahoo -->
+        <div class="webkit" style="margin: 0 auto; max-width: 730px;">
+            <!--[if (gte mso 9)|(IE)]>
+        <table width="730" align="center"  border="0" cellspacing="0" cellpadding="0" >
+            <tr>
+                <td>
+                <![endif]-->
+            <table class="main-table" align="center" bgcolor="#ffffff" style="Margin: 0 auto; background-color: #ffffff; border-spacing: 0; color: #000000; font-family: sans-serif; max-width: 730px; width: 100%;">
+                <!-- container-open end -->
+ 
+                <!-- Buttons start -->
+                <tr>
+                    <td class="two-column" bgcolor="#ffffff" align="center" style="font-size: 0;text-align: center;padding: 9px 0;">
+                        <!--[if (gte mso 9)|(IE)]>
+                        <table width="100%"  border="0" cellspacing="0" cellpadding="0" >
+                        <tr>
+
+                        <td width="373px" bgcolor="#ffffff" valign="top" >
+                        <![endif]-->
+                        <div class="column left" style="display: inline-block; max-width: 373px; vertical-align: top; width: 100%;">
+                            <table border="0" cellspacing="0" cellpadding="0" width="100%" style="border-spacing: 0; color: #000000; font-family: sans-serif;" bgcolor="#ffffff">
+                                <tr>
+                                    <td class="module-inner" valign="top" bgcolor="#ffffff" align="center" style="padding: 12px 0">
+
+                                        <table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff" style="color: #000000; font-family: sans-serif;">
+
+                                            <tr style="font-size:1px; line-height:0; -webkit-text-size-adjust:none;">
+                                                <td align="left" valign="top" width="23" height="9" style="font-size: 1px; line-height: 1px;padding: 0;">
+                                                    <font style="display:none;">&nbsp;</font>
+                                                </td>
+
+                                                <td align="left" valign="top" style="font-size: 1px; line-height: 1px;padding: 0;">
+                                                    <a href="#LINK" target="_blank"><img src="http://hosting-source.bm23.com/37540/public/2016/email/header/nav-whatsnew.gif" width="89" height="10" alt="WHATS'S NEW" style="border: 0; display: block; height: 10; line-height: 100%; outline: none; text-decoration: none;"></a>
+                                                </td>
+
+                                                <td align="left" valign="top" width="45" height="10" style="font-size: 1px; line-height: 1px;padding: 0;">
+                                                    <font style="display:none;">&nbsp;</font>
+                                                </td>
+
+                                                <td align="left" valign="top" style="font-size: 1px; line-height: 1px;padding: 0;">
+                                                    <a href="#LINK" target="_blank"><img src="http://hosting-source.bm23.com/37540/public/2016/email/header/nav-designers.gif" width="76" height="10" alt="DESIGNERS" style="border: 0; display: block; height: 10; line-height: 100%; outline: none; text-decoration: none;"></a>
+                                                </td>
+
+                                                <td align="left" valign="top" width="46" height="10" style="font-size: 1px; line-height: 1px;padding: 0;">
+                                                    <font style="display:none;">&nbsp;</font>
+                                                </td>
+
+
+                                                <td align="left" valign="top" style="font-size: 1px; line-height: 1px;padding: 0;">
+                                                    <a href="#LINK" target="_blank"><img src="http://hosting-source.bm23.com/37540/public/2016/email/header/nav-clothing.gif" width="71" height="10" alt="CLOTHING" style="border: 0; display: block; height: 10; line-height: 100%; outline: none; text-decoration: none;"></a>
+                                                </td>
+
+                                                <td align="left" valign="top" width="23" height="10" style="font-size: 1px; line-height: 1px;padding: 0;">
+                                                    <font style="display:none;">&nbsp;</font>
+                                                </td>
+                                            </tr>
+
+
+                                        </table>
+
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <!--[if (gte mso 9)|(IE)]>
+</td><td width="353" bgcolor="#ffffff"  
+<![endif]-->
+                        <div class="column right" style="display: inline-block; max-width: 353px; vertical-align: top; width: 100%;">
+                            <table border="0" cellspacing="0" cellpadding="0" width="100%" style="border-spacing: 0; color: #000000; font-family: sans-serif;" bgcolor="#ffffff">
+                                <tr>
+
+                                    <td class="module-inner" valign="top" bgcolor="#ffffff" align="center" style="padding: 12px 0;">
+                                        <table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff" style="color: #000000; font-family: sans-serif;">
+
+                                            <tr>
+                                                <td align="left" valign="top" width="23" height="10" style="font-size: 1px; line-height: 1px;padding: 0;">
+                                                    <font style="display:none;">&nbsp;</font>
+                                                </td>
+
+                                                <td align="left" valign="top" style="font-size: 1px; line-height: 1px;padding: 0;">
+                                                    <a href="#LINK" target="_blank"><img src="http://hosting-source.bm23.com/37540/public/2016/email/header/nav-accesories.gif" width="97" height="10" alt="ACCESSORIES" style="border: 0; display: block; height: 10; line-height: 100%; outline: none; text-decoration: none;"></a>
+                                                </td>
+
+                                                <td align="left" valign="top" width="46" height="10" style="font-size: 1px; line-height: 1px;padding: 0;">
+                                                    <font style="display:none;">&nbsp;</font>
+                                                </td>
+
+                                                <td align="left" valign="top" style="font-size: 1px; line-height: 1px;padding: 0;">
+                                                    <a href="#LINK" target="_blank"><img src="http://hosting-source.bm23.com/37540/public/2016/email/header/nav-cover.gif" width="47" height="10" alt="COVER" style="border: 0; display: block; height: 10; line-height: 100%; outline: none; text-decoration: none;"></a>
+                                                </td>
+
+                                                <td align="left" valign="top" width="46" height="10" style="font-size: 1px; line-height: 1px;padding: 0;">
+                                                    <font style="display:none;">&nbsp;</font>
+                                                </td>
+
+                                                <td align="left" valign="top" style="font-size: 1px; line-height: 1px;padding: 0;">
+                                                    <a href="#LINK" target="_blank"><img src="http://hosting-source.bm23.com/37540/public/2016/email/header/nav-magazine.gif" width="71" height="10" alt="MAGAZINE" style="border: 0; display: block; height: 10; line-height: 100%; outline: none; text-decoration: none;"></a>
+                                                </td>
+
+                                                <td align="left" valign="top" width="23" height="10" style="font-size: 1px; line-height: 1px;padding: 0;">
+                                                    <font style="display:none;">&nbsp;</font>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <!--[if (gte mso 9)|(IE)]>
+</td>
+
+</tr>
+</table>
+<![endif]-->
+                    </td>
+                </tr>
+                <!-- Buttons end -->
+
+
+                <!-- container-close start -->
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+                </td>
+            </tr>
+        </table>
+        <![endif]-->
+        </div>
+    </center>
+    <!-- container-close end -->
+
+    <!-- divider -->
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+        <tr>
+            <td class="one-column" valign="top" align="center">
+                <table border="0" cellpadding="0" cellspacing="0" class="table" style="border-top: 1px solid #e8e8e8; color: #000000; font-family: sans-serif;" width="100%" bgcolor="#ffffff">
+                    <tr style="font-size:1px; line-height:0; -webkit-text-size-adjust:none;">
+                        <td height="1" align="center" valign="top">&nbsp;</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+    </table>
+    <!-- divider -->
+    <!-- Nav Section end -->
+
+
+
+
+     <!-- HeroImage start -->
+
+<!-- container-open start -->
+    <center class="container" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background-color: #ffffff; table-layout: fixed; width: 100%;">
+        <!-- defined colour bg full width in yahoo -->
+        <div class="webkit" style="margin: 0 auto; max-width: 730px;">
+            <!--[if (gte mso 9)|(IE)]>
+        <table width="730" align="center"  border="0" cellspacing="0" cellpadding="0" >
+            <tr>
+                <td>
+                <![endif]-->
+            <table class="main-table" align="center" bgcolor="#3F3F3D" style="Margin: 0 auto; background-color: #ffffff; border-spacing: 0; color: #000000; font-family: sans-serif; max-width: 730px; width: 100%;">
+                <!-- container-open end -->
+
+
+
+                <!-- HeroText start -->
+                <tr>
+                    <td class="one-column module-outer" valign="top" bgcolor="#ffffff" style="background-color: #ffffff;padding: 24px 25px 24px 25px;">
+                        <table border="0" cellspacing="0" cellpadding="0" width="100%" style="color: #000000; font-family: sans-serif;">
+
+                            <tr>
+                                <td class="module-inner contents global-copy hero-header" align="left" bgcolor="#ffffff" valign="top" style="-webkit-text-size-adjust: none;color: #000000;font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif;font-size: 55px;line-height: 55px;font-weight: normal;padding: 6px 0 17px 0;text-align: left;text-decoration: none;width: 100%;letter-spacing: 0;font-style: italic;">Thank you for your order </td>
+                            </tr>
+                            <tr>
+                                <td class="module-inner contents global-copy hero-text" align="left" bgcolor="#ffffff" valign="top" style="-webkit-text-size-adjust: none;color: #000000;font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif;font-size: 17px;line-height: 24px;padding: 17px 0 0 0;text-align: left;text-decoration: none;width: 100%;">
+                                    Dear Ramona, </td>
+                            </tr>
+
+                            <tr>
+                                <td class="module-inner contents global-copy hero-text" align="left" bgcolor="#ffffff" valign="top" style="-webkit-text-size-adjust: none;color: #000000;font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif;font-size: 17px;line-height: 24px;padding: 10px 0 6px 0;text-align: left;text-decoration: none;width: 100%;">
+                                    Thank you For Your Order. Please find the details&nbsp;below. Once your order has been dispatched from our warehouse we will send you a tracking&nbsp;number. </td>
+                            </tr>
+
+
+
+                        </table>
+                    </td>
+                </tr>
+                <!-- HeroText end -->
+
+
+                <!-- header -->
+                <tr>
+                    <td class="module-inner contents" align="left" bgcolor="#ffffff" valign="top" style="-webkit-text-size-adjust: none;color: #000000;font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif;letter-spacing: 0.5px;font-size: 22px;line-height: 24px;margin: 0;font-weight: bold;text-decoration: none;padding: 24px 25px 12px 25px;">
+                        ORDER SUMMARY</td>
+                </tr>
+                <!-- header -->
+
+
+                <!-- divider -->
+                <tr>
+                    <td class="one-column" valign="top" align="center" style="padding: 0 25px 0 25px;">
+                        <table border="0" cellpadding="0" cellspacing="0" class="table" style="border-top: 1px solid #e8e8e8; color: #000000; font-family: sans-serif;" width="100%">
+                            <tr>
+                                <td align="center" height="1" style="font-size: 1px; line-height: 1px;padding: 0;" valign="top">&nbsp;</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <!-- divider -->
+
+
+
+
+
+
+                   
+
+                <!-- status start -->
+                
+                            <tr>
+                                <td align="left" valign="top" style="font-size:0;padding: 1px 25px 1px 25px;" class="module-inner">
+                                    <!--[if (gte mso 9)|(IE)]>
+                                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="680">
+                                    <tr>
+                                    <td align="left" valign="top" width="227" >
+                                    <![endif]-->
+                                    <div style="display:inline-block; max-width:33.3333%; min-width:210px; vertical-align:top; width:100%;" class="column-one">
+                                         <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:210px; " class="max-width">
+                                            <tr>
+                                            <td width="210" class="module-inner contents" align="left" valign="top" style="-webkit-text-size-adjust: none;color: #000000;font-family: Arial, sans-serif;letter-spacing: 0.5px;font-size: 12px;font-weight:normal;line-height: 12px;text-transform:  uppercase;margin: 0;text-decoration: none;font-weight:bold;padding: 13px 0;">
+                                             status:
+
+                                            <span style="-webkit-text-size-adjust: none;color: #000000;font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif;font-size: 16px;font-weight:normal;line-height: 12px;margin: 0;text-decoration: none;letter-spacing: 0;text-transform:  none;">&nbsp;
+                                                Processing</span></td>
+
+                                        </tr>
+                                        </table>
+                                    </div>
+                                    <!--[if (gte mso 9)|(IE)]>
+                                    </td>
+                                    <td align="left" valign="top" width="227" >
+                                    <![endif]-->
+                                    <div style="display:inline-block; max-width:33.3333%; min-width:210px; vertical-align:top; width:100%;" class="column-two">
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:210px;" class="max-width">
+                                          <tr>
+                                            <td width="210" class="module-inner contents" align="left" valign="top" style="-webkit-text-size-adjust: none;color: #000000;font-family: Arial, sans-serif;letter-spacing: 0.5px;font-size: 12px;line-height: 13px;text-transform:  uppercase;margin: 0;text-decoration: none;font-weight:bold;padding: 12px 0;">
+                                                order date:
+                                                 <span valign="top" style="-webkit-text-size-adjust: none;color: #000000;font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif;letter-spacing: 0.5px;font-size: 16px;font-weight:normal;line-height: 12px;margin: 0;text-decoration: none;letter-spacing: 0;text-transform:  none;">
+                                                <span class="black" style="text-decoration: none; color: #000001;">&nbsp;16/04/2016</span></span></td>
+
+                                        </tr>
+                                        </table>
+                                    </div>
+                                    <!--[if (gte mso 9)|(IE)]>
+                                    </td>
+                                         
+                                    <td align="left" valign="top" width="226" >
+                                    <![endif]-->
+                                    <div style="display:inline-block; max-width:33.3333%; min-width:210px; vertical-align:top; width:100%;" class="column-three">
+                                    <table align="right" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:210px;" class="max-width">
+                                            <tr>
+                                            <td class="module-inner contents" align="left" valign="top" width="210" style="-webkit-text-size-adjust: none;color: #000000;font-family: Arial, sans-serif;letter-spacing: 0.5px;font-size: 12px;line-height: 13px;text-transform:  uppercase;margin: 0;text-decoration: none;font-weight:bold;padding: 12px 0;">order no: 
+
+                                            <span style="-webkit-text-size-adjust: none; color: #000000; font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif; letter-spacing: 0.5px; font-size: 16px; font-weight:normal;  line-height: 12px; margin: 0; text-decoration: none; letter-spacing: 0;text-transform:  none;">&nbsp;
+                                                #12345AD</span></td>
+                                        </tr>
+                                            
+                                        </table>
+                                       
+                                    </div>
+                                    <!--[if (gte mso 9)|(IE)]>
+                                    </td>
+                                    </tr>
+                                    </table>
+                                    <![endif]-->
+                                </td>
+                            </tr>
+                       
+
+                <!-- status end -->
+
+
+
+
+
+     <!-- divider -->
+                <tr>
+                    <td class="one-column" valign="top" align="center" style="padding: 0 25px 18px 25px;">
+                        <table border="0" cellpadding="0" cellspacing="0" class="table" style="border-top: 1px solid #e8e8e8; color: #000000; font-family: sans-serif;" width="100%" bgcolor="#ffffff">
+                            <tr style="font-size:1px; line-height:0; -webkit-text-size-adjust:none;">
+                                <td height="1" align="center" valign="top">&nbsp;</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <!-- divider -->
+
+
+
+
+
+
+                 <tr>
+                    <td class="one-column module-outer" valign="top" bgcolor="#AA00EE" style="background-color: #ffffff;padding: 0 25px 24px 25px;">
+
+                        
+
+                        <table border="0" cellspacing="0" cellpadding="0" width="100%" style="color: #000000;;" bgcolor="#ffffff" align="left">
+
+                           
+
+                           
+
+
+                            <!-- Product starts -->
+                            <tr>
+                                <td class="one-column module-outer" valign="top" style="padding: 0 0 18px 0;" bgcolor="#ffffff">
+
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%" style="color: #000000; ">
+                                        <tr>
+                                            <td class="module-inner contents" align="left" bgcolor="#ffffff" valign="top" width="115">
+                                                <a href="#LINK" target="_blank"><img src="http://res.cloudinary.com/dagb1l62t/image/upload/v1481125088/modist/product-1.jpg" width="115" style="margin:0; padding:0; border:none; display:block;" border="0" alt=""></a>
+                                            </td>
+
+
+                                            <td class="module-inner contents" align="left" valign="top" bgcolor="ffffff" style="padding-left:25px">
+                                                <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+
+
+                                                    <tr>
+                                                        <td align="left" style="line-height: 24px;font-family:Arial, serif; font-weight: bold; color:#2b2b2b; font-size:12px; line-height:24px; text-transform:uppercase; text-decoration:none; letter-spacing: 1px;">
+                                                            <a href="#LINK" target="_blank" style=" color:#2b2b2b; font-size:12px; line-height:24px;  text-decoration:none;">GIVENCHY</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left" style="font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif; color:#2b2b2b; font-size:15px; line-height:24px; text-decoration:none;"><a href="#LINK" target="_blank" style=" color:#2b2b2b; font-size:15px; line-height:24px; text-decoration:none;">Open-Top Tote</a></td>
+                                                    </tr>
+                                                   
+                                                    <tr>
+                                                        <td align="left" style="font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif; color:#2b2b2b; font-size:15px; line-height:24px; text-decoration:none; ">
+                                                            <a href="#LINK" target="_blank" style="color:#2b2b2b; font-size:15px; line-height:24px; text-decoration:none;">
+                                                                <font style="font-family: Arial, serif; color:#000000; font-size:9px; line-height:24px;  text-transform:uppercase;text-decoration:none;letter-spacing: 1px">Colour: </font>
+
+                                                                Anthracite Grey</a>
+                                                        </td>
+                                                    </tr>
+                                                     <tr>
+                                                        <td align="left" style="font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif; color:#2b2b2b; font-size:15px; line-height:24px; text-decoration:none; ">
+                                                            <a href="#LINK" target="_blank" style="color:#2b2b2b; font-size:15px; line-height:24px; text-decoration:none;">
+                                                                <font style="font-family: Arial, serif; color:#000000; font-size:9px; line-height:24px;  text-transform:uppercase;text-decoration:none;letter-spacing: 1px">Size: </font>
+
+                                                                One Size</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left" style="line-height: 24px;">
+                                                            <a href="#LINK" target="_blank" style="font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif; color:#2b2b2b; font-size:13px; line-height:24px; text-decoration:none;">
+                                                                <font style="font-family: Arial, serif; color:#000000; font-size:9px; line-height:24px;  text-transform:uppercase;text-decoration:none;letter-spacing: 1px">Quantity: </font>
+
+                                                                I</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left" style="font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif; color:#2b2b2b; font-size:15px; line-height:24px; text-decoration:none; font-weight:bold"><a href="#LINK" target="_blank" style="color:#2b2b2b; font-size:15px; line-height:24px; text-decoration:none;">
+                £ 1,150</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left" style="font-family: Arial, serif; color:#888888; font-size:9px; line-height:24px;  text-transform:uppercase;text-decoration:none; letter-spacing: 1px;"><a href="#LINK" target="_blank" style="color:#888888; font-size:9px; line-height:24px;  text-decoration:none;">
+                product id #123456</a></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+
+                                        </tr>
+                                    </table>
+
+                                </td>
+                            </tr>
+
+
+
+
+                                        
+                            <!-- divider -->
+                            <tr>
+                                <td class="one-column" valign="top" align="center" style="padding: 0 0 18px 0;">
+                                    <table border="0" cellpadding="0" cellspacing="0" class="table" style="border-top: 1px solid #e8e8e8; color: #000000; font-family: sans-serif;" width="100%" bgcolor="#ffffff">
+                                        <tr>
+                                            <td align="center" height="1" style="font-size: 1px; line-height: 1px;padding: 0;" valign="top">&nbsp;</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- divider -->
+
+
+                            <!-- Product ends -->
+
+
+                            <!-- Product starts -->
+                            <tr>
+                                <td class="one-column module-outer" valign="top" style="padding: 0 0 18px 0;" bgcolor="#ffffff">
+
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%" style="color: #000000; ">
+                                        <tr>
+                                            <td class="module-inner contents" align="left" bgcolor="#ffffff" valign="top" width="115">
+                                                <a href="#LINK" target="_blank"><img src="http://res.cloudinary.com/dagb1l62t/image/upload/v1481214483/modist/product-2.jpg" width="115" style="margin:0; padding:0; border:none; display:block;" border="0" alt=""></a>
+                                            </td>
+
+
+                                            <td class="module-inner contents" align="left" valign="top" bgcolor="ffffff" style="padding-left:25px">
+                                                <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+
+
+                                                    <tr>
+                                                        <td align="left" style="line-height: 24px;font-family:Arial, serif; font-weight: bold; color:#2b2b2b; font-size:12px; line-height:24px; text-transform:uppercase; text-decoration:none; letter-spacing: 1px;">
+                                                            <a href="#LINK" target="_blank" style=" color:#2b2b2b; font-size:12px; line-height:24px;  text-decoration:none;">
+                                                                SAINT LAURENT</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                         <td align="left" style="font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif; color:#2b2b2b; font-size:15px; line-height:24px; text-decoration:none;"><a href="#LINK" target="_blank" style=" color:#2b2b2b; font-size:15px; line-height:24px; text-decoration:none;">Double Layer Tank Top</a></td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td align="left" style="font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif; color:#2b2b2b; font-size:15px; line-height:24px; text-decoration:none; ">
+                                                            <a href="#LINK" target="_blank" style="color:#2b2b2b; font-size:15px; line-height:24px; text-decoration:none;">
+                                                                <font style="font-family: Arial, serif; color:#000000; font-size:9px; line-height:24px;  text-transform:uppercase;text-decoration:none;letter-spacing: 1px">Colour: </font>
+
+                                                               Bright Raspberry and White</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left" style="font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif; color:#2b2b2b; font-size:15px; line-height:24px; text-decoration:none; ">
+                                                            <a href="#LINK" style="color:#2b2b2b; font-size:15px; line-height:24px; text-decoration:none;">
+                                                                <font style="font-family: Arial, serif; color:#000000; font-size:9px; line-height:24px;  text-transform:uppercase;text-decoration:none;letter-spacing: 1px">Size: </font>
+
+                                                                XS</a>
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td align="left" style="line-height: 24px;">
+                                                            <a href="#LINK" target="_blank" style="font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif; color:#2b2b2b; font-size:13px; line-height:24px; text-decoration:none;">
+                                                                <font style="font-family: Arial, serif; color:#000000; font-size:9px; line-height:24px;  text-transform:uppercase;text-decoration:none;letter-spacing: 1px">Quantity: </font>
+
+                                                                I</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left" style="font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif; color:#2b2b2b; font-size:15px; line-height:24px; text-decoration:none; font-weight:bold"><a href="#LINK" target="_blank" style="color:#2b2b2b; font-size:15px; line-height:24px; text-decoration:none;">
+                £ 1,150</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left" style="font-family: Arial, serif; color:#888888; font-size:9px; line-height:24px;  text-transform:uppercase;text-decoration:none; letter-spacing: 1px;"><a href="#LINK" target="_blank" style="color:#888888; font-size:9px; line-height:24px;  text-decoration:none;">
+                product id #123456</a></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+
+                                        </tr>
+                                    </table>
+
+                                </td>
+                            </tr>
+
+
+
+
+
+                                                      
+                            <!-- divider -->
+                            <tr>
+                                <td class="one-column" valign="top" align="center" style="padding: 0 0 18px 0;">
+                                    <table border="0" cellpadding="0" cellspacing="0" class="table" style="border-top: 1px solid #e8e8e8; color: #000000; font-family: sans-serif;" width="100%" bgcolor="#ffffff">
+                                        <tr>
+                                            <td align="center" height="1" style="font-size: 1px; line-height: 1px;padding: 0;" valign="top">&nbsp;</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- divider -->
+
+
+
+                              <!-- Product ends -->
+                            <tr>
+                                <td class="one-column module-outer" valign="top" style="padding: 6px 0 9px 0;" bgcolor="#ffffff" align="left">
+                                  <!--[if (gte mso 9)|(IE)]>
+                                        <table align="left" border="0" cellspacing="0" cellpadding="0" width="600">
+                                        <tr>
+                                        <td valign="top" width="300" style="font-size: 1px; line-height: 1px;">
+                                        <![endif]-->
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%" style="color: #000000;max-width:300px">
+                                        <tr>
+                                            <td class="module-inner contents" align="left" bgcolor="#ffffff" valign="top" style="-webkit-text-size-adjust: none;color: #000000;font-family: Arial, sans-serif;letter-spacing: 1px;font-size: 13px;line-height: 14px;font-weight: bold;text-transform:  uppercase;margin: 0;text-decoration: none;">
+                                                total breakdown:</td>
+                                        </tr>
+                                    </table>
+                                       <!--[if (gte mso 9)|(IE)]>
+                                    </td>
+                                        <td valign="top" width="300" style="font-size: 1px; line-height: 1px;"></td>
+
+                                    </tr>
+                                    </table>
+                                    <![endif]-->
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="one-column module-outer" valign="top" style="padding: 12px 0 12px 0;" bgcolor="#ffffff" align="left" >
+ <!--[if (gte mso 9)|(IE)]>
+                                        <table align="left" border="0" cellspacing="0" cellpadding="0" width="600">
+                                        <tr>
+                                        <td valign="top" width="300" style="font-size: 1px; line-height: 1px;">
+                                        <![endif]-->
+
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%" style="color: #000000;max-width:300px">
+
+                                        <tr>
+                                            <td class="module-inner contents" align="left" bgcolor="#ffffff" valign="top" style="-webkit-text-size-adjust: none;color: #000000;font-family: Arial, sans-serif;letter-spacing: 1px;font-size: 12px;line-height: 14px;text-transform:  uppercase;margin: 0;text-decoration: none;">
+                                              subtotal 
+                        (<font style="font-size: 9px;line-height: 14px;">1 item</font>):</td>
+
+                                            <td class="module-inner contents" align="right" bgcolor="#ffffff" valign="top" style="-webkit-text-size-adjust: none;color: #000000;font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif;letter-spacing: 0.5px;font-size: 16px;line-height: 14px;margin: 0;text-decoration: none;font-weight:bold;">
+                                                £ 2,045</td>
+
+                                        </tr>
+                                    </table>
+                                         <!--[if (gte mso 9)|(IE)]>
+                                    </td>
+                                        <td valign="top" width="300" style="font-size: 1px; line-height: 1px;"></td>
+
+                                    </tr>
+                                    </table>
+                                    <![endif]-->
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td class="one-column module-outer" valign="top" style="padding: 6px 0 12px 0;" bgcolor="#ffffff" align="left">
+                                      <!--[if (gte mso 9)|(IE)]>
+                                        <table align="left" border="0" cellspacing="0" cellpadding="0" width="600">
+                                        <tr>
+                                        <td valign="top" width="300" style="font-size: 1px; line-height: 1px;">
+                                        <![endif]-->
+
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%" style="color: #000000; max-width:300px">
+                                        <tr>
+                                            <td class="module-inner contents" align="left" bgcolor="#ffffff" valign="top" style="-webkit-text-size-adjust: none;color: #000000;font-family: Arial, sans-serif;letter-spacing: 1px;font-size: 12px;line-height: 14px;text-transform:  uppercase;margin: 0;text-decoration: none;">
+                                                shipping: EXPRESS DELIVERY</td>
+
+                                            <td class="module-inner contents" align="right" bgcolor="#ffffff" valign="top" style="-webkit-text-size-adjust: none;color: #000000;font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif;letter-spacing: 0.5px;font-size: 16px;line-height: 14px;margin: 0;text-decoration: none;font-weight:bold;">
+                                                £30.00</td>
+                                        </tr>
+                                    </table>
+                                        <!--[if (gte mso 9)|(IE)]>
+                                    </td>
+                                        <td valign="top" width="300" style="font-size: 1px; line-height: 1px;"></td>
+
+                                    </tr>
+                                    </table>
+                                    <![endif]-->
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="one-column module-outer" valign="top" style="padding: 6px 0 12px 0;" align="left">
+                                <!--[if (gte mso 9)|(IE)]>
+                                        <table align="left" border="0" cellspacing="0" cellpadding="0" width="600">
+                                        <tr>
+                                        <td valign="top" width="300" style="font-size: 1px; line-height: 1px;">
+                                        <![endif]-->
+
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%" style="color: #000000; max-width:300px">
+
+                                        <tr>
+                                            <td class="module-inner contents" align="left" bgcolor="#ffffff" valign="top" style="-webkit-text-size-adjust: none;color: #000000;font-family: Arial, sans-serif;letter-spacing: 1px;font-size: 12px;line-height: 14px;text-transform:  uppercase;margin: 0;text-decoration: none;">
+                                                ORDER DISCOUNT:</td>
+
+                                            <td class="module-inner contents" align="right" bgcolor="#ffffff" valign="top" style="-webkit-text-size-adjust: none;color: #000000;font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif;letter-spacing: 0.5px;font-size: 16px;line-height: 14px;margin: 0;text-decoration: none;font-weight:bold;">
+                                                £30</td>
+
+                                        </tr>
+                                    </table>
+                                         <!--[if (gte mso 9)|(IE)]>
+                                    </td>
+                                        <td valign="top" width="300" style="font-size: 1px; line-height: 1px;"></td>
+
+                                    </tr>
+                                    </table>
+                                    <![endif]-->
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td class="one-column module-outer" valign="top" style="padding: 6px 0 24px 0;" bgcolor="#ffffff" align="left">
+                                  <!--[if (gte mso 9)|(IE)]>
+                                        <table align="left" border="0" cellspacing="0" cellpadding="0" width="600">
+                                        <tr>
+                                        <td valign="top" width="300" style="font-size: 1px; line-height: 1px;">
+                                        <![endif]-->
+
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%" style="color: #000000; max-width:300px">
+
+                                        <tr>
+                                            <td class="module-inner contents" align="left" bgcolor="#ffffff" valign="bottom" style="-webkit-text-size-adjust: none;color: #000000;font-family: Arial, sans-serif;letter-spacing: 1px;font-size: 12px;line-height: 14px;text-transform:  uppercase;margin: 0;text-decoration: none;">
+                                                ORDER SHIPPING DISCOUNT:</td>
+
+                                            <td class="module-inner contents" align="right" bgcolor="#ffffff" valign="bottom" style="-webkit-text-size-adjust: none;color: #000000;font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif;letter-spacing: 0.5px;font-size: 16px;line-height: 14px;margin: 0;text-decoration: none;font-weight:bold;">
+                                              £18</td>
+
+                                        </tr>
+                                    </table>
+                                             <!--[if (gte mso 9)|(IE)]>
+                                    </td>
+                                        <td valign="top" width="300" style="font-size: 1px; line-height: 1px;"></td>
+
+                                    </tr>
+                                    </table>
+                                    <![endif]-->
+                                </td>
+                            </tr>
+                           
+                          
+
+                           <!-- divider -->
+                            <tr>
+                                <td class="one-column" valign="top" align="left" style="padding: 0 0 6px 0;">
+                                  <!--[if (gte mso 9)|(IE)]>
+                                        <table align="left" border="0" cellspacing="0" cellpadding="0" width="600">
+                                        <tr>
+                                        <td valign="top" width="300" style="font-size: 1px; line-height: 1px;">
+                                        <![endif]-->
+                                        
+                                        <table border="0" cellpadding="0" cellspacing="0" class="table" style="border-top: 1px solid #000000; color: #000000; font-family: sans-serif; max-width:300px" width="100%" bgcolor="#ffffff">
+                                            <tr>
+                                                <td align="center" height="1" style="font-size: 1px; line-height: 1px;padding: 0;" valign="top">&nbsp;</td>
+                                            </tr>
+                                        </table>
+
+                                     <!--[if (gte mso 9)|(IE)]>
+                                    </td>
+                                        <td valign="top" width="300" style="font-size: 1px; line-height: 1px;"></td>
+
+                                    </tr>
+                                    </table>
+                                    <![endif]-->
+                                </td>
+                            </tr>
+                            <!-- divider -->
+
+                            <tr>
+                                <td class="one-column module-outer" valign="top" style="padding: 0 0 6px 0;" align="left">
+                                  <!--[if (gte mso 9)|(IE)]>
+                                        <table align="left" border="0" cellspacing="0" cellpadding="0" width="600">
+                                        <tr>
+                                        <td valign="top" width="300" style="font-size: 1px; line-height: 1px;">
+                                        <![endif]-->
+
+
+                                        <table border="0" cellspacing="0" cellpadding="0" width="100%" style="color: #000000; max-width:300px">
+                                            <tr>
+                                                <td class="module-inner contents" align="left" bgcolor="#ffffff" valign="top" style="-webkit-text-size-adjust: none;color: #000000;font-family: Arial, sans-serif;letter-spacing: 1px;font-size: 15px;line-height: 28px;text-transform:  uppercase;margin: 0;text-decoration: none;font-weight:bold;">
+                                                    total:</td>
+
+                                                <td class="module-inner contents" align="right" bgcolor="#ffffff" valign="top" style="-webkit-text-size-adjust: none;color: #000000;font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif;letter-spacing: 0.5px;font-size: 19px;line-height: 28px;margin: 0;text-decoration: none;font-weight:bold;">
+                                                    £2,045</td>
+
+                                            </tr>
+                                        </table>
+                                                 <!--[if (gte mso 9)|(IE)]>
+                                    </td>
+                                        <td valign="top" width="300" style="font-size: 1px; line-height: 1px;"></td>
+
+                                    </tr>
+                                    </table>
+                                    <![endif]-->
+                                </td>
+                            </tr>
+                            <!-- Order end -->
+
+
+                           <!-- divider -->
+                            <tr>
+                                <td class="one-column" valign="top" align="left" style="padding: 0 0 7px 0 ;">
+                                  <!--[if (gte mso 9)|(IE)]>
+                                        <table align="left" border="0" cellspacing="0" cellpadding="0" width="600">
+                                        <tr>
+                                        <td valign="top" width="300" style="font-size: 1px; line-height: 1px;">
+                                        <![endif]-->
+                                        <table border="0" cellpadding="0" cellspacing="0" class="table" style="border-top: 1px solid #000000; color: #000000; font-family: sans-serif; max-width:300px" width="100%" bgcolor="#ffffff">
+                                            <tr>
+                                                <td align="center" height="1" style="font-size: 1px; line-height: 1px;padding: 0;" valign="top">&nbsp;</td>
+                                            </tr>
+                                        </table>
+
+                                     <!--[if (gte mso 9)|(IE)]>
+                                    </td>
+                                        <td valign="top" width="300" style="font-size: 1px; line-height: 1px;"></td>
+
+                                    </tr>
+                                    </table>
+                                    <![endif]-->
+                                </td>
+                            </tr>
+                            <!-- divider -->
+
+                         
+
+                        </table>
+
+                   
+                    </td>
+                </tr>
+
+
+
+    <!-- Order Confirmation  Message end -->
+
+ 
+                <!-- header -->
+                <tr>
+                    <td class="module-inner contents" align="left" bgcolor="#ffffff" valign="top" style="-webkit-text-size-adjust: none;color: #000000;font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif;text-transform: uppercase;letter-spacing: 0.5px;font-size: 22px;line-height: 24px;margin: 0;font-weight: bold;text-decoration: none;padding: 24px 25px 12px 25px;">
+                        Delivery information</td>
+                </tr>
+                <!-- header -->
+
+  
+                <!-- divider -->
+
+                <tr>
+                    <td class="one-column" valign="top" align="center" style="padding: 0 25px 9px 25px;">
+                        <table border="0" cellpadding="0" cellspacing="0" class="table" style="border-top: 1px solid #e8e8e8; color: #000000; font-family: sans-serif;" width="100%" bgcolor="#ffffff">
+                            <tr>
+                                <td align="center" height="1" style="font-size: 1px; line-height: 1px;padding: 0;" valign="top">&nbsp;</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <!-- divider -->
+
+                <!-- copy start -->
+
+                <tr>
+                    <td class="one-column module-outer" valign="top" bgcolor="#ffffff" style="background-color: #ffffff;padding: 0 25px 24px 25px;">
+
+                        <table border="0" cellspacing="0" cellpadding="0" width="100%" style="color: #000000; font-family: sans-serif;">
+
+                            <tr>
+                                <td class="module-inner contents global-copy heading" align="left" bgcolor="#ffffff" valign="top" style="-webkit-text-size-adjust: none;color: #000000;font-family: Arial, sans-serif;font-weight: bold;font-size: 12px;line-height: 24px;text-transform: uppercase;letter-spacing: 1px;padding: 3px 0 3px 0;text-align: left;text-decoration: none;width: 100%;">Your order will be delivered&nbsp;to:</td>
+                            </tr>
+                            <tr>
+                                <td class="module-inner contents global-copy" align="left" bgcolor="#ffffff" valign="top" style="-webkit-text-size-adjust: none;color: #000000;font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif;font-size: 15px;line-height: 22px;letter-spacing: 0.2px;padding: 6px 0;text-align: left;text-decoration: none;width: 100%;">
+                                    Jane Doe<br>
+                                    <a href="mailto:jane.doe@domain.co.uk" style="color:#000001;  text-decoration:none;"> jane.doe@domain.co.uk</a><br>
+                                    <a href="tel:07111222333" style="color:#000001; ; text-decoration:none;">07111222333</a></td>
+                            </tr>
+                            <tr>
+                                <td class="module-inner contents global-copy" align="left" bgcolor="#ffffff" valign="top" style="-webkit-text-size-adjust: none;color: #000000;font-family:  Arial, sans-serif;font-size: 11px;line-height: 22px;text-transform:  uppercase;letter-spacing: 1px;padding: 6px 0;text-align: left;text-decoration: none;width: 100%;"><a class="black" style="text-decoration: none; color: #000001;">90-92 Pentonville Road<br> London, N1 9HS<br> United Kingdom</a></td>
+                            </tr>
+                            <tr>
+                                <td class="module-inner contents global-copy heading" align="left" bgcolor="#ffffff" valign="top" style="-webkit-text-size-adjust: none;color: #000000;font-family: Arial, sans-serif;letter-spacing: 1px;font-weight: bold;font-size: 12px;line-height: 24px;text-transform:  uppercase;padding: 12px 0 3px 0;text-align: left;text-decoration: none;width: 100%;">You have chosen:</td>
+                            </tr>
+                            <tr>
+                                <td class="module-inner contents global-copy" align="left" bgcolor="#ffffff" valign="top" style="-webkit-text-size-adjust: none;color: #000000;font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif;font-size: 14px;line-height: 24px;padding: 6px 0 6px 0;text-align: left;text-decoration: none;width: 100%;">
+                                    Standard delivery - FREE</td>
+                            </tr>
+                            
+                        </table>
+                    </td>
+                </tr>
+                <!-- copy end -->
+                <!-- Delivery Information end -->
+
+
+                <!-- Payment Information start -->
+
+
+
+                <!-- header -->
+                <tr>
+                    <td class="module-inner contents" align="left" bgcolor="#ffffff" valign="top" style="-webkit-text-size-adjust: none;color: #000000;font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif;text-transform: uppercase;letter-spacing: 0.5px;font-size: 22px;line-height: 24px;margin: 0;font-weight: bold;text-decoration: none;padding: 24px 25px 14px 25px;">
+                        payment information</td>
+                </tr>
+                <!-- header -->
+
+
+                <!-- divider -->
+
+                <tr>
+                    <td class="one-column" valign="top" align="center" style="padding: 0 25px 9px 25px;">
+                        <table border="0" cellpadding="0" cellspacing="0" class="table" style="border-top: 1px solid #e8e8e8; color: #000000; font-family: sans-serif;" width="100%" bgcolor="#ffffff">
+                            <tr>
+                                <td align="center" height="1" style="font-size: 1px; line-height: 1px;padding: 0;" valign="top">&nbsp;</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <!-- divider -->
+
+
+                <!-- copy start -->
+                <tr>
+                    <td class="one-column module-outer" valign="top" bgcolor="#ffffff" style="background-color: #ffffff; padding: 0 25px 25px 25px;">
+                        <table border="0" cellspacing="0" cellpadding="0" width="100%" style="color: #000000; font-family: sans-serif;">
+
+                            <tr>
+                                <td class="module-inner contents global-copy heading" align="left" bgcolor="#ffffff" valign="top" style="-webkit-text-size-adjust: none;color: #000000;font-family: Arial, sans-serif;font-weight: bold;font-size: 12px;line-height: 24px;text-transform: uppercase;letter-spacing: 1px;padding: 3px 0 3px 0;text-align: left;text-decoration: none;/* font-style: italic; */width: 100%;">Your have payed using:</td>
+                            </tr>
+
+
+                            <tr>
+                                <td class="module-inner contents global-copy" align="left" bgcolor="#ffffff" valign="top" style="-webkit-text-size-adjust: none;color: #000000;font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif;font-size: 14px;line-height: 24px;padding: 6px 0 6px 0;text-align: left;text-decoration: none;width: 100%;">
+                                    VISA card ending **** **** **** 9999<br> Expiry date: 09/2019
+                                </td>
+                            </tr>
+
+
+                        </table>
+                    </td>
+                </tr>
+                <!-- copy end -->
+                <!-- Payment Information end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <!-- header -->
+                <tr>
+                    <td class="module-inner contents" align="left" bgcolor="#ffffff" valign="top" style="-webkit-text-size-adjust: none;color: #000000;font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif;letter-spacing: 0.5px;font-size: 22px;line-height: 24px;margin: 0;font-weight: bold;text-decoration: none;padding: 24px 25px 14px 25px;">
+                        YOUR PICKS</td>
+                </tr>
+                <!-- header -->
+
+
+
+
+    <!-- divider -->
+
+                <tr>
+                    <td class="one-column" valign="top" align="center" style="padding: 0 25px 24px 25px;">
+                        <table border="0" cellpadding="0" cellspacing="0" class="table" style="border-top: 1px solid #e8e8e8; color: #000000; font-family: sans-serif;" width="100%" bgcolor="#ffffff">
+                            <tr>
+                                <td align="center" height="1" style="font-size: 1px; line-height: 1px;padding: 0;" valign="top">&nbsp;</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+              <!-- divider -->
+
+
+
+                  <!-- 4 PIDs rebuild  start 174 -->
+                <tr>
+                    <td class="module-outer" align="center" height="100%" valign="top" width="100%" style="padding:0 0 15px 0;" bgcolor="#ffffff">
+                        <!--[if (gte mso 9)|(IE)]>
+                        <table align="center" border="0" cellspacing="0" cellpadding="0" width="700">
+                        <tr>
+                        <td align="center" valign="top" width="700">
+                        <![endif]-->
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:700px;" class="max-width">
+                            <tr>
+                                <td align="center" valign="top" style="font-size:0;" class="module-inner pad25">
+                                    <!--[if (gte mso 9)|(IE)]>
+                                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="700">
+                                    <tr>
+                                    <td align="left" valign="top" width="350">
+                                    <![endif]-->
+                                    <div style="display:inline-block;  max-width:350px; vertical-align:top; width:100%;" class="column-one half-width">
+
+                                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:350px;padding: 0;margin: 0" class="max-width">
+                                            <tr>
+                                                <td align="center" valign="top" style="font-size:0;padding: 0;margin: 0" class="module-inner">
+                                                <!--[if (gte mso 9)|(IE)]>
+                                                <table align="center" border="0" cellspacing="0" cellpadding="0" width="348">
+                                                <tr>
+                                                <td align="left" valign="top" width="174">
+                                                <![endif]-->
+                                                    <div style="display:inline-block;  max-width:174px;vertical-align:top; width:100%;" class="column-one product-div float-l">
+
+                                                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:174px; " class="product-table">
+                                                            <tr>
+                                                                <td align="center" valign="top" width="100%" class="prod1">
+                                                                    <a href="#LINK" target="_blank"><img src="http://cache.mrporter.com/images/products/467691/467691_mrp_in_m2.jpg" width="158" style="margin:0; padding:0; border:none; display:block;" border="0" alt="" class="product"></a>
+                                                                </td>
+                                                            </tr>
+
+
+                                                           <tr>
+                                                                <td align="center" style="line-height: 18px;  padding: 15px 15px 0 15px" class="prod1-title"><a href="#LINK" target="_blank" style="font-family:arial, serif; font-weight: bold; color:#2b2b2b; font-size:12px; line-height:16px; text-transform:uppercase; text-decoration:none; letter-spacing: 1px; ">
+                SANDRO</a></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" style="line-height: 16px;  padding: 2px 15px  2px 15px;" class="prod1-text"><a href="#LINK" target="_blank" style="font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif; color:#2b2b2b; font-size:13px; line-height:16px; text-decoration:none; ">
+                Lightweight Printed&nbsp;Shirt</a></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" style="line-height: 18px; padding: 2px 15px  24px 15px" class="prod1-price"><a href="#LINK" target="_blank" style="font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif; color:#2b2b2b; font-size:15px; line-height:16px; text-decoration:none; ">
+                £105</a></td>
+                                                            </tr>
+
+                                                        </table>
+                 
+                                                    </div>
+                                                    <!--[if (gte mso 9)|(IE)]>
+                                                    </td>
+                                                    <td align="left" valign="top" width="174">
+                                                    <![endif]-->
+                                                    <div style="display:inline-block;  max-width:174px;vertical-align:top; width:100%;" class="column-two  product-div float-r">
+                                                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:174px;" class="product-table">
+                                                           <tr>
+                                                                <td align="center" valign="top" width="100%" class="prod2">
+                                                                    <a href="#LINK" target="_blank"><img src="http://cache.mrporter.com/images/products/458465/458465_mrp_in_m2.jpg" width="158" style="margin:0; padding:0; border:none; display:block;" border="0" alt="" class="product"></a>
+                                                                </td>
+                                                            </tr>
+
+                                                             <tr>
+                                                                <td align="center" style="line-height: 18px;  padding: 15px 15px 0 15px" class="prod2-title"><a href="#LINK" target="_blank" style="font-family:arial, serif; font-weight: bold; color:#2b2b2b; font-size:12px; line-height:16px; text-transform:uppercase; text-decoration:none; letter-spacing: 1px; ">MACKINTOSH</a></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" style="line-height: 16px;  padding: 2px 15px  2px 15px" class="prod2-text"><a href="#LINK" target="_blank" style="font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif; color:#2b2b2b; font-size:13px; line-height:16px; text-decoration:none;">
+                Bonded-Cotton Rain&nbsp;Coat</a></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" style="line-height: 18px;padding: 2px 15px  24px 15px" class="prod2-price"><a href="#LINK" target="_blank" style="font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif; color:#2b2b2b; font-size:15px; line-height:16px; text-decoration:none; ">
+                £310</a></td>
+                                                            </tr>
+                                                        </table>
+                                                    </div>
+                                                    <!--[if (gte mso 9)|(IE)]>
+                                                    </td>
+                                                    </tr>
+                                                    </table>
+                                                    <![endif]-->
+                                                </td>
+                                            </tr>
+                                         </table>
+                                    </div>
+                                    <!--[if (gte mso 9)|(IE)]>
+                                    </td>
+                                    <td align="left" valign="top" width="348">
+                                    <![endif]-->
+                                    <div style="display:inline-block;  max-width:350px;vertical-align:top; width:100%;" class="column-three half-width">
+                                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:350px; " class="max-width">
+                                            <tr>
+                                                <td align="center" valign="top" style="font-size:0;padding: 0" class="module-inner" width="100%">
+                                                    <!--[if (gte mso 9)|(IE)]>
+                                                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="350">
+                                                    <tr>
+                                                    <td align="left" valign="top" width="174">
+                                                    <![endif]-->
+                                                    <div style="display:inline-block;max-width:174px; vertical-align:top; width:100%;" class="column-one product-div float-l">
+
+                                                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:174px;" class="product-table">
+                                                            
+                                                            <tr>
+                                                                <td align="center" valign="top" width="100%" class="prod1">
+                                                                    <a href="#LINK" target="_blank"><img src="http://cache.mrporter.com/images/products/440674/440674_mrp_in_m2.jpg" width="158" style="margin:0; padding:0; border:none; display:block;" border="0" alt="" class="product"></a>
+                                                                </td>
+                                                            </tr>
+
+
+                                                           <tr>
+                                                                <td align="center" style="line-height: 18px;  padding: 15px 15px 0 15px" class="prod1-title"><a href="#LINK" target="_blank" style="font-family:arial, serif; font-weight: bold; color:#2b2b2b; font-size:12px; line-height:16px; text-transform:uppercase; text-decoration:none; letter-spacing: 1px; ">
+                    GIVENCHY</a></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" style="line-height: 16px;  padding: 2px 15px  2px 15px" class="prod1-text"><a href="#LINK" target="_blank" style="font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif; color:#2b2b2b; font-size:13px; line-height:16px; text-decoration:none;">
+                    L.C. Leather&nbsp;Briefcase</a></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" style="line-height: 18px; padding: 2px 15px  24px 15px" class="prod1-price"><a href="#LINK" target="_blank" style="font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif; color:#2b2b2b; font-size:15px; line-height:16px; text-decoration:none; ">
+                    £663</a></td>
+                                                            </tr>
+
+                                                        </table>
+
+                                                    </div>
+                                                 <!--[if (gte mso 9)|(IE)]>
+                                                </td>
+                                                <td align="left" valign="top" width="174">
+                                                <![endif]-->
+                                                    <div style="display:inline-block;max-width:174px;vertical-align:top; width:100%;" class="column-three product-div float-r">
+                                                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:174px; " class="product-table">
+                                                           <tr>
+                                                                <td align="center" valign="top" class="prod2">
+                                                                    <a href="#LINK" target="_blank"><img src="http://cache.mrporter.com/images/products/443688/443688_mrp_in_m2.jpg" width="158" style="margin:0; padding:0; border:none; display:block;" border="0" alt="" class="product"></a>
+                                                                </td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td align="center" style="line-height: 18px;  padding: 15px 15px 0 15px" class="prod2-title"><a href="#LINK" target="_blank" style="font-family:arial, serif; font-weight: bold; color:#2b2b2b; font-size:12px; line-height:16px; text-transform:uppercase; text-decoration:none; letter-spacing: 1px; ">
+                    ETRO</a></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" style="line-height: 16px;  padding: 2px 15px 2px 15px" class="prod2-text"><a href="#LINK" target="_blank" style="font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif; color:#2b2b2b; font-size:13px; line-height:16px; text-decoration:none;">
+                    Slim-fit Jeans</a></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" style="line-height: 18px;padding: 2px 15px 24px 15px" class="prod2-price"><a href="#LINK" target="_blank" style="font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif; color:#2b2b2b; font-size:15px; line-height:16px; text-decoration:none; ">
+                    £99</a></td>
+                                                            </tr>
+                                                        </table>
+                                                   
+                                                    </div>
+                                                    <!--[if (gte mso 9)|(IE)]>
+                                                    </td>
+                                                    </tr>
+                                                    </table>
+                                                    <![endif]-->
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <!--[if (gte mso 9)|(IE)]>
+                                    </td>
+                                    </tr>
+                                    </table>
+                                    <![endif]-->
+                                </td>
+                            </tr>
+                        </table>
+                        <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                    </td>
+                </tr>
+
+                <!-- 4 PIDs rebuild 174 end -->
+
+
+
+
+
+
+
+                <!-- 3 PIDs start -->
+                <tr>
+                    <td class="module-outer" align="center" height="100%" valign="top" width="100%" style="padding:0 0 15px 0;">
+                        <!--[if (gte mso 9)|(IE)]>
+                        <table align="center" border="0" cellspacing="0" cellpadding="0" width="522">
+                        <tr>
+                        <td align="center" valign="top" width="522">
+                        <![endif]-->
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:522px;" class="threequarter-width">
+                            <tr>
+                                <td align="center" valign="top" style="font-size:0;" class="module-inner pad25">
+                                    <!--[if (gte mso 9)|(IE)]>
+                                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="522">
+                                    <tr>
+                                     <td align="left" valign="top" width="174">
+                                    <![endif]-->
+                                    <div style="display:inline-block; max-width:33.3333%; vertical-align:top; width:100%; min-width:174px;" class="column-one product-div3 float-l">
+
+                                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:174px;" class="product-table">
+                                           
+                                            <tr>
+                                                <td align="center" valign="top" width="100%" class="prod1">
+                                                    <a href="#LINK" target="_blank"><img src="http://cache.mrporter.com/images/products/440221/440221_mrp_in_m2.jpg" width="158" style="margin:0; padding:0; border:none; display:block;" border="0" alt="" class="product"></a>
+                                                </td>
+                                            </tr>
+                                           <tr>
+                                                <td align="center" style="line-height: 18px;  padding: 15px 15px 0 15px" class="prod1-title"><a href="#LINK" target="_blank" style="font-family:arial, serif; font-weight: bold; color:#2b2b2b; font-size:12px; line-height:16px; text-transform:uppercase; text-decoration:none; letter-spacing: 1px; ">
+GUCCI</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" style="line-height: 16px;  padding: 2px 15px  2px 15px;" class="prod1-text"><a href="#LINK" target="_blank" style="font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif; color:#2b2b2b; font-size:13px; line-height:16px; text-decoration:none; ">
+Check Woven-cotton Shirt</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" style="line-height: 18px; padding: 2px 15px  24px 15px" class="prod1-price"><a href="#LINK" target="_blank" style="font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif; color:#2b2b2b; font-size:15px; line-height:16px; text-decoration:none; ">
+£240</a></td>
+                                            </tr>
+                                        </table>
+                
+                                    </div>
+                                    <!--[if (gte mso 9)|(IE)]>
+                                    </td>
+                                    <td align="left" valign="top" width="174">
+                        <![endif]-->
+                                    <div style="display:inline-block; max-width:33.3333%; vertical-align:top; width:100%; min-width:174px;background-color: #ffffff" class="column-two product-div3 float-r">
+                                                        
+                                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:174px;" class="product-table">
+                                           <tr>
+                                                <td align="center" valign="top" width="100%" class="prod2">
+                                                    <a href="#LINK" target="_blank"><img src="http://cache.mrporter.com/images/products/439024/439024_mrp_in_m2.jpg" width="158" style="margin:0; padding:0; border:none; display:block;" border="0" alt="" class="product"></a>
+                                                </td>
+                                            </tr>
+                                             <tr>
+                                                <td align="center" style="line-height: 18px;  padding: 15px 15px 0 15px" class="prod2-title"><a href="#LINK" target="_blank" style="font-family:arial, serif; font-weight: bold; color:#2b2b2b; font-size:12px; line-height:16px; text-transform:uppercase; text-decoration:none; letter-spacing: 1px; ">
+MAISON MARTIN MARGIELA</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" style="line-height: 16px;  padding: 2px 15px 2px 15px" class="prod2-text"><a href="#LINK" target="_blank" style="font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif; color:#2b2b2b; font-size:13px; line-height:16px; text-decoration:none;">
+Quilted Wool Jacket</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" style="line-height: 18px;padding: 2px 15px 24px 15px" class="prod2-price"><a href="#LINK" target="_blank" style="font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif; color:#2b2b2b; font-size:15px; line-height:16px; text-decoration:none; ">
+£110</a></td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                                    
+                                    <!--[if (gte mso 9)|(IE)]>
+                                    </td>
+                                    <td align="left" valign="top" width="174">
+                                    <![endif]-->
+                                    <div style="display:inline-block; max-width:33.3333%; vertical-align:top; width:100%; min-width:174px;background-color: #ffffff" class="column-three product-div3">
+                                        <table align="right" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:174px; float: right;" class="product-table">
+                                            
+                                            <tr>
+                                                <td align="center" valign="top" width="100%" class="prod1">
+                                                    <a href="#LINK" target="_blank"><img src="http://cache.mrporter.com/images/products/440771/440771_mrp_fr_m2.jpg" width="158" style="margin:0; padding:0; border:none; display:block;" border="0" alt="" class="product"></a>
+                                                </td>
+                                           </tr>
+                                           <tr>
+                                                <td align="center" style="line-height: 18px;  padding: 15px 15px 0 15px" class="prod1-title"><a href="#LINK" target="_blank" style="font-family:arial, serif; font-weight: bold; color:#2b2b2b; font-size:12px; line-height:16px; text-transform:uppercase; text-decoration:none; letter-spacing: 1px; ">
+LANVIN</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" style="line-height: 16px;  padding: 2px 15px 2px 15px" class="prod1-text"><a href="#LINK" target="_blank" style="font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif; color:#2b2b2b; font-size:13px; line-height:16px; text-decoration:none;">
+Textured-Leather Sneakers</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" style="line-height: 18px; padding: 2px 15px 24px 15px" class="prod1-price"><a href="#LINK" target="_blank" style="font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif; color:#2b2b2b; font-size:15px; line-height:16px; text-decoration:none; ">
+£330</a></td>
+                                            </tr>
+                                        </table>
+                                                   
+                                    </div>
+                                    <!--[if (gte mso 9)|(IE)]>
+                                    </td>
+                                    </tr>
+                                    </table>
+                                    <![endif]-->
+                                </td>
+                            </tr>
+                        </table>
+                        <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                    </td>
+                </tr>
+                <!-- 3 PIDs end -->
+
+
+
+
+
+
+
+  
+                <!-- 2 PIDs a la 3pid start -->
+                <tr>
+                    <td class="module-outer" align="center" height="100%" valign="top" width="100%" style="padding:0 0 15px 0;">
+                        <!--[if (gte mso 9)|(IE)]>
+                        <table align="center" border="0" cellspacing="0" cellpadding="0" width="350">
+                        <tr>
+                        <td align="center" valign="top" width="350">
+                        <![endif]-->
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:350px;" class="half-width">
+                            <tr>
+                                <td align="center" valign="top" style="font-size:0;" class="module-inner pad25">
+                                    <!--[if (gte mso 9)|(IE)]>
+                                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="350">
+                                    <tr>
+                                     <td align="left" valign="top" width="174">
+                                    <![endif]-->
+                                    <div style="display:inline-block; max-width:174px; vertical-align:top; width:100%;" class="column-one product-div float-l">
+
+                                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:174px;" class="product-table">
+                                           
+                                            <tr>
+                                                <td align="center" valign="top" width="100%" class="prod1">
+                                                    <a href="#LINK" target="_blank"><img src="http://cache.mrporter.com/images/products/442380/442380_mrp_in_m2.jpg" width="158" style="margin:0; padding:0; border:none; display:block;" border="0" alt="" class="product"></a>
+                                                </td>
+                                            </tr>
+                                           <tr>
+                                                <td align="center" style="line-height: 18px;  padding: 15px 15px 0 15px" class="prod1-title"><a href="#LINK" target="_blank" style="font-family:arial, serif; font-weight: bold; color:#2b2b2b; font-size:12px; line-height:16px; text-transform:uppercase; text-decoration:none; letter-spacing: 1px; ">
+CANALI</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" style="line-height: 16px;  padding: 2px 15px 2px 15px;" class="prod1-text"><a href="#LINK" target="_blank" style="font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif; color:#2b2b2b; font-size:13px; line-height:16px; text-decoration:none; ">
+Brushed Cotton-Blend Trousers</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" style="line-height: 18px; padding: 2px 15px 24px 15px" class="prod1-price"><a href="#LINK" target="_blank" style="font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif; color:#2b2b2b; font-size:15px; line-height:16px; text-decoration:none; ">
+£150</a></td>
+                                            </tr>
+                                        </table>
+                
+                                    </div>
+                                    <!--[if (gte mso 9)|(IE)]>
+                                    </td>
+                                    <td align="left" valign="top" width="174">
+                                    <![endif]-->
+                                    <div style="display:inline-block;max-width:174px;vertical-align:top; width:100%;" class="column-two product-div float-r">
+                                                        
+                                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:174px;" class="product-table">
+                                           <tr>
+                                                <td align="center" valign="top" width="100%" class="prod2">
+                                                    <a href="#LINK" target="_blank"><img src="http://cache.mrporter.com/images/products/447360/447360_mrp_in_m2.jpg" width="158" style="margin:0; padding:0; border:none; display:block;" border="0" alt="" class="product"></a>
+                                                </td>
+                                            </tr>
+                                             <tr>
+                                                <td align="center" style="line-height: 18px;  padding: 15px 15px 0 15px" class="prod2-title"><a href="#LINK" target="_blank" style="font-family:arial, serif; font-weight: bold; color:#2b2b2b; font-size:12px; line-height:16px; text-transform:uppercase; text-decoration:none; letter-spacing: 1px; ">
+OLIVER SPENCER</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" style="line-height: 16px;  padding: 2px 15px 2px 15px" class="prod2-text"><a href="#LINK" target="_blank" style="font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif; color:#2b2b2b; font-size:13px; line-height:16px; text-decoration:none;">
+Cotton-jersey T-shirt</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" style="line-height: 18px;padding: 2px 15px 24px 15px" class="prod2-price"><a href="#LINK" target="_blank" style="font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif; color:#2b2b2b; font-size:15px; line-height:16px; text-decoration:none; ">
+£87</a></td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                                    
+                                   
+                                    <!--[if (gte mso 9)|(IE)]>
+                                    </td>
+                                    </tr>
+                                    </table>
+                                    <![endif]-->
+                                </td>
+                            </tr>
+                        </table>
+                        <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                    </td>
+                </tr>
+                <!-- 2 PIDs a la 3pid end -->
+
+
+
+
+
+  
+                <!-- 1 PIDs a la 2 start -->
+                <tr>
+                    <td class="module-outer" align="center" height="100%" valign="top" width="100%" style="padding:0 0 15px 0;">
+                        <!--[if (gte mso 9)|(IE)]>
+                        <table align="center" border="0" cellspacing="0" cellpadding="0" width="174">
+                        <tr>
+                        <td align="center" valign="top" width="174">
+                        <![endif]-->
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:174px;" class="half-width">
+                            <tr>
+                                <td align="center" valign="top" style="font-size:0;" class="module-inner pad25">
+                                    <!--[if (gte mso 9)|(IE)]>
+                                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="174">
+                                    <tr>
+                                     <td align="center" valign="top" width="174">
+                                    <![endif]-->
+                                    <div style="display:inline-block; vertical-align:top; width:100%;" class="column-one product-div">
+
+                                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:174px;" class="product-table">
+                                           
+                                            <tr>
+                                                <td align="center" valign="top" width="100%" class="prod1">
+                                                    <a href="#LINK" target="_blank"><img src="http://cache.mrporter.com/images/products/439079/439079_mrp_in_m2.jpg" width="158" style="margin:0; padding:0; border:none; display:block;" border="0" alt="" class="product"></a>
+                                                </td>
+                                            </tr>
+                                           <tr>
+                                                <td align="center" style="line-height: 18px;  padding: 15px 15px 0 15px" class="prod1-title"><a href="#LINK" target="_blank" style="font-family:arial, serif; font-weight: bold; color:#2b2b2b; font-size:12px; line-height:16px; text-transform:uppercase; text-decoration:none; letter-spacing: 1px; ">
+A.P.C.</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" style="line-height: 16px;  padding: 2px 15px 2px 15px;" class="prod1-text"><a href="#LINK" target="_blank" style="font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif; color:#2b2b2b; font-size:13px; line-height:16px; text-decoration:none; ">
+Printed Cotton-Jersey T-shirt</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" style="line-height: 18px; padding: 2px 15px 24px 15px" class="prod1-price"><a href="#LINK" target="_blank" style="font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif; color:#2b2b2b; font-size:15px; line-height:16px; text-decoration:none; ">
+£65</a></td>
+                                            </tr>
+                                        </table>
+                
+                                    </div>
+                                   
+                                                    
+                                   
+                                    <!--[if (gte mso 9)|(IE)]>
+                                    </td>
+                                    </tr>
+                                    </table>
+                                    <![endif]-->
+                                </td>
+                            </tr>
+                        </table>
+                        <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                    </td>
+                </tr>
+                <!-- 1 PIDs a la 2 end -->
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <!-- container-close start -->
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+             </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </div>
+    </center>
+    <!-- container-close end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Footer Block start -->
+
+  
+
+
+        <!-- Socials and site links start -->
+
+    <table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#000000" style="background-color:#000000">
+            <!-- 2 PIDs a la 3pid start -->
+                <tr>
+                    <td class="module-outer" align="center" height="100%" valign="top" width="100%" style="padding: 24px 0 0 0;">
+                        <!--[if (gte mso 9)|(IE)]>
+                        <table align="center" border="0" cellspacing="0" cellpadding="0" width="560">
+                        <tr>
+                        <td align="center" valign="top" width="560">
+                        <![endif]-->
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:280px;">
+                            <tr>
+                                <td align="center" valign="top" style="font-size:0;" class="module-inner">
+                                 <!--[if (gte mso 9)|(IE)]>
+                                 <table align="center" border="0" cellspacing="0" cellpadding="0" width="280">
+                                    <tr>
+                                     <td align="left" valign="top" width="140">
+                                    <![endif]-->
+                                    <div style="display:inline-block; vertical-align:top; width:140px;padding:6px 0;" class="column-one mobile-wrapper">
+
+                                         <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:140px;">
+                                                       <tr>
+                                                            <td width="45" align="center">
+                                                            <a href="#LINK" target="_blank"><img src="http://hosting-source.bm23.com/37540/public/2016/email/footer/socials-facebook.gif" width="20" height="20" style="margin:0; padding:0; border:none; display:block;" border="0" alt="facebook"></a>
+                                                        </td>
+
+                                                        <td width="45" align="center">
+                                                            <a href="#LINK" target="_blank"><img src="http://hosting-source.bm23.com/37540/public/2016/email/footer/socials-twitter.gif" width="20" height="20" style="margin:0; padding:0; border:none; display:block;" border="0" alt="twitter"></a>
+                                                        </td>
+                                                        <td width="45" align="center">
+                                                            <a href="#LINK" target="_blank"><img src="http://hosting-source.bm23.com/37540/public/2016/email/footer/socials-instagram.gif" width="20" height="20" style="margin:0; padding:0; border:none; display:block;" border="0" alt="instagram"></a>
+                                                        </td>
+                                                        </tr>
+                                                     
+
+                                                    </table>
+                                    </div>
+                                    <!--[if (gte mso 9)|(IE)]>
+                                    </td>
+
+                                    <td align="left" valign="top" width="140">
+                                    <![endif]-->
+                                    <div style="display:inline-block;vertical-align:top; width:140px;padding:6px 0" class="column-two mobile-wrapper">
+                                                        
+                                         <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:140px;">
+                                                    
+                                                                 
+                                                       <tr>
+                                                            <td width="45" align="center">
+                                                                <a href="#LINK" target="_blank"><img src="http://hosting-source.bm23.com/37540/public/2016/email/footer/socials-youtube.gif" width="20" height="20" style="margin:0; padding:0; border:none; display:block;" border="0" alt="youtube"></a>
+                                                            </td>
+                                                            <td width="45" align="center">
+                                                                <a href="#LINK" target="_blank"><img src="http://hosting-source.bm23.com/37540/public/2016/email/footer/socials-pinterest.gif" width="20" height="20" style="margin:0; padding:0; border:none; display:block;" border="0" alt="pinterest"></a>
+                                                            </td>
+                                                            <td width="45" align="center">
+                                                                <a href="#LINK" target="_blank"><img src="http://hosting-source.bm23.com/37540/public/2016/email/footer/socials-snapchat.gif" width="20" height="20" style="margin:0; padding:0; border:none; display:block;" border="0" alt="snapchat"></a>
+                                                            </td>
+                                                        </tr>
+                                                      
+                                                      
+                                                    </table>
+                                    </div>
+                                   
+                                    <!--[if (gte mso 9)|(IE)]>
+                                    </td>
+                                    </tr>
+                                    </table>
+                                    <![endif]-->
+                                </td>
+                            </tr>
+                        </table>
+                        <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                    </td>
+                </tr>
+                <!-- 2 PIDs a la 3pid end -->
+
+
+
+
+    </table>
+   <!-- Socials and site links end -->
+
+  
+
+
+    <!-- Company info and copyright start -->
+
+    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color:#000000">
+        <tr>
+            <td align="center" valign="top" width="100%" bgcolor="#000000" style="padding: 10px 0;">
+                <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="480">
+            <tr>
+            <td align="center" valign="top" width="480">
+            <![endif]-->
+                <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:480px;">
+
+                    <tr>
+                        <td class="footer-container" align="left" valign="top" style="background-color: #000000; padding: 0 25px 0 25px;">
+                            <table border="0" cellspacing="0" cellpadding="0" width="100%" style="color: #ffffff; font-family: sans-serif;">
+                                <tr>
+                                    <td class="footer" align="center" valign="top" style="color: #ffffff; font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif; font-size: 11px; line-height: 17px; padding: 5px 0 0 0;">
+                                        <font style="font-size: 11px; line-height: 17px; ">
+                                         This email was sent to <a href="mailto:carolhilsum@deemgmt.com" class="white" style="text-decoration: none; color: #ffffff;">carolhilsum@deemgmt.com</a> on <span class="white" style="text-decoration: none; color: #ffffff;">December 12, 2016.</span> <br>
+                                         To ensure that our messages get to you please add <a href="mailto:emails@themodist.com" class="white" style="text-decoration: none; color: #ffffff;">emails@themodist.com</a> to your address&nbsp;book.<br>
+                                         To unsubscribe from our emails please click&nbsp;<a href="%%!unsubscribe_url%%" style="color:#ffffff; text-decoration:underline">here </a>
+</font>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    
+
+                </table>
+                <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+            </td>
+        </tr>
+
+
+
+
+    </table>
+    
+    
+    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color:#000000">
+
+
+        <tr>
+            <td align="center" valign="top" width="100%" bgcolor="#000000" style="padding: 10px 0;">
+                <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="400">
+            <tr>
+            <td align="center" valign="top" width="400">
+            <![endif]-->
+                <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:400px;">
+
+                    <tr>
+                        <td class="footer-container" align="left" valign="top" style="background-color: #000000; padding: 0 25px 0 25px;">
+                            <table border="0" cellspacing="0" cellpadding="0" width="100%" style="color: #ffffff; font-family: sans-serif;">
+                                <tr>
+                                    <td class="footer" align="center" valign="top" style="color: #ffffff; font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif; font-size: 11px; line-height: 12px; padding: 0 0 15px 0;">
+                                        <font style="font-size: 11px; line-height: 17px; ">
+                              
+                             The Modist | Office 304, 3rd Floor, Building 8 | Dubai Design District (D3) | Dubai PO Box 333221 | United Arab Emirates</font>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                         <td class="footer" align="center" valign="top" style="color: #ffffff; font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif; font-size: 12px; line-height: 12px; padding: 0 0 15px 0;">
+                                   ©2016 The Modist</td>
+                    </tr>
+
+
+                </table>
+                <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+            </td>
+        </tr>
+
+
+
+
+    </table>
+        <!-- Company info and copyright end -->
+
+    
+    <!-- Footer Block end -->
+
+
+
+
+
+</body></html>
