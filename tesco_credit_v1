@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   
+    <!--[if !mso]><!-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--<![endif]-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to your Tesco Bank Clubcard Credit&nbsp;Card</title>
+
+    <style type="text/css">
+        
+        body,
+        table,
+        td,
+        a {
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+        
+        table,
+        td {
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
+        
+        img {
+            -ms-interpolation-mode: bicubic;
+        }
+        
+        img {
+            border: 0;
+            height: auto;
+            line-height: 100%;
+            outline: none;
+            text-decoration: none;
+        }
+        
+        table {
+            border-collapse: collapse !important;
+            border-spacing: 0;
+        }
+        
+        body {
+            height: 100% !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            width: 100% !important;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+        }
+       
+        
+        div[style*="margin: 16px 0"] {
+            margin: 0 auto !important;
+        }
+        
+        body {
+            margin: 0 auto !important;
+           
+        }
+        
+        a[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+        
+        a[href^="tel"],
+        a[href^="sms"] {
+            text-decoration: none;
+            color: #1b3160;
+            pointer-events: none;
+            cursor: default;
+        }
+        
+        .mobile_link a[href^="tel"],
+        .mobile_link a[href^="sms"] {
+            text-decoration: default;
+            color: #1b3160 !important;
+            pointer-events: auto;
+            cursor: default;
+        }
+
+        u + #body a {
+        color: inherit !important;
+        text-decoration: none !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+}
+        .footer-link {
+            text-decoration: none;
+            color: #1c3160;
+        }
+        
+        @media only screen and (max-width: 600px) {
+            .nomob {
+                display: none !important;
+            }
+            .nopadding {
+                padding: 0 0 0 0 !important;
+            }
+            .nobg {
+                background: none !important;
+            }
+            .table {
+                width: 100% !important;
+            }
+            .button {
+                border-radius: 4px;
+            }
+            .button a {
+                background: #ca445c !important;
+                border-bottom: 2px solid #ca445c;
+                width: 100% !important;
+                display: block !important;
+                padding: 14px 0 11px !important;
+            }
+            .corners {
+                border-radius: 4px !important;
+                -moz-border-radius: 4px !important;
+                -webkit-border-radius: 4px !important;
+                -webkit-box-shadow: 0px 1px 0px 0px #6c7885;
+                -moz-box-shadow: 0px 1px 0px 0px #6c7885;
+                box-shadow: 0px 1px 0px 0px #6c7885;
+            }
+            .button-inner-mob {
+                 padding: 6px 0 25px 0 !important;
+            }
+            .logoResize {
+                 padding-bottom: 0 !important;                         
+                 width: 80% !important;
+                 height: auto;
+             }                    
+        }
+        
+        @media only screen and (max-width: 547px) {
+            .showMob {
+                display: inline !important;
+                max-height: none !important;
+                height: auto !important;
+                width: 100% !important;
+                margin: 0 0 0 0 !important;
+            }
+            .nomob547 {
+                display: none !important;
+            }
+            .text-center {
+                text-align: center !important;
+            }
+            .nopad {
+                padding: 0 !important;
+            }
+            .maxWidth119 {
+                max-width: 119px !important;
+                display: block !important;
+                margin: auto;
+            }
+        }
+   
+    </style>
+
+</head>
+
+<body bgcolor="#f3f3f3" style="background-color: #f3f3f3 !important; font-family: Verdana, Arial, sans-serif; height: 100% !important; margin: 0 auto !important; padding: 0 !important; width: 100% !important;" id="body">
+    <!-- preheader start -->
+    <div class="preheader" style="color: #ffffff; display: none; font-family: Verdana, Arial, sans-serif; font-size: #1c3160; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden;">Welcome to your Tesco Bank Clubcard Credit&nbsp;Card</div>
+    <!-- preheader end -->
+    <!-- container-open start -->
+    <center class="container" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background-color: #f3f3f3; table-layout: fixed; width: 100%;">
+        <!-- defined colour bg full width in yahoo -->
+        <div class="webkit" style="margin: 0 auto; max-width: 600px;">
+            <!--[if (gte mso 9)|(IE)]>
+        <table width="600" align="center"  border="0" cellspacing="0" cellpadding="0" >
+            <tr>
+                <td>
+                <![endif]-->
+            <table class="main-table" align="center" bgcolor="#ffffff" style="Margin: 0 auto; background-color: #ffffff; border-spacing: 0; color: #1c3160; font-family: sans-serif; max-width: 600px; width: 100%;">
+                <!-- container-open end -->
+
+
+
+                <!-- header start -->
+                <tr>
+                    <td class="one-column" valign="top" style="padding:5px 10px;" bgcolor="#f3f3f3">
+                        <table border="0" cellspacing="0" cellpadding="0" width="100%" style="color: #1c3160; font-family: sans-serif;">
+                            <tr>
+                                <td class="module-inner contents header" align="left" bgcolor="#f3f3f3" valign="top" style="-webkit-text-size-adjust: none; color: #666666; font-family: Verdana, Geneva, sans-serif; font-size: 10px; line-height: 16px; margin: 0; padding: 5px 0 15px 0; text-decoration: none; width: 100%;">
+                                    All you need to get set&nbsp;up<br>Can&rsquo;t see this email? Click&nbsp;here.<br></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <!-- header end -->
+
+
+
+                <!-- logo start -->
+                <tr>
+                    <td class="logo module-outer" align="left" valign="top" style="padding: 25px 35px 25px 35px;">
+                        <table border="0" cellspacing="0" cellpadding="0" style="color: #1c3160; font-family: sans-serif;">
+                            <tr>
+                                <td align="left" valign="top">
+                                    <a href="http://www.tescobank.com/personal/finance/home.html" target="_blank" style="color: #1c3160; text-decoration: underline;"><img class="logoResize" src="http://res.cloudinary.com/dagb1l62t/image/upload/v1469468977/test/tesco/logo-cc.gif" alt="Tesco Bank. Credit Cards" width="230.5" height="24" style="border: 0; display: block; height: auto; line-height: 100%; outline: none; text-decoration: none;"></a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <!-- logo end -->
+
+
+
+                <!-- arrow_green start -->
+                <tr>
+                    <td class="arrow_green" align="center" bgcolor="#017a8d" style="padding: 0; font-size: 1px; lineheight: 1px;"><img src="http://res.cloudinary.com/dagb1l62t/image/upload/v1469468976/test/tesco/arrow_green.gif" alt="" width="44" height="14" style="border: 0; display: block; height: auto; line-height: 100%; outline: none; text-decoration: none;"></td>
+                </tr>
+                <!-- arrow_green end -->
+
+
+
+                <!-- HeroTitle start -->
+                <tr>
+                    <td class="one-column module-outer" valign="top" bgcolor="#017a8d" style="background-color: #017a8d; padding: 25px 35px 25px 35px;">
+                        <table border="0" cellspacing="0" cellpadding="0" width="100%" style="color: #1c3160; font-family: sans-serif;">
+                            <tr>
+                                <td class="module-inner contents hero" align="left" bgcolor="#017a8d" valign="top" style="color: #ffffff; font-family: Verdana, Arial, sans-serif; font-size: 30px; font-weight: bold; line-height: 34px; padding: 6px 0 6px 0; text-align: left; width: 100%;">Getting started <span class="nomob"><br/></span> with your new&nbsp;card
+                                </td>
+                            </tr>
+
+                        </table>
+                    </td>
+                </tr>
+                <!-- HeroTitle end -->
+
+
+
+                <!-- HeroImage start -->
+                <tr>
+                    <td class="full-width-image" align="left" valign="top" style="padding:0"><a href="http://www.tescobank.com/personal/finance/home.html" target="_blank"><img src="http://res.cloudinary.com/dagb1l62t/image/upload/v1469468978/test/tesco/hero-cc1.jpg" alt="Getting started with your new card" width="100%" height="auto" style="border: 0; display: block; height: auto; line-height: 100%; max-width: 600px; outline: none; text-decoration: none; width: 100%;"></a></td>
+                </tr>
+                <!-- HeroImage end -->
+
+
+
+                <!-- HeroText start -->
+                <tr>
+                    <td class="one-column module-outer" align="center" valign="top" bgcolor="#ffffff" style="background-color: #ffffff; padding: 25px 0 25px 0;">
+                        <table border="0" cellspacing="0" cellpadding="0" width="88%" style="color: #1c3160; font-family: sans-serif;">
+                           
+                            <tr>
+                                <td class="module-inner contents global-copy heading" align="left" bgcolor="#ffffff" valign="top" style="-webkit-text-size-adjust: none; color: #1c3160; font-family: Verdana, Arial, sans-serif; font-size: 13px; font-weight: bold; line-height: 18px; padding: 6px 0 6px 0; text-align: left; text-decoration: none; width: 100%;">Hello _Customer__</td>
+                            </tr>
+                            <tr>
+                                <td class="module-inner contents global-copy" align="left" bgcolor="#ffffff" valign="top" style="-webkit-text-size-adjust: none; color: #1c3160; font-family: Verdana, Arial, sans-serif; font-size: 13px; line-height: 18px; padding: 6px 0 6px 0; text-align: left; text-decoration: none; width: 100%;">Welcome to your new Tesco Bank Clubcard Credit Card. Not only will you receive, but you&rsquo;ll also collect Clubcard points almost everywhere you use your&nbsp;card.^</td>
+                            </tr>
+                            
+                        </table>
+                    </td>
+                </tr>
+                <!-- HeroText end -->
+
+
+                <!-- Secondary Module start -->
+
+                <!-- arrow_paleblue start -->
+                <tr>
+                    <td class="arrow_paleblue" align="center" bgcolor="#b1c6db" style="padding: 0; font-size: 1px; lineheight: 1px;"><img src="http://res.cloudinary.com/dagb1l62t/image/upload/v1469468976/test/tesco/arrow_paleblue.gif" alt="" width="44" height="16" style="border: 0; display: block; height: auto; line-height: 100%; outline: none; text-decoration: none;"></td>
+                </tr>
+                <!-- arrow_paleblue end -->
+
+
+
+                <!-- Wrapper start -->
+                <tr>
+                    <td class="one-column" style="padding:40px 0;" bgcolor="#b1c6db" align="center" valign="top">
+
+                        <table border="0" cellspacing="0" cellpadding="0" bgcolor="#b1c6db" width="88%" align="center" style="color: #1c3160; font-family: sans-serif;">
+                            <!-- wrapper top row start -->
+                            <tr>
+                                <td align="left" class="nomob" style="font-size:1px; line-height: 1px;" valign="top"><img alt="" width="3" height="3" src="http://res.cloudinary.com/dagb1l62t/image/upload/v1469468978/test/tesco/bluebox_topleft.gif" style="border: 0; display: block; height: auto; line-height: 100%; outline: none; text-decoration: none;"></td>
+
+                                <td align="center" bgcolor="#ffffff" class="nomob" height="3" style="font-size:1px; line-height:1px;" width="100%"></td>
+
+                                <td align="right" class="nomob" style="font-size:1px; line-height: 1px;" valign="top"><img alt="" width="3" height="3" src="http://res.cloudinary.com/dagb1l62t/image/upload/v1469468977/test/tesco/bluebox_topright.gif" style="border: 0; display: block; height: auto; line-height: 100%; outline: none; text-decoration: none;"></td>
+                            </tr>
+                        </table>
+                        <!-- wrapper top row end -->
+                        <!-- wrapper content row start -->
+                        <table border="0" cellspacing="0" cellpadding="0" bgcolor="#b1c6db" width="88%" align="center" style="color: #1c3160; font-family: sans-serif;padding:0;margin:0">
+                            <tr>
+                                <td bgcolor="#9AACBF" class="nomob" valign="top" width="1"></td>
+                                <td bgcolor="#ffffff" class="nomob" valign="top" width="2"></td>
+
+                                <!-- wrapper content container start -->
+                                <td align="center" class="table corners" style="background-color:#ffffff;padding:0;margin:0" valign="top" width="100%">
+
+                                    <!-- inner content container table start -->
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="90%" bgcolor="#ffffff" style="color: #1c3160; font-family: sans-serif;padding:0;margin:0">
+                                        <!--  content start -->
+
+                                        <!-- Secondary start -->
+                                        <tr>
+                                            <td class="one-column module-outer" valign="top" bgcolor="#ffffff" style="background-color: #ffffff; padding: 25px 35px 25px 35px;">
+                                                <table border="0" cellspacing="0" cellpadding="0" width="100%" style="color: #1c3160; font-family: sans-serif;">
+                                                    <tr>
+                                                        <td class="module-inner contents secondary" align="center" bgcolor="#ffffff" valign="top" style="color: #1c3160; font-family: Verdana, Arial, sans-serif; font-size: 27px; font-weight: bold; line-height: 28px; padding: 6px 0 6px 0; text-align: center; width: 100%;">First Things First
+                                                        </td>
+                                                    </tr>
+
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <!-- Secondary end -->
+
+                                        <!-- divider -->
+                                        <tr>
+                                            <td class="one-column" valign="top" align="center">
+                                                <table border="0" cellpadding="0" cellspacing="0" class="table" style="border-top: 1px solid #587f9e; color: #1c3160; font-family: sans-serif;" width="35%" bgcolor="#ffffff">
+                                                    <tr>
+                                                        <td align="center" height="1" style="font-size: 1px; line-height: 1px;padding: 10px 0;" valign="top">&nbsp;</td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <!-- divider -->
+
+
+
+                                        <!-- Activate start -->
+                                        <tr>
+                                            <td class="two-column" bgcolor="#ffffff" align="center" style="font-size: 0; text-align: center;">
+                                                <!--[if (gte mso 9)|(IE)]>
+                                                    <table width="100%"  border="0" cellspacing="0" cellpadding="0" >
+                                                    <tr>
+                                                    <td width="19" bgcolor="#ffffff" ></td>
+                                                    <td width="leftColWidth" bgcolor="#ffffff" valign="top" >
+                                                    <![endif]-->
+                                                <div class="column left" style="display: inline-block; max-width: 120px; vertical-align: top; width: 100%;">
+                                                    <table border="0" cellspacing="0" cellpadding="0" width="100%" style="border-spacing: 0; color: #1c3160; font-family: sans-serif;" bgcolor="#ffffff">
+                                                        <tr>
+                                                            <td class="image-inner" valign="top" bgcolor="#ffffff" align="center" style="padding: 6px 0 25px 0;"><img src="http://res.cloudinary.com/dagb1l62t/image/upload/v1469468977/test/tesco/activate-icon.gif" width="72" height="48" alt="" style="border: 0; display: block; height: auto; line-height: 100%; outline: none; text-decoration: none;"></td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                                <!--[if (gte mso 9)|(IE)]>
+                                                    </td><td width="302" bgcolor="#ffffff"  >
+                                                    <![endif]-->
+                                                <div class="column right" style="display: inline-block; max-width: 302px; vertical-align: top; width: 100%;">
+                                                    <table border="0" cellspacing="0" cellpadding="0" width="100%" style="border-spacing: 0; color: #1c3160; font-family: sans-serif;" bgcolor="#ffffff">
+                                                        <tr>
+                                                            <td width="93%" valign="top" bgcolor="#ffffff">
+                                                                <table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff" style="color: #1c3160; font-family: sans-serif;">
+                                                                    <tr>
+                                                                        <td class="module-inner contents activate title text-center" align="left" bgcolor="#ffffff" valign="top" style="color: #1c3160; font-family: Verdana, Arial, sans-serif; font-size: 19px; font-weight: bold; line-height: 22px; padding: 6px 0 6px 0; text-align: left; width: 100%;">Activate your card</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="module-inner contents global-copy text-center" align="left" bgcolor="#ffffff" valign="top" style="-webkit-text-size-adjust: none; color: #1c3160; font-family: Verdana, Arial, sans-serif; font-size: 13px; line-height: 18px; padding: 6px 0 6px 0; text-align: left; text-decoration: none; width: 100%;">Your card and PIN should be with you soon, if not already. Once you&rsquo;ve got your card, just call us on 0345 072 9072* (Minicom 0345 671 0676*) to activate&nbsp;it.<br><br></td>
+                                                                    </tr>
+                                                                    <!-- Activate button start -->
+                                                                     <tr>
+                                                                         <td class="button-inner-mob" align="left" valign="top" >
+                                                                         <!--[if !mso]><!-->
+                                                                         <div class="showMob" style="display:none;font-size:0;max-height:0;height:0px;width:0px;overflow:hidden;mso-line-height-rule: exactly;-webkit-text-size-adjust:none;">
+                                                                             <table border="0" cellpadding="0" cellspacing="0" bgcolor="#ca445c" class="table nobg" style="color: #1c3160; font-family: sans-serif;">
+                                                                                 <tr>
+                                                                                     <td align="left" class="nomob" valign="top"><img src="images/cta_red_left.gif" width="3" height="44" alt="" style="border: 0; display: block; height: auto; line-height: 100%; outline: none; text-decoration: none;"></td>
+                                                                                     <td align="center" valign="middle" class="button nopadding" height="44" style="background: #ca445c; color: #ffffff; font-family: Verdana, Arial, sans-serif; font-size: 14px; line-height: 14px; padding: 0px 40px 0;"><a href="tel:03453004278" style="color: #ffffff; font-weight: bold; text-decoration: none; text-transform: uppercase;">Call Now</a></td>
+                                                                                     <td align="left" class="nomob" valign="top"><img src="images/cta_red_right.gif" width="3" height="44" alt="" style="border: 0; display: block; height: auto; line-height: 100%; outline: none; text-decoration: none;"></td>
+                                                                                 </tr>
+                                                                             </table>
+                                                                         </div>
+                                                                         <!--<![endif]-->
+                                                                         </td>
+                                                                     </tr>
+                                                                     <!-- Activate button end -->
+
+                                                                </table>
+                                                            </td>
+
+                                                            <td class="text-shim nomob547" width="7%" valign="top" bgcolor="#ffffff"></td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                                <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                        <td width="20" bgcolor="#ffffff" ></td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                                            </td>
+                                        </tr>
+                                        <!-- Activate end -->
+
+
+
+                                        <!-- divider -->
+                                        <tr>
+                                            <td class="one-column" valign="top" align="center">
+                                                <table border="0" cellpadding="0" cellspacing="0" class="table" style="border-top: 1px solid #587f9e; color: #1c3160; font-family: sans-serif;" width="35%" bgcolor="#ffffff">
+                                                    <tr>
+                                                        <td align="center" height="1" style="font-size: 1px; line-height: 1px;padding: 10px 0;" valign="top">&nbsp;</td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <!-- divider -->
+
+
+
+
+
+                                        <!-- Register start -->
+                                        <tr>
+                                            <td class="two-column" bgcolor="#ffffff" align="center" style="font-size: 0; text-align: center;">
+                                                <!--[if (gte mso 9)|(IE)]>
+                        <table width="100%"  border="0" cellspacing="0" cellpadding="0" >
+                        <tr>
+                        <td width="19" bgcolor="#ffffff" ></td>
+                        <td width="leftColWidth" bgcolor="#ffffff" valign="top" >
+                        <![endif]-->
+                                                <div class="column left" style="display: inline-block; max-width: 120px; vertical-align: top; width: 100%;">
+                                                    <table border="0" cellspacing="0" cellpadding="0" width="100%" style="border-spacing: 0; color: #1c3160; font-family: sans-serif;" bgcolor="#ffffff">
+                                                        <tr>
+                                                            <td class="image-inner" valign="top" bgcolor="#ffffff" align="center" style="padding: 6px 0 25px 0;"><img src="http://res.cloudinary.com/dagb1l62t/image/upload/v1469468978/test/tesco/register-icon.gif" width="72" height="60" alt="" style="border: 0; display: block; height: auto; line-height: 100%; outline: none; text-decoration: none;"></td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                                <!--[if (gte mso 9)|(IE)]>
+                        </td><td width="302" bgcolor="#ffffff"  >
+                        <![endif]-->
+                                                <div class="column right" style="display: inline-block; max-width: 302px; vertical-align: top; width: 100%;">
+                                                    <table border="0" cellspacing="0" cellpadding="0" width="100%" style="border-spacing: 0; color: #1c3160; font-family: sans-serif;" bgcolor="#ffffff">
+                                                        <tr>
+                                                            <td width="93%" valign="top" bgcolor="#ffffff">
+                                                                <table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff" style="color: #1c3160; font-family: sans-serif;">
+                                                                    <tr>
+                                                                        <td class="module-inner contents register title text-center" align="left" bgcolor="#ffffff" valign="top" style="color: #1c3160; font-family: Verdana, Arial, sans-serif; font-size: 19px; font-weight: bold; line-height: 22px; padding: 6px 0 6px 0; text-align: left; width: 100%;">Set up Online&nbsp;Banking</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="module-inner contents global-copy text-center" align="left" bgcolor="#ffffff" valign="top" style="-webkit-text-size-adjust: none; color: #1c3160; font-family: Verdana, Arial, sans-serif; font-size: 13px; line-height: 18px; padding: 6px 0 6px 0; text-align: left; text-decoration: none; width: 100%;">Register now for free, secure, easy to use Online Banking&nbsp;&ndash; available&nbsp;24/7.<br><br></td>
+                                                                    </tr>
+                                                                    <!-- Register button start -->
+                                                                    <tr>
+                                                                        <td class="button-inner" align="left" valign="top" style="padding: 6px 0 25px 0;">
+                                                                            <table border="0" cellpadding="0" cellspacing="0" bgcolor="#ca445c" class="table nobg" style="color: #1c3160; font-family: sans-serif;">
+                                                                                <tr>
+                                                                                    <td align="left" class="nomob" valign="top"><img src="http://res.cloudinary.com/dagb1l62t/image/upload/v1469468976/test/tesco/cta_red_left.gif" width="3" height="44" alt="" style="border: 0; display: block; height: auto; line-height: 100%; outline: none; text-decoration: none;"></td>
+                                                                                    <td align="center" valign="middle" class="button nopadding" height="44" style="background: #ca445c; color: #ffffff; font-family: Verdana, Arial, sans-serif; font-size: 14px; line-height: 14px; padding: 0px 40px 0;"><a href="http://www.tescobank.com" style="color: #ffffff; font-weight: bold; text-decoration: none; text-transform: uppercase;">Register Online</a></td>
+                                                                                    <td align="left" class="nomob" valign="top"><img src="http://res.cloudinary.com/dagb1l62t/image/upload/v1469468978/test/tesco/cta_red_right.gif" width="3" height="44" alt="" style="border: 0; display: block; height: auto; line-height: 100%; outline: none; text-decoration: none;"></td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <!-- Register button end -->
+
+
+                                                                </table>
+                                                            </td>
+
+                                                            <td class="text-shim nomob547" width="7%" valign="top" bgcolor="#ffffff"></td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                                <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                        <td width="20" bgcolor="#ffffff" ></td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                                            </td>
+                                        </tr>
+                                        <!-- Register end -->
+
+
+                                        <!-- divider -->
+                                        <tr>
+                                            <td class="one-column" valign="top" align="center">
+                                                <table border="0" cellpadding="0" cellspacing="0" class="table" style="border-top: 1px solid #587f9e; color: #1c3160; font-family: sans-serif;" width="35%" bgcolor="#ffffff">
+                                                    <tr>
+                                                        <td align="center" height="1" style="font-size: 1px; line-height: 1px;padding: 10px 0;" valign="top">&nbsp;</td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <!-- divider -->
+
+
+
+                                     
+                                        <!-- App start -->
+                                        <tr>
+                                            <td class="two-column" bgcolor="#ffffff" align="center" style="font-size: 0; text-align: center;">
+                                                <!--[if (gte mso 9)|(IE)]>
+                        <table width="100%"  border="0" cellspacing="0" cellpadding="0" >
+                        <tr>
+                        <td width="19" bgcolor="#ffffff" ></td>
+                        <td width="leftColWidth" bgcolor="#ffffff" valign="top" >
+                        <![endif]-->
+                                                <div class="column left" style="display: inline-block; max-width: 120px; vertical-align: top; width: 100%;">
+                                                    <table border="0" cellspacing="0" cellpadding="0" width="100%" style="border-spacing: 0; color: #1c3160; font-family: sans-serif;" bgcolor="#ffffff">
+                                                        <tr>
+                                                            <td class="image-inner" valign="top" bgcolor="#ffffff" align="center" style="padding: 6px 0 25px 0;"><img src="http://res.cloudinary.com/dagb1l62t/image/upload/v1469468979/test/tesco/app-icon.gif" width="72" height="78" alt="" style="border: 0; display: block; height: auto; line-height: 100%; outline: none; text-decoration: none;"></td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                                <!--[if (gte mso 9)|(IE)]>
+                        </td><td width="302" bgcolor="#ffffff"  >
+                        <![endif]-->
+                                                <div class="column right" style="display: inline-block; max-width: 302px; vertical-align: top; width: 100%;">
+                                                    <table border="0" cellspacing="0" cellpadding="0" width="100%" style="border-spacing: 0; color: #1c3160; font-family: sans-serif;" bgcolor="#ffffff">
+                                                        <tr>
+                                                            <td width="93%" valign="top" bgcolor="#ffffff">
+                                                                <table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff" style="color: #1c3160; font-family: sans-serif;">
+                                                                    <tr>
+                                                                        <td class="module-inner contents app title text-center" align="left" bgcolor="#ffffff" valign="top" style="color: #1c3160; font-family: Verdana, Arial, sans-serif; font-size: 19px; font-weight: bold; line-height: 22px; padding: 6px 0 6px 0; text-align: left; width: 100%;">Download our Mobile Banking&nbsp;App</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="module-inner contents global-copy text-center" align="left" bgcolor="#ffffff" valign="top" style="-webkit-text-size-adjust: none; color: #1c3160; font-family: Verdana, Arial, sans-serif; font-size: 13px; line-height: 18px; padding: 6px 0 6px 0; text-align: left; text-decoration: none; width: 100%;">Tap into an easier way to bank. Download our handy&nbsp;app.<br><br></td>
+                                                                    </tr>
+                                                                  
+
+
+
+                                                                </table>
+                                                            </td>
+
+                                                            <td class="text-shim nomob547" width="7%" valign="top" bgcolor="#ffffff"></td>
+                                                        </tr>
+                                                         <!-- AppLinks start -->
+                                        <tr>
+                                            <td class="two-column button-inner contents text-center" style="font-size: 0; padding: 6px 0 25px 0; text-align: left; width: 100%;" bgcolor="#ffffff">
+                                                <!--[if (gte mso 9)|(IE)]>
+                        <table width="100%"  border="0" cellspacing="0" cellpadding="0" >
+                        <tr>
+                        <td width="119">
+                        <![endif]-->
+                                                <div class="column left maxWidth119" style="display: inline-block; max-width: 149px; vertical-align: top; width: 100%;">
+                                                    <table border="0" cellspacing="0" cellpadding="0" width="100%" style="border-spacing: 0; color: #ffffff; font-family: sans-serif;">
+                                                        <tr>
+                                                            <td class="module-inner" align="left" style="padding: 6px 0 6px 0;">
+                                                                <a href="https://itunes.apple.com/gb/app/tesco-mobile/id633420816?mt=8" style="color: text-decoration: none; text-decoration: underline;" target="_blank"><img class="image_resize-min" src="http://res.cloudinary.com/dagb1l62t/image/upload/v1469468976/test/tesco/appstore-icon.gif" width="119" alt="" style="border: 0; display: block; height: auto; line-height: 100%; outline: none; text-decoration: none;"></a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                                <!--[if (gte mso 9)|(IE)]>
+                        </td><td width="119">
+                        <![endif]-->
+                                                <div class="column right" style="display: inline-block; max-width: 119px; vertical-align: top; width: 100%;">
+                                                    <table border="0" cellspacing="0" cellpadding="0" width="100%" style="border-spacing: 0; color: #ffffff; font-family: sans-serif;">
+                                                        <tr>
+                                                            <td class="module-inner" align="left" style="padding: 6px 0 6px 0;">
+                                                                <a href="https://play.google.com/store/apps/details?id=com.tescobank.mobile" style="color: text-decoration: none; text-decoration: underline;" target="_blank"><img class="image_resize-min" src="http://res.cloudinary.com/dagb1l62t/image/upload/v1469468979/test/tesco/googleplay-icon.gif" width="119" alt="" style="border: 0; display: block; height: auto; line-height: 100%; outline: none; text-decoration: none;"></a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                                <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+
+
+
+                                            </td>
+
+                                        </tr>
+                                        <!-- AppLinks end -->
+                                       
+                                                    </table>
+                                                </div>
+                                                <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                        <td width="20" bgcolor="#ffffff" ></td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                                            </td>
+                                        </tr>
+                                        <!-- App end -->
+
+
+
+                                       
+
+
+                                        <!-- divider -->
+                                        <tr>
+                                            <td class="one-column" valign="top" align="center">
+                                                <table border="0" cellpadding="0" cellspacing="0" class="table" style="border-top: 1px solid #587f9e; color: #1c3160; font-family: sans-serif;" width="35%" bgcolor="#ffffff">
+                                                    <tr>
+                                                        <td align="center" height="1" style="font-size: 1px; line-height: 1px;padding: 10px 0;" valign="top">&nbsp;</td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <!-- divider -->
+
+
+    <!-- DirectDebit start -->
+                                        <tr>
+                                            <td class="two-column" bgcolor="#ffffff" align="center" style="font-size: 0; text-align: center;">
+                                                <!--[if (gte mso 9)|(IE)]>
+                        <table width="100%"  border="0" cellspacing="0" cellpadding="0" >
+                        <tr>
+                        <td width="19" bgcolor="#ffffff" ></td>
+                        <td width="leftColWidth" bgcolor="#ffffff" valign="top" >
+                        <![endif]-->
+                                                <div class="column left" style="display: inline-block; max-width: 120px; vertical-align: top; width: 100%;">
+                                                    <table border="0" cellspacing="0" cellpadding="0" width="100%" style="border-spacing: 0; color: #1c3160; font-family: sans-serif;" bgcolor="#ffffff">
+                                                        <tr>
+                                                            <td class="image-inner" valign="top" bgcolor="#ffffff" align="center" style="padding: 6px 0 25px 0;"><img src="http://res.cloudinary.com/dagb1l62t/image/upload/v1469468976/test/tesco/directdebit-icon.gif" width="72" height="72" alt="" style="border: 0; display: block; height: auto; line-height: 100%; outline: none; text-decoration: none;"></td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                                <!--[if (gte mso 9)|(IE)]>
+                        </td><td width="302" bgcolor="#ffffff"  >
+                        <![endif]-->
+                                                <div class="column right" style="display: inline-block; max-width: 302px; vertical-align: top; width: 100%;">
+                                                    <table border="0" cellspacing="0" cellpadding="0" width="100%" style="border-spacing: 0; color: #1c3160; font-family: sans-serif;" bgcolor="#ffffff">
+                                                        <tr>
+                                                            <td width="93%" valign="top" bgcolor="#ffffff">
+                                                                <table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff" style="color: #1c3160; font-family: sans-serif;">
+                                                                    <tr>
+                                                                        <td class="module-inner contents directdebit title text-center" align="left" bgcolor="#ffffff" valign="top" style="color: #1c3160; font-family: Verdana, Arial, sans-serif; font-size: 19px; font-weight: bold; line-height: 22px; padding: 6px 0 6px 0; text-align: left; width: 100%;">Set up a Direct&nbsp;Debit</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="module-inner contents global-copy text-center" align="left" bgcolor="#ffffff" valign="top" style="-webkit-text-size-adjust: none; color: #1c3160; font-family: Verdana, Arial, sans-serif; font-size: 13px; line-height: 18px; padding: 6px 0 6px 0; text-align: left; text-decoration: none; width: 100%;">Help to ensure your payments are made on time, every time, by setting up a Direct Debit. You can do this online or by calling 0345 300 4278* (Minicom 0345 671&nbsp;0676*).<br><br></td>
+                                                                    </tr>
+
+                                                                    <!-- DirectDebit button start -->
+                                                                    <tr>
+                                                                        <td class="button-inner-mob" align="left" valign="top" >
+                                                                        <div class="showMob" style="display:none;font-size:0;max-height:0;height:0px;width:0px;overflow:hidden;mso-line-height-rule: exactly;-webkit-text-size-adjust:none;">
+                                                                         <!--[if !mso]><!-->
+                                                                            <table border="0" cellpadding="0" cellspacing="0" bgcolor="#ca445c" class="table nobg" style="color: #1c3160; font-family: sans-serif;">
+                                                                                <tr>
+                                                                                    <td align="left" class="nomob" valign="top"><img src="http://res.cloudinary.com/dagb1l62t/image/upload/v1469468976/test/tesco/cta_red_left.gif" width="3" height="44" alt="" style="border: 0; display: block; height: auto; line-height: 100%; outline: none; text-decoration: none;"></td>
+                                                                                    <td align="center" valign="middle" class="button nopadding" height="44" style="background: #ca445c; color: #ffffff; font-family: Verdana, Arial, sans-serif; font-size: 14px; line-height: 14px; padding: 0px 40px 0;"><a href="tel:03453004278" style="color: #ffffff; font-weight: bold; text-decoration: none; text-transform: uppercase;">Call Now</a></td>
+                                                                                    <td align="left" class="nomob" valign="top"><img src="http://res.cloudinary.com/dagb1l62t/image/upload/v1469468978/test/tesco/cta_red_right.gif" width="3" height="44" alt="" style="border: 0; display: block; height: auto; line-height: 100%; outline: none; text-decoration: none;"></td>
+                                                                                </tr>
+                                                                            </table>
+                                                                            </div>
+                                                                            <!--<![endif]-->
+                                                                        </td>
+                                                                    </tr>
+                                                                    <!-- DirectDebit button end -->
+
+
+                                                                </table>
+                                                            </td>
+
+                                                            <td class="text-shim nomob547" width="7%" valign="top" bgcolor="#ffffff"></td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                                <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                        <td width="20" bgcolor="#ffffff" ></td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                                            </td>
+                                        </tr>
+                                        <!-- DirectDebit end -->
+
+
+                                        <!-- divider -->
+                                        <tr>
+                                            <td class="one-column" valign="top" align="center">
+                                                <table border="0" cellpadding="0" cellspacing="0" class="table" style="border-top: 1px solid #587f9e; color: #1c3160; font-family: sans-serif;" width="35%" bgcolor="#ffffff">
+                                                    <tr>
+                                                        <td align="center" height="1" style="font-size: 1px; line-height: 1px;padding: 10px 0;" valign="top">&nbsp;</td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <!-- divider -->
+
+                                        <!--  content end -->
+                                    </table>
+                                    <!-- inner content container table end -->
+
+                                </td>
+                                <!-- wrapper content container end -->
+                                <td bgcolor="#ffffff" class="nomob" valign="top" width="2"></td>
+                                <td bgcolor="#9AACBF" class="nomob" valign="top" width="1"></td>
+                            </tr>
+                        </table>
+                        <!-- wrapper content row end -->
+                        <!-- wrapper bottom row (with rowspan) start -->
+                        <table border="0" cellspacing="0" cellpadding="0" bgcolor="#b1c6db" width="88%" align="center" style="color: #1c3160; font-family: sans-serif;">
+                            <tr>
+                                <td align="left" class="nomob" style="font-size:1px; line-height: 1px;" valign="top"><img alt="" height="4" src="http://res.cloudinary.com/dagb1l62t/image/upload/v1469468978/test/tesco/bluebox_bottomleft.gif" width="3" style="border: 0; display: block; height: auto; line-height: 100%; outline: none; text-decoration: none;"></td>
+
+                                <td bgcolor="#ffffff" class="nomob" style="font-size:1px; line-height:0px;" width="100%">
+                                    <table border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff" width="100%" align="center" style="color: #1c3160; font-family: sans-serif;">
+                                        <tr>
+                                            <td bgcolor="#ffffff" class="nomob" height="2" style="font-size:1px; line-height:0px;">
+                                                <font style="display:none;">&nbsp;</font>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td bgcolor="#6C7885" class="nomob" height="1" style="font-size:1px; line-height:0px;">
+                                                <font style="display:none;">&nbsp;</font>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td bgcolor="#9AACBF" class="nomob" height="1" style="font-size:1px; line-height:0px;">
+                                                <font style="display:none;">&nbsp;</font>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+
+                                <td align="right" class="nomob" style="font-size:1px; line-height: 1px;" valign="top"><img alt="" height="4" src="http://res.cloudinary.com/dagb1l62t/image/upload/v1469468977/test/tesco/bluebox_bottomright.gif" width="3" style="border: 0; display: block; height: auto; line-height: 100%; outline: none; text-decoration: none;"></td>
+                            </tr>
+                        </table>
+                        <!-- wrapper bottom row (with rowspan) end -->
+                    </td>
+                </tr>
+                <!-- Wrapper end -->
+                <!-- Secondary Module end -->
+
+
+
+                <!-- Help start -->
+                <tr>
+                    <td class="one-column module-outer" valign="top" bgcolor="#ffffff" style="background-color: #ffffff; padding: 25px 35px 25px 35px;">
+                        <table border="0" cellspacing="0" cellpadding="0" width="100%" style="color: #1c3160; font-family: sans-serif;">
+                            <tr>
+                                <td class="module-inner contents tertiary title" align="center" bgcolor="#ffffff" valign="top" style="color: #1c3160; font-family: Verdana, Arial, sans-serif; font-size: 21px; font-weight: bold; line-height: 24px; padding: 6px 0 6px 0; text-align: center; width: 100%;">Need any help with your account?</td>
+                            </tr>
+                            
+
+                            <!-- Help button start -->
+                            <tr>
+                                <td class="button-inner" align="center" valign="top" style="padding: 12px 0 6px 0;">
+                                    <table border="0" cellpadding="0" cellspacing="0" bgcolor="#ca445c" class="table nobg" style="color: #1c3160; font-family: sans-serif;">
+                                        <tr>
+                                            <td align="left" class="nomob" valign="top"><img src="http://res.cloudinary.com/dagb1l62t/image/upload/v1469468976/test/tesco/cta_red_left.gif" width="3" height="44" alt="" style="border: 0; display: block; height: auto; line-height: 100%; outline: none; text-decoration: none;"></td>
+                                            <td align="center" valign="middle" class="button nopadding" height="44" style="background: #ca445c; color: #ffffff; font-family: Verdana, Arial, sans-serif; font-size: 14px; line-height: 14px; padding: 0px 40px 0;"><a href="http://www.tescobank.com/creditcards/existing-customers.html" style="color: #ffffff; font-weight: bold; text-decoration: none; text-transform: uppercase;">Find Out More</a></td>
+                                            <td align="left" class="nomob" valign="top"><img src="http://res.cloudinary.com/dagb1l62t/image/upload/v1469468978/test/tesco/cta_red_right.gif" width="3" height="44" alt="" style="border: 0; display: block; height: auto; line-height: 100%; outline: none; text-decoration: none;"></td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- Help button end -->
+                            <tr>
+                                <td class="module-inner contents global-copy" align="left" bgcolor="#ffffff" valign="top" style="-webkit-text-size-adjust: none; color: #1c3160; font-family: Verdana, Arial, sans-serif; font-size: 13px; line-height: 18px; padding: 6px 0 6px 0; text-align: center; text-decoration: none; width: 100%;">Visit us online:&nbsp;<a class="" href="http://www.tescobank.com" target="_blank" style="color: #1c3160; text-decoration: underline;">tescobank.com</a>
+                                    <br>Call us on: 0345 300&nbsp;4278*<br>(Minicom 0345 671&nbsp;0676*)<br></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <!-- Help end -->
+
+
+                <!-- footer start -->
+                <tr>
+                    <td class="one-column" style="padding:0;">
+                        <table border="0" cellspacing="0" cellpadding="0" width="100%" style="color: #1c3160; font-family: sans-serif;">
+                            <tr>
+                                <td class="footer-container" align="center" valign="top" style="background-color: #f3f3f3; padding: 18px 0 0px 0;">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="90%" style="color: #1c3160; font-family: sans-serif;">
+                                        <tr>
+                                            <td class="footer" align="left" valign="top" style="color: #1c3160; font-family: Verdana, Arial, sans-serif; font-size: 11px; line-height: 15px; padding: 5px 0 15px 0;">
+                                                <font style="font-size: 12px; line-height: 16px; ">
+                                                Apple, the Apple logo and iPhone are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Google Play is a trademark of Google&nbsp;Inc.</font><br><br>                                                ^Credit Card customers must have available credit to collect points. 1 point awarded per &pound;4 spent in each purchase transaction (&pound;4 minimum). Plus normal Clubcard points when you shop at Tesco.
+                                                Points exclusions apply to certain items at Tesco, see <a class="footer-link"  href="http://www.tescobank.com/clubcard/terms" style="text-decoration: none; color: #1c3160;"> tesco.com/clubcard/terms</a> for details. Earn rates are subject to change. The Clubcard scheme is administered by Tesco Stores who are responsible for
+                                                fulfilling&nbsp;points.<br><br> *This number may be included as part of any inclusive call minutes provided by your phone&nbsp;operator.<br><br>
+                                                <strong>Enquiries</strong>
+                                                <br><br> Please don&rsquo;t reply to this email as the mailbox doesn&rsquo;t accept incoming messages. Visit <a class="footer-link" href="http://www.tescobank.com" target="_blank" style="color: #1c3160; text-decoration: underline;">tescobank.com</a> to find the best way to contact&nbsp;us.<br><br> If you no longer want to receive emails from Tesco Bank please <a class="" href="_UNSUBLINK__" target="_blank" style="color: #1c3160; text-decoration: underline;">click</a>&nbsp;here.
+                                                <br><br>
+                                                <strong>Important Information</strong>
+                                                <br><br> Tesco Bank will never ask for confidential information or for you to confirm your security details via email. Links within our emails will only take you to information pages on our website. Please
+                                                forward any suspicious emails to <a class="footer-link" href="mailto:phishing@tescobank.com" target="_blank" style="color: #1c3160; text-decoration: underline;">phishing@tescobank.com</a> . You can visit our <a class=""
+                                                    href="http://www.tescobank.com/security/" target="_blank" style="color: #1c3160; text-decoration: underline;">Security Centre</a> for more information on staying safe&nbsp;online.<br><br> Tesco Bank is a
+                                                trading name of Tesco Personal Finance plc. Registered in Scotland No. SC173199. Registered Office: Interpoint Building, <span class="footer-link" style="text-decoration: none; color: #1c3160;">22 Haymarket Yards, Edinburgh EH12 5BH.</span> Authorised by the Prudential Regulation Authority
+                                                and regulated by the Financial Conduct Authority and the Prudential Regulation&nbsp;Authority.<br><br>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <!-- footer end -->
+                <!-- container-close start -->
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+                </td>
+            </tr>
+        </table>
+        <![endif]-->
+        </div>
+    </center>
+    <!-- container-close end -->
+
+
+</body>
+
+</html>
