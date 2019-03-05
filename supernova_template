@@ -2,9 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml"><head>
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-
-    <title>campaign supernova</title>
+    <title>Campaign Supernova</title>
 <style type="text/css">
 @import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900,900i');
 </style>
@@ -94,20 +92,20 @@ td.cellpad {
         a[href^="tel"],
         a[href^="sms"] {
             text-decoration: none;
-            color: #30383d;
+            color: #202020;
             pointer-events: none;
             cursor: default;
         }
         .mobile_link a[href^="tel"],
         .mobile_link a[href^="sms"] {
             text-decoration: default;
-            color: #30383d !important;
+            color: #202020 !important;
             pointer-events: auto;
             cursor: default;
         }
         .black a {
             text-decoration: none;
-            color: #30383d;
+            color: #202020;
         }
 
         .cellpad {
@@ -153,9 +151,9 @@ td.cellpad {
                 
                 <tr>
                     <td class="one-column" valign="top" style="padding:5px 10px;" bgcolor="#fbfbfb">
-                        <table border="0" cellspacing="0" cellpadding="0" width="100%" style="color: #3c3c3c; font-family: sans-serif;">
+                        <table border="0" cellspacing="0" cellpadding="0" width="100%" style="color: #202020; font-family: sans-serif;">
                             <tr>
-                                <td class="module-inner contents fallback-font-Lato" align="right" bgcolor="#fbfbfb" valign="top" style="-webkit-text-size-adjust: none;color: #3c3c3c;font-family: arial, sans-serif, 'Lato';font-size: 10px;line-height: 16px;margin: 0;padding: 5px 0 4px 0;text-decoration: none;width: 100%;">Can’t see this email? Click <a href="" target="_blank" style="color: #666666; text-decoration: underline;">here</a>.
+                                <td class="module-inner contents fallback-font-Lato" align="right" bgcolor="#fbfbfb" valign="top" style="-webkit-text-size-adjust: none;color: #202020;font-family: arial, sans-serif, 'Lato';font-size: 10px;line-height: 16px;margin: 0;padding: 5px 0 4px 0;text-decoration: none;width: 100%;">Can’t see this email? Click <a href="" target="_blank" style="color: #666666; text-decoration: underline;">here</a>.
                                 </td>
                             </tr>
                         </table>
@@ -180,10 +178,10 @@ td.cellpad {
                 
                  <!-- logo start -->
                <tr>
-                    <td class="cellpad" align="left" valign="top" bgcolor="#3c3c3c" style="padding-top: 9px; padding-bottom:9px; padding-left: 5%; padding-right: 5%;">
-                        <table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#3c3c3c">
+                    <td class="cellpad" align="left" valign="top" bgcolor="#202020" style="padding-top: 9px; padding-bottom:9px; padding-left: 5%; padding-right: 5%;">
+                        <table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#202020">
                             <tr>
-                                 <td align="left" valign="top" bgcolor="#3c3c3c"><a href="####" target="_blank" style="color: #3c3c3c; text-decoration: underline;"><img src="https://firebasestorage.googleapis.com/v0/b/ngdataformdemo.appspot.com/o/logo-supernova-email-5.png?alt=media&amp;token=6485da6d-90f9-46e7-986a-1c7ff11374b9" alt="" width="168" height="auto" style="border: 0;display: block;height: auto;line-height: 100%;outline: none;text-decoration: none;width: 168px;"></a></td>
+                                 <td align="left" valign="top" bgcolor="#202020"><a href="####" target="_blank" style="color: #202020; text-decoration: underline;"><img src="https://firebasestorage.googleapis.com/v0/b/ngdataformdemo.appspot.com/o/logo-supernova-email-5.png?alt=media&amp;token=6485da6d-90f9-46e7-986a-1c7ff11374b9" alt="" width="168" height="auto" style="border: 0;display: block;height: auto;line-height: 100%;outline: none;text-decoration: none;width: 168px;"></a></td>
                             </tr>
                            
                         </table>
@@ -198,10 +196,10 @@ td.cellpad {
                     <td class="cellpad" valign="top" bgcolor="#ffdb43" align="center" style="background-color: #ffdb43;padding-top: 24px; padding-bottom:24px; padding-left: 5%; padding-right: 5%;">
                         <table border="0" cellspacing="0" cellpadding="0" width="100%">
                             <tr>
-                                <td class="module-inner contents fallback-font-Lato" align="left" bgcolor="#ffdb43" valign="top" style="color: #3c3c3c;font-family: arial, sans-serif, 'Lato';font-size: 66px;font-weight: bold;line-height: 54px !important;mso-text-raise: -5px;  padding: 8px 0 7px 0;text-align: left;width: 100%;letter-spacing: -1px;">Rocket Science</td>
+                                <td class="module-inner contents fallback-font-Lato" align="left" bgcolor="#ffdb43" valign="top" style="color: #202020;font-family: arial, sans-serif, 'Lato';font-size: 66px;font-weight: bold;line-height: 54px !important;mso-text-raise: -5px;  padding: 8px 0 7px 0;text-align: left;width: 100%;letter-spacing: -1px;">Rocket Science</td>
                             </tr>
                             <tr>
-                                <td class="module-inner contents fallback-font-Lato" align="left" bgcolor="#ffdb43" valign="top" style="color: #3c3c3c;font-family: arial, sans-serif, 'Lato';font-size: 19px;font-weight: normal;line-height: 24px; padding: 0 0 10px 0;text-align: left;font-style: italic;width: 100%;letter-spacing: 0;">For Email Marketers </td>
+                                <td class="module-inner contents fallback-font-Lato" align="left" bgcolor="#ffdb43" valign="top" style="color: #202020;font-family: arial, sans-serif, 'Lato';font-size: 19px;font-weight: normal;line-height: 24px; padding: 0 0 10px 0;text-align: left;font-style: italic;width: 100%;letter-spacing: 0;">For Email Marketers </td>
                             </tr>
                         </table>
                     </td>
@@ -256,17 +254,17 @@ td.cellpad {
                 <!-- 1UPText start -->
                 <tr>
                     <td class="cellpad" align="center" valign="top" bgcolor="#ffffff" style="background-color: #ffffff;padding-top: 32px; padding-bottom:1px; padding-left: 5%; padding-right: 5%;">
-                        <table border="0" cellspacing="0" cellpadding="0" width="100%" style="color: #30383d; font-family: sans-serif;">
+                        <table border="0" cellspacing="0" cellpadding="0" width="100%" style="color: #202020; font-family: sans-serif;">
 
                             <tr>
-                                <td class="module-inner contents fallback-font-Lato" align="left" bgcolor="#ffffff" valign="top" style="-webkit-text-size-adjust: none;color: #3c3c3c;font-family: arial, sans-serif, 'Lato';font-size: 20px;line-height: 24px;padding: 10px 0 10px 0;text-align: left;font-weight: normal;text-decoration: none;width: 100%;">Hi Vincent,</td>
+                                <td class="module-inner contents fallback-font-Lato" align="left" bgcolor="#ffffff" valign="top" style="-webkit-text-size-adjust: none;color: #202020;font-family: arial, sans-serif, 'Lato';font-size: 20px;line-height: 24px;padding: 10px 0 8px 0;text-align: left;font-weight: normal;text-decoration: none;width: 100%;">Hi Vincent,</td>
                             </tr>
                             
                             <tr>
-                                <td class="module-inner contents fallback-font-Lato" align="left" bgcolor="#ffffff" valign="top" style="font-weight: bold;-webkit-text-size-adjust: none;color: #3c3c3c;font-family: arial, sans-serif, 'Lato';font-size: 22px;line-height: 24px;padding: 5px 0 7px 0;text-align: left;text-decoration: none;width: 100%;">Campaign Supernova helps you brief, build and manage modular&nbsp;emails.</td>
+                                <td class="module-inner contents fallback-font-Lato" align="left" bgcolor="#ffffff" valign="top" style="-webkit-text-size-adjust: none;color: #202020;font-family: arial, sans-serif, 'Lato';font-size: 28px;line-height: 36px;padding: 5px 0 10px 0;text-align: left;text-decoration: none;width: 100%;">Campaign Supernova helps you brief, build and manage modular&nbsp;emails.</td>
                             </tr>
                              <tr>
-                                <td class="module-inner contents fallback-font-Lato" align="left" bgcolor="#ffffff" valign="top" style="letter-spacing: 0;-webkit-text-size-adjust: none;color: #3c3c3c;font-family: arial, sans-serif, 'Lato';font-size: 15px;line-height: 24px;padding: 5px 0 7px 0;text-align: left;font-weight: normal;text-decoration: none;width: 100%;text-transform: none;">Campaign Supernova provides a simple user interface to devise and brief layouts for email campaign templates; store and edit all your assets; and get layouts and assets reviewed and approved by other members of your&nbsp;team.</td>
+                                <td class="module-inner contents fallback-font-Lato" align="left" bgcolor="#ffffff" valign="top" style="letter-spacing: 0;-webkit-text-size-adjust: none;color: #202020;font-family: arial, sans-serif, 'Lato';font-size: 15px;line-height: 24px;padding: 5px 0 7px 0;text-align: left;font-weight: normal;text-decoration: none;width: 100%;text-transform: none;">Campaign Supernova provides a simple user interface to devise and brief layouts for email campaign templates; store and edit all your assets; and get layouts and assets reviewed and approved by other members of your&nbsp;team.</td>
                             </tr>
 
 
@@ -300,22 +298,22 @@ td.cellpad {
                                     <table width="276" border="0" cellpadding="0" cellspacing="0" align="left" class="width-100percent" bgcolor="#ffffff">
                                         
                                         <tr>
-                                            <td class="module-inner contents fallback-font-Lato" align="left" valign="top" style="letter-spacing: 0;-webkit-text-size-adjust: none;color: #ff5f00;font-family: arial, sans-serif, 'Lato';font-size: 19px;line-height: 24px;padding: 5px 18px 3px 0;text-align: left;font-weight: bold;text-decoration: none;width: 100%;">Compose Emails</td>
+                                            <td class="module-inner contents fallback-font-Lato" align="left" valign="top" style="letter-spacing: 0;-webkit-text-size-adjust: none;color: #ff5f00;font-family: arial, sans-serif, 'Lato';font-size: 20px;line-height: 24px;padding: 5px 18px 3px 0;text-align: left;font-weight: bold;text-decoration: none;width: 100%;">Compose Emails</td>
                                         </tr>
                                         <tr>
-                                            <td class="module-inner contents fallback-font-Lato" align="left" valign="top" style="-webkit-text-size-adjust: none;color: #3c3c3c;font-family: arial, sans-serif, 'Lato';font-size: 14px;line-height: 24px;padding: 0 18px 7px 0;text-align: left;text-decoration: none;width: 100%;">Use the editor to devise custom layouts based on pre-built html&nbsp;modules</td>
+                                            <td class="module-inner contents fallback-font-Lato" align="left" valign="top" style="-webkit-text-size-adjust: none;color: #202020;font-family: arial, sans-serif, 'Lato';font-size: 14px;line-height: 24px;padding: 0 18px 7px 0;text-align: left;text-decoration: none;width: 100%;">Use the editor to devise custom layouts based on pre-built html&nbsp;modules</td>
                                         </tr>
                                          <tr>
-                                            <td class="module-inner contents fallback-font-Lato" align="left" valign="top" style="letter-spacing: 0;-webkit-text-size-adjust: none;color: #ff5f00;font-family: arial, sans-serif, 'Lato';font-size: 19px;line-height: 24px;padding: 5px 18px 3px 0;text-align: left;font-weight: bold;text-decoration: none;width: 100%;">Configure Styles</td>
+                                            <td class="module-inner contents fallback-font-Lato" align="left" valign="top" style="letter-spacing: 0;-webkit-text-size-adjust: none;color: #ff5f00;font-family: arial, sans-serif, 'Lato';font-size: 20px;line-height: 24px;padding: 5px 18px 3px 0;text-align: left;font-weight: bold;text-decoration: none;width: 100%;">Configure Styles</td>
                                         </tr>
                                         <tr>
-                                            <td class="module-inner contents fallback-font-Lato" align="left" valign="top" style="-webkit-text-size-adjust: none;color: #3c3c3c;font-family: arial, sans-serif, 'Lato';font-size: 14px;line-height: 24px;padding: 0 18px 7px 0;text-align: left;text-decoration: none;width: 100%;">e.g. Select from preset options for logos, buttons and background&nbsp;colours </td>
+                                            <td class="module-inner contents fallback-font-Lato" align="left" valign="top" style="-webkit-text-size-adjust: none;color: #202020;font-family: arial, sans-serif, 'Lato';font-size: 14px;line-height: 24px;padding: 0 18px 7px 0;text-align: left;text-decoration: none;width: 100%;">e.g. Select from preset options for logos, buttons and background&nbsp;colours </td>
                                         </tr>
                                          <tr>
-                                            <td class="module-inner contents fallback-font-Lato" align="left" valign="top" style="letter-spacing: 0;-webkit-text-size-adjust: none;color: #ff5f00;font-family: arial, sans-serif, 'Lato';font-size: 19px;line-height: 24px;padding: 5px 18px 3px 0;text-align: left;font-weight: bold;text-decoration: none;width: 100%;">Compile Assets </td>
+                                            <td class="module-inner contents fallback-font-Lato" align="left" valign="top" style="letter-spacing: 0;-webkit-text-size-adjust: none;color: #ff5f00;font-family: arial, sans-serif, 'Lato';font-size: 20px;line-height: 24px;padding: 5px 18px 3px 0;text-align: left;font-weight: bold;text-decoration: none;width: 100%;">Compile Assets </td>
                                         </tr>
                                         <tr>
-                                            <td class="module-inner contents fallback-font-Lato" align="left" valign="top" style="-webkit-text-size-adjust: none;color: #3c3c3c;font-family: arial, sans-serif, 'Lato';font-size: 14px;line-height: 24px;padding: 0 18px 7px 0;text-align: left;text-decoration: none;width: 100%;">Upload and set copy; headings; T&amp;Cs; ctas; links; images; inline links and assign them to prebuilt html&nbsp;modules</td>
+                                            <td class="module-inner contents fallback-font-Lato" align="left" valign="top" style="-webkit-text-size-adjust: none;color: #202020;font-family: arial, sans-serif, 'Lato';font-size: 14px;line-height: 24px;padding: 0 18px 7px 0;text-align: left;text-decoration: none;width: 100%;">Upload and set copy; headings; T&amp;Cs; ctas; links; images; inline links and assign them to prebuilt html&nbsp;modules</td>
                                         </tr>
                                     
 
@@ -325,22 +323,22 @@ td.cellpad {
                                     <table width="255" border="0" cellpadding="0" cellspacing="0" align="left" class="width-100percent" bgcolor="#ffffff">
                                         
                                         <tr>
-                                            <td class="module-inner contents fallback-font-Lato" align="left" valign="top" style="letter-spacing: 0;-webkit-text-size-adjust: none;color: #ff5f00;font-family: arial, sans-serif, 'Lato';font-size: 19px;line-height: 24px;padding: 5px 0 3px 0;text-align: left;font-weight: bold;text-decoration: none;width: 100%;">Catch Errors</td>
+                                            <td class="module-inner contents fallback-font-Lato" align="left" valign="top" style="letter-spacing: 0;-webkit-text-size-adjust: none;color: #ff5f00;font-family: arial, sans-serif, 'Lato';font-size: 20px;line-height: 24px;padding: 5px 0 3px 0;text-align: left;font-weight: bold;text-decoration: none;width: 100%;">Catch Errors</td>
                                         </tr>
                                         <tr>
-                                            <td class="module-inner contents fallback-font-Lato" align="left" valign="top" style="-webkit-text-size-adjust: none;color: #3c3c3c;font-family: arial, sans-serif, 'Lato';font-size: 14px;line-height: 24px;padding: 0 0 7px 0;text-align: left;text-decoration: none;width: 100%;">Validators may be applied to any asset submission field </td>
+                                            <td class="module-inner contents fallback-font-Lato" align="left" valign="top" style="-webkit-text-size-adjust: none;color: #202020;font-family: arial, sans-serif, 'Lato';font-size: 14px;line-height: 24px;padding: 0 0 7px 0;text-align: left;text-decoration: none;width: 100%;">Validators may be applied to any asset submission field </td>
                                         </tr>
                                           <tr>
-                                            <td class="module-inner contents fallback-font-Lato" align="left" valign="top" style="letter-spacing: 0;-webkit-text-size-adjust: none;color: #ff5f00;font-family: arial, sans-serif, 'Lato';font-size: 19px;line-height: 24px;padding: 5px 0 3px 0;text-align: left;font-weight: bold;text-decoration: none;width: 100%;">Optimise</td>
+                                            <td class="module-inner contents fallback-font-Lato" align="left" valign="top" style="letter-spacing: 0;-webkit-text-size-adjust: none;color: #ff5f00;font-family: arial, sans-serif, 'Lato';font-size: 20px;line-height: 24px;padding: 5px 0 3px 0;text-align: left;font-weight: bold;text-decoration: none;width: 100%;">Optimise</td>
                                         </tr>
                                         <tr>
-                                            <td class="module-inner contents fallback-font-Lato" align="left" valign="top" style="-webkit-text-size-adjust: none;color: #3c3c3c;font-family: arial, sans-serif, 'Lato';font-size: 14px;line-height: 24px;padding: 0 0 7px 0;text-align: left;text-decoration: none;width: 100%;">Your copy is automatically encoded to optimise it for email&nbsp;rendering</td>
+                                            <td class="module-inner contents fallback-font-Lato" align="left" valign="top" style="-webkit-text-size-adjust: none;color: #202020;font-family: arial, sans-serif, 'Lato';font-size: 14px;line-height: 24px;padding: 0 0 7px 0;text-align: left;text-decoration: none;width: 100%;">Your copy is automatically encoded to optimise it for email&nbsp;rendering</td>
                                         </tr>
                                          <tr>
-                                            <td class="module-inner contents fallback-font-Lato" align="left" valign="top" style="letter-spacing: 0;-webkit-text-size-adjust: none;color: #ff5f00;font-family: arial, sans-serif, 'Lato';font-size: 19px;line-height: 24px;padding: 5px 0 3px 0;text-align: left;font-weight: bold;text-decoration: none;width: 100%;">Review</td>
+                                            <td class="module-inner contents fallback-font-Lato" align="left" valign="top" style="letter-spacing: 0;-webkit-text-size-adjust: none;color: #ff5f00;font-family: arial, sans-serif, 'Lato';font-size: 20px;line-height: 24px;padding: 5px 0 3px 0;text-align: left;font-weight: bold;text-decoration: none;width: 100%;">Review</td>
                                         </tr>
                                         <tr>
-                                            <td class="module-inner contents fallback-font-Lato" align="left" valign="top" style="-webkit-text-size-adjust: none;color: #3c3c3c;font-family: arial, sans-serif, 'Lato';font-size: 14px;line-height: 24px;padding: 0 0 7px 0;text-align: left;text-decoration: none;width: 100%;">QA, feedback and approval controls to aid&nbsp;workflow</td>
+                                            <td class="module-inner contents fallback-font-Lato" align="left" valign="top" style="-webkit-text-size-adjust: none;color: #202020;font-family: arial, sans-serif, 'Lato';font-size: 14px;line-height: 24px;padding: 0 0 7px 0;text-align: left;text-decoration: none;width: 100%;">QA, feedback and approval controls to aid&nbsp;workflow</td>
                                         </tr>
                                     </table>
                                 </td>
@@ -357,15 +355,15 @@ td.cellpad {
                 <!-- 1UPText start -->
               <tr>
                     <td style="background-color: #ffffff;padding-top: 5px; padding-bottom:5px; padding-left: 5%; padding-right: 5%;" bgcolor="#ffffff" valign="top" align="center" class="one-column module-outer cellpad">
-                        <table border="0" cellspacing="0" cellpadding="0" width="100%" style="color: #30383d; font-family: sans-serif;">
+                        <table border="0" cellspacing="0" cellpadding="0" width="100%" style="color: #202020; font-family: sans-serif;">
 
        
                             <tr>
-                                <td class="module-inner contents fallback-font-Lato" align="left" bgcolor="#ffffff" valign="top" style="color: #3c3c3c;font-family: arial, sans-serif, 'Lato';font-size: 20px;font-weight: bold;line-height: 24px;padding: 20px 0 4px 0;text-align: left;width: 100%;text-transform: capitalize;text-align: left;letter-spacing: 0;">Creating an&nbsp;account
+                                <td class="module-inner contents fallback-font-Lato" align="left" bgcolor="#ffffff" valign="top" style="color: #202020;font-family: arial, sans-serif, 'Lato';font-size: 21px;font-weight: bold;line-height: 24px;padding: 20px 0 4px 0;text-align: left;width: 100%;text-transform: capitalize;text-align: left;letter-spacing: 0;">Creating an&nbsp;account
 </td>
                             </tr>
                               <tr>
-                                <td class="module-inner contents fallback-font-Lato" align="left" bgcolor="#ffffff" valign="top" style="letter-spacing: 0;-webkit-text-size-adjust: none;color: #3c3c3c;font-family: arial, sans-serif, 'Lato';font-size: 15px;line-height: 24px;padding: 4px 0 10px 0;text-align: left;font-weight: normal;text-decoration: none;width: 100%;text-transform: none;">Sign up and choose from our two great plans for your team</td>
+                                <td class="module-inner contents fallback-font-Lato" align="left" bgcolor="#ffffff" valign="top" style="letter-spacing: 0;-webkit-text-size-adjust: none;color: #202020;font-family: arial, sans-serif, 'Lato';font-size: 15px;line-height: 24px;padding: 4px 0 10px 0;text-align: left;font-weight: normal;text-decoration: none;width: 100%;text-transform: none;">Sign up and choose from our two great plans for your team</td>
                             </tr>
 
                         </table>
@@ -402,7 +400,7 @@ td.cellpad {
                                                            
                                                             <tr>
                                                                 <td align="center" valign="top" width="100%" class="prod1">
-                                                                    <a href="#LINK" target="_blank"><img src="https://firebasestorage.googleapis.com/v0/b/ngdataformdemo.appspot.com/o/rocket_man_7.jpg?alt=media&amp;token=a8785b4b-4bf3-452a-b4f1-9dd515c1d941" width="230" style="margin:0; padding: 0; border:none; display:block;" border="0" alt="" class="img-max"></a>
+                                                                    <a href="#LINK" target="_blank"><img src="https://firebasestorage.googleapis.com/v0/b/ngdataformdemo.appspot.com/o/rocket_man_9.png?alt=media&amp;token=b321886b-d5b8-4f2b-8845-00096b1f56bf" width="230" style="margin:0; padding: 0; border:none; display:block;" border="0" alt="" class="img-max"></a>
                                                                 </td>
                                                             </tr>
                                                            
@@ -449,20 +447,20 @@ td.cellpad {
                                                             <!-- divider end -->
                                                                      
                                                            <tr>
-                                                                <td align="center" style="line-height: 24px;padding: 22px 0 0 0;" class="prod1-title fallback-font-Lato" bgcolor="#FFD83C"><a href="#LINK" target="_blank" style="font-family: arial, sans-serif, 'Lato';color: #2f2f2f;font-size: 28px;line-height: 23px;text-transform: lowercase;text-decoration:none;letter-spacing: 3px;background-color: #FFD83C;font-weight: bold;font-weight: 900;font-style: normal;">total tool</a></td>
+                                                                <td align="center" style="line-height: 24px;padding: 22px 0 0 0;" class="prod1-title fallback-font-Lato" bgcolor="#FFD83C"><a href="#LINK" target="_blank" style="font-family: arial, sans-serif, 'Lato';color: #202020;font-size: 28px;line-height: 23px;text-transform: lowercase;text-decoration:none;letter-spacing: 3px;background-color: #FFD83C;font-weight: bold;font-weight: 900;font-style: normal;">total tool</a></td>
                                                             </tr>
                                                           
                                                             <tr>
                                                                 <td align="center" valign="top" width="100%" class="prod2">
-                                                                    <a href="#LINK" target="_blank"><img src="https://firebasestorage.googleapis.com/v0/b/ngdataformdemo.appspot.com/o/total_tool_14.jpg?alt=media&token=1e9fcc31-213a-4122-8ec9-605b0eee6772" width="230" style="margin:0;padding: 0; border:none; display:block;" border="0" alt="" class="img-max"></a>
+                                                                    <a href="#LINK" target="_blank"><img src="https://firebasestorage.googleapis.com/v0/b/ngdataformdemo.appspot.com/o/total_tool_16.png?alt=media&amp;token=7468859d-dc64-4947-b0b6-95fb1a2dabc2" width="230" style="margin:0;padding: 0; border:none; display:block;" border="0" alt="" class="img-max"></a>
                                                                 </td>
                                                             </tr>
                                                             
                                                             <tr>
-                                                               <td align="center" style="line-height: 20px;padding: 0 40px 12px 40px;" class="prod2-text"><a href="#LINK" target="_blank" style="font-family: arial, sans-serif, 'Lato';color: #2f2f2f;font-size: 14px;line-height: 20px;text-decoration:none;">Access full features for an unlimted number of&nbsp;users</a></td>
+                                                               <td align="center" style="line-height: 20px;padding: 0 40px 12px 40px;" class="prod2-text"><a href="#LINK" target="_blank" style="font-family: arial, sans-serif, 'Lato';color: #202020;font-size: 14px;line-height: 20px;text-decoration:none;">Access full features for an unlimted number of&nbsp;users</a></td>
                                                             </tr>
                                                             <tr>
-                                                                <td align="center" style="line-height: 17px;padding: 2px 20px 25px 20px;" class="prod2-price"><a href="#LINK" target="_blank" style="font-family: arial, sans-serif, 'Lato';font-weight: bold;color: #2f2f2f;font-size: 22px;line-height: 17px;text-decoration:none;font-style:italic;">£70 per month</a></td>
+                                                                <td align="center" style="line-height: 17px;padding: 2px 20px 25px 20px;" class="prod2-price"><a href="#LINK" target="_blank" style="font-family: arial, sans-serif, 'Lato';font-weight: bold;color: #202020;font-size: 22px;line-height: 17px;text-decoration:none;font-style:italic;">£70 per month</a></td>
                                                             </tr>
                                                              <!-- divider start -->
                                                             <tr>
@@ -491,12 +489,12 @@ td.cellpad {
 
             <tr>
                     <td class="one-column" style="padding:0;">
-                        <table border="0" cellspacing="0" cellpadding="0" width="100%" style="color: #30383d; font-family: sans-serif;">
+                        <table border="0" cellspacing="0" cellpadding="0" width="100%" style="color: #202020; font-family: sans-serif;">
                             <tr>
                                 <td class="footer-container" align="left" valign="top" style="background-color: #fbfbfb; padding: 18px 0 0 0;">
-                                    <table border="0" cellspacing="0" cellpadding="0" width="100%" style="color: #30383d; font-family: sans-serif;">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%" style="color: #202020; font-family: sans-serif;">
                                         <tr>
-                                            <td class="footer" align="left" valign="top" style="color: #30383d; font-size: 11px; line-height: 15px; padding: 5px 0 15px 0;">
+                                            <td class="footer" align="left" valign="top" style="color: #202020; font-size: 11px; line-height: 15px; padding: 5px 0 15px 0;">
                                                 
                                             </td>
                                         </tr>
@@ -518,10 +516,10 @@ td.cellpad {
 
                 <!-- Aritcles start -->
                 <tr>
-                    <td class="cellpad" align="center" valign="top" bgcolor="#3c3c3c" style="padding-top: 14px; padding-bottom:14px; padding-left: 5%; padding-right: 5%;">
+                    <td class="cellpad" align="center" valign="top" bgcolor="#202020" style="padding-top: 14px; padding-bottom:14px; padding-left: 5%; padding-right: 5%;">
                         <table border="0" cellspacing="0" cellpadding="0" width="100%" style="color: #4a4a4a; font-family: sans-serif;">
                             <tr>
-                                <td align="left" style="line-height: 18px;padding: 3px 0 3px 0;" class="prod1-title fallback-font-Lato" bgcolor="#3c3c3c"><a href="#LINK" target="_blank" style="font-family: arial, sans-serif, 'Lato';font-weight: bold; color:#ffffff;font-size: 16px;line-height:18px;text-transform:uppercase;text-decoration:none;letter-spacing: 3px;background-color:#3c3c3c;">
+                                <td align="left" style="line-height: 18px;padding: 3px 0 3px 0;" class="prod1-title fallback-font-Lato" bgcolor="#202020"><a href="#LINK" target="_blank" style="font-family: arial, sans-serif, 'Lato';font-weight: bold; color:#ffffff;font-size: 16px;line-height:18px;text-transform:uppercase;text-decoration:none;letter-spacing: 3px;background-color:#202020;">
             Articles</a></td>
                             </tr>
                         </table>
@@ -583,7 +581,7 @@ td.cellpad {
                                                          <table align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#ffd83c" width="100%">
 
                                                             <tr>
-                                                                <td align="center" style="line-height: 20px;  padding: 12px 0 10px 0" class="prod1-title fallback-font-Lato"><a href="#LINK" target="_blank" style="font-family: arial, sans-serif, 'Lato';font-weight: bold;color: #3c3c3c;font-size:15px;line-height:20px;text-transform:uppercase;text-decoration:none;letter-spacing: 3px;">
+                                                                <td align="center" style="line-height: 20px;  padding: 12px 0 10px 0" class="prod1-title fallback-font-Lato"><a href="#LINK" target="_blank" style="font-family: arial, sans-serif, 'Lato';font-weight: bold;color: #202020;font-size:15px;line-height:20px;text-transform:uppercase;text-decoration:none;letter-spacing: 3px;">
                  LEARN</a></td>
                                                             </tr>
                                                           
@@ -594,7 +592,7 @@ td.cellpad {
                                                             </tr>
                                                            
                                                             <tr>
-                                                                <td align="center" style="line-height: 20px;padding: 20px 16px 21px 16px;" class="prod2-text fallback-font-Lato"><a href="#LINK" target="_blank" style="font-family: arial, sans-serif, 'Lato';color: #3c3c3c;font-size: 13px;line-height: 20px;text-decoration:none;">
+                                                                <td align="center" style="line-height: 20px;padding: 20px 16px 21px 16px;" class="prod2-text fallback-font-Lato"><a href="#LINK" target="_blank" style="font-family: arial, sans-serif, 'Lato';color: #202020;font-size: 13px;line-height: 20px;text-decoration:none;">
                 Visit our blog for more instructive articles and&nbsp;tutorials</a></td>
                                                             </tr>
                                                        </table>
@@ -649,14 +647,14 @@ td.cellpad {
 
                         <tr>
                     <td class="cellpad" align="center" valign="top" bgcolor="#ffffff" style="background-color: #ffffff;padding-top: 24px; padding-bottom:36px; padding-left: 5%; padding-right: 5%;">
-                        <table border="0" cellspacing="0" cellpadding="0" width="100%" style="color: #30383d; font-family: sans-serif;">
+                        <table border="0" cellspacing="0" cellpadding="0" width="100%" style="color: #202020; font-family: sans-serif;">
                             <tr>
-                                <td class="module-inner contents fallback-font-Lato" align="center" bgcolor="#ffffff" valign="top" style="color: #3c3c3c;font-family: arial, sans-serif, 'Lato';font-size: 21px;font-weight: bold;line-height: 24px;padding: 7px 0 7px 0;text-align: center;width: 100%;text-transform: capitalize;">set up your&nbsp;account
+                                <td class="module-inner contents fallback-font-Lato" align="center" bgcolor="#ffffff" valign="top" style="color: #202020;font-family: arial, sans-serif, 'Lato';font-size: 21px;font-weight: bold;line-height: 24px;padding: 7px 0 7px 0;text-align: center;width: 100%;text-transform: capitalize;">set up your&nbsp;account
                                 </td>
                             </tr>
 
                              <tr>
-                                <td class="module-inner contents fallback-font-Lato" align="center" bgcolor="#ffffff" valign="top" style="color: #3c3c3c;font-family: arial, sans-serif, 'Lato';font-size: 14px;font-weight: normal;line-height: 19px;padding: 5px 0 7px 0;text-align: center;width: 100%;">Don't delay set up your account and get up to 30%&nbsp;off
+                                <td class="module-inner contents fallback-font-Lato" align="center" bgcolor="#ffffff" valign="top" style="color: #202020;font-family: arial, sans-serif, 'Lato';font-size: 14px;font-weight: normal;line-height: 19px;padding: 5px 0 7px 0;text-align: center;width: 100%;">Don't delay set up your account and get up to 30%&nbsp;off
                                 </td>
                             </tr>
 
@@ -695,16 +693,16 @@ td.cellpad {
                 <!-- footer start -->
                 <tr>
                     <td class="cellpad" style="padding-top: 0; padding-bottom:36px; padding-left: 5%; padding-right: 5%;background-color: #fbfbfb; ">
-                        <table border="0" cellspacing="0" cellpadding="0" width="100%" style="color: #30383d; font-family: sans-serif;">
+                        <table border="0" cellspacing="0" cellpadding="0" width="100%" style="color: #202020; font-family: sans-serif;">
                             <tr>
                                 <td class="footer-container" align="center" valign="top" style="background-color: #fbfbfb; padding: 18px 0 0 0;">
-                                    <table border="0" cellspacing="0" cellpadding="0" width="100%" style="color: #30383d; font-family: sans-serif;">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%" style="color: #202020; font-family: sans-serif;">
                                         <tr>
-                                            <td class="footer" align="left" valign="top" style="color: #30383d; font-family: arial, sans-serif, 'Lato'; font-size: 11px; line-height: 15px; padding: 5px 0 15px 0;">
-                                               Please don’t reply to this email as the mailbox doesn’t accept incoming messages. Visit <a href="https://ngdataformdemo.firebaseapp.com" target="_blank" style="color: #30383d; text-decoration: underline;">https://ngdataformdemo.firebaseapp.com</a> to find the best way to contact&nbsp;us.<br><br> If you no longer want to receive emails from Campaign Supernova please&nbsp;<a href="_UNSUB__" target="_blank" style="color: #30383d; text-decoration: underline;">click here</a>.<br><br>
+                                            <td class="footer" align="left" valign="top" style="color: #202020; font-family: arial, sans-serif, 'Lato'; font-size: 11px; line-height: 15px; padding: 5px 0 15px 0;">
+                                               Please don’t reply to this email as the mailbox doesn’t accept incoming messages. Visit <a href="https://ngdataformdemo.firebaseapp.com" target="_blank" style="color: #202020; text-decoration: underline;">https://ngdataformdemo.firebaseapp.com</a> to find the best way to contact&nbsp;us.<br><br> If you no longer want to receive emails from Campaign Supernova please&nbsp;<a href="_UNSUB__" target="_blank" style="color: #202020; text-decoration: underline;">click here</a>.<br><br>
                                                 Campaign Supernova will never ask for confidential information or for you to confirm your security details via email. Links within our emails will only take you to information pages
                                                 on our website. <br><br> Campaign Supernova is a trading name of Campaign Supernova ltd. Registered in UK No. SC172459. Registered Office: Interpoint
-                                                Building, <a class="black" style="text-decoration: none; color: #30383d;">22 Haymarket Yards, Edinburgh EH12&nbsp;5BH.</a><br><br>
+                                                Building, <a class="black" style="text-decoration: none; color: #202020;">22 Haymarket Yards, Edinburgh EH12&nbsp;5BH.</a><br><br>
                                             </td>
                                         </tr>
                                     </table>
@@ -724,6 +722,7 @@ td.cellpad {
 <div style="display:none; white-space:nowrap; font:15px courier; color:#ffffff;">
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 </div>
+
 
 
 </body></html>
