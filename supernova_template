@@ -1,14 +1,14 @@
-  <!DOCTYPE html>
-  <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office"><head><!-- Yahoo App Android will strip this --><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="x-apple-disable-message-reformatting"><meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Campaign Supernova</title><style type="text/css">
-    @import url('https://fonts.googleapis.com/css?family=Lato:200,300,300i,400,400i,700,700i,900|Big+Shoulders+Text:400,500,600,700,800,900&display=swap');
-  </style><style type="text/css">
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office"><head><!-- Yahoo App Android will strip this --><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="x-apple-disable-message-reformatting"><meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Campaign Supernova</title><style type="text/css">
+  @import url('https://fonts.googleapis.com/css?family=Lato:200,300,300i,400,400i,700,700i,900|Big+Shoulders+Text:400,500,600,700,800,900&display=swap');
+</style><style type="text/css">
   [style*="Lato"] {
     font-family: 'Lato', arial, sans-serif !important
 
   }
-   [style*="BigShouldersText"] {
+  [style*="BigShouldersText"] {
     font-family: 'Big Shoulders Text', arial, sans-serif !important
-    
+
   }
 </style><style type="text/css">
   .ReadMsgBody {width: 100%; background-color: #ffffff;}
@@ -106,6 +106,7 @@
     .hero { font-size:  77px !important;line-height: 72px !important;}
   }
 
+
 </style>
 </head>
 
@@ -125,15 +126,16 @@
 
 <!--[if (gte mso 9)|(IE)]>
   <style >
-    .mso-text-pad { padding:0 !important;!important; mso-padding-left-alt:45px !important; mso-padding-right-alt:45px !important; mso-padding-top-alt: 4px !important;  mso-padding-bottom-alt: 11px !important; }
-    td.cellpad { padding-left: 30px !important; padding-right: 30px !important; }
+    .mso-text-pad { padding:0 !important;!important; mso-padding-left-alt:35px !important; mso-padding-right-alt:35px !important; mso-padding-top-alt: 4px !important;  mso-padding-bottom-alt: 11px !important; }
+    td.cellpad { padding-left: 33px !important; padding-right: 33px !important; }
     .width-100percent { width: 100% !important; }
+    .mso-text-pad-inner { line-height: 24px !important; padding: 0 !important;padding-top: 2px !important; padding-bottom: 2px !important; mso-padding-alt: 0 !important; 
   </style>
 <![endif]-->
 
 <!--[if IE]>
   <style >
-        .mso-text-pad { padding:4px 40px 11px !important; }
+    .mso-text-pad { padding:4px 40px 11px !important; }
 
     .width-270 { width: 270px !important; }
   </style>
@@ -147,28 +149,28 @@
 
   <!-- Wrapper -->
   <table class="wrapper" width="100%" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#fbfbfb" style="background-color: #fbfbfb !important;width: 100%;">
-   <tr>
+    <tr>
       <td width="100%" valign="top" bgcolor="#fbfbfb" style="padding-top:5px;width:100%">
 
         <!-- Header  -->
         <table class="deviceWidth" width="600" border="0" cellpadding="0" cellspacing="0" align="center" style="margin:0 auto; width: 600px; ">
-         <tr>
+          <tr>
             <td class="one-column" valign="top" style="padding:5px 10px;" bgcolor="#fbfbfb">
               <table border="0" cellspacing="0" cellpadding="0" width="100%" style="color: #2f2f2f; font-family: sans-serif;width: 100%;">
-               <tr>
+                <tr>
                   <td class="module-inner fallback-font-Lato" align="right" bgcolor="#fbfbfb" valign="top" style="-webkit-text-size-adjust: none;color: #2f2f2f;font-family: arial, sans-serif, 'Lato';font-size: 10px;line-height: 16px;margin: 0;padding: 5px 0 4px 0;text-decoration: none;width: 100%;">Can’t see this email? Click <a href="" target="_blank" style="color: #666666; text-decoration: underline;">here</a>.
                   </td>
                 </tr>
-             </table>
+              </table>
             </td>
           </tr>
-       </table>
+        </table>
         <!--/ Header -->
 
         <!-- Single Column -->
         <table class="deviceWidth" width="600" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#ffffff" style="margin:0 auto;width: 600px">
           <!--  divider -->
-         <tr>
+          <tr>
             <td class="full-width-image" align="left" valign="top" style="padding:0;margin:0;line-height:1px;font-size: 0"><img src="https://firebasestorage.googleapis.com/v0/b/ngdataformdemo.appspot.com/o/divider-bw.png?alt=media&amp;token=208f130d-1510-47b5-b329-4641cbc3222e" alt="" width="600" height="1" style="border: 0; display: block; height: 1px; line-height: 100%; max-width: 600px; outline: none; text-decoration: none; width: 100%;"></td>
           </tr>
           <!--/ divider -->
@@ -176,11 +178,11 @@
           <tr>
             <td class="cellpad" align="left" valign="top" bgcolor="#312f24" style="padding-top: 14px;padding-bottom: 14px;padding-left: 5%;padding-right: 5%;">
               <table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#312f24" style="width: 100%">
-               <tr>
-                  <td align="left" valign="top" bgcolor="#312f24"><a href="####" target="_blank" style="color: #2f2f2f; text-decoration: underline;"><img src="https://firebasestorage.googleapis.com/v0/b/ngdataformdemo.appspot.com/o/logo-supernova-email-5.png?alt=media&amp;token=6485da6d-90f9-46e7-986a-1c7ff11374b9" alt="" width="179" height="auto" style="border: 0;display: block;height: auto;line-height: 100%;outline: none;text-decoration: none;width: 179px;"></a></td>
+                <tr>
+                  <td align="left" valign="top" bgcolor="#312f24"><a href="####" target="_blank" style="color: #2f2f2f; text-decoration: underline;"><img src="https://firebasestorage.googleapis.com/v0/b/ngdataformdemo.appspot.com/o/logo-supernova-email-5.png?alt=media&amp;token=6485da6d-90f9-46e7-986a-1c7ff11374b9" alt="" width="169" height="auto" style="border: 0;display: block;height: auto;line-height: 100%;outline: none;text-decoration: none;width: 169px;"></a></td>
                 </tr>
 
-             </table>
+              </table>
             </td>
           </tr>
           <!--/ Logo  -->
@@ -193,19 +195,19 @@
           <tr>
             <td class="cellpad" valign="top" bgcolor="#312f24" align="center" style="background-color: #312f24;padding: 36px 0 36px 0;padding-left: 5%;padding-right: 5%;">
               <table border="0" cellspacing="0" cellpadding="0" width="100%" style="width: 100%">
-               <tr>
-                  <td class="hero fallback-font-Lato" align="left" bgcolor="#312f24" valign="top" style="color: #ffffff;font-family: arial, sans-serif, 'BigShouldersText';font-size: 118px;font-weight: bold;mso-line-height-rule: exactly;line-height: 150%;line-height: 110px;mso-text-raise: -5px;padding: 0px 0 36px 0;text-align: left;width: 100%;letter-spacing: 3px;text-decoration:none;display: inline-block;">Rocket Science</td>
+                <tr>
+                  <td class="hero fallback-font-Lato" align="left" bgcolor="#312f24" valign="top" style="color: #ffffff;font-family: arial, sans-serif, 'BigShouldersText';font-size: 108px;font-weight: bold;mso-line-height-rule: exactly;line-height: 150%;line-height: 100px;mso-text-raise: -5px;padding: 0px 0 24px 0;text-align: left;width: 100%;letter-spacing: 3px;text-decoration:none;display: inline-block;">Rocket Science</td>
                 </tr>
                 <tr>
                   <td align="left" style="line-height: 17px;padding: 0px 0 0px 0;">
                     <table border="0" cellspacing="0" cellpadding="0">
-                     <tr>
-                        <td class="fallback-font-Lato" align="left" bgcolor="#ffe6a6" style="background-color: #FFD83C;text-transform: uppercase;font-size: 16px;line-height: 24px;color: #312f24;font-family: arial, sans-serif, 'Lato';font-weight: bold;text-decoration: none;letter-spacing: 0px;display: inline-block;padding: 7px 12px;">FOR EMAIL</td>
+                      <tr>
+                        <td class="fallback-font-Lato" align="left" bgcolor="#ffe6a6" style="background-color: #FFD83C;text-transform: uppercase;font-size: 16px;line-height: 24px;color: #312f24;font-family: arial, sans-serif, 'Lato';font-weight: bold;text-decoration: none;letter-spacing: 0px;display: inline-block;padding: 6px 16px;">FOR EMAIL</td>
                       </tr>
-                   </table>
+                    </table>
                   </td>
                 </tr>
-             </table>
+              </table>
             </td>
           </tr>
           <!--  divider -->
@@ -218,48 +220,48 @@
           <!--  divider -->
 
           <!--/ divider -->
-       </table>
+        </table>
         <!--/ Single Column -->
 
 
         <!-- Single Column --><table class="deviceWidth" width="600" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#ffffff" style="margin:0 auto;width: 600px">
           <!-- 1UPText -->
-         <tr>
+          <tr>
             <td class="cellpad" align="center" valign="top" bgcolor="#ffffff" style="background-color: #ffffff;padding-top: 36px;padding-bottom: 0px;padding-left: 5%;padding-right: 5%;">
               <table border="0" cellspacing="0" cellpadding="0" width="100%" style="color: #2f2f2f; font-family: sans-serif;width: 100%">
-               <tr>
-                  <td class="fallback-font-Lato" align="left" bgcolor="#ffffff" valign="top" style="-webkit-text-size-adjust: none;color: #2f2f2f;font-family: arial, sans-serif, 'Lato';font-size: 20px;line-height: 24px;padding: 6px 0 12px 0;text-align: left;font-weight: normal;text-decoration: none;width: 100%;">Hi Vincent,</td>
+                <tr>
+                  <td class="fallback-font-Lato" align="left" bgcolor="#ffffff" valign="top" style="-webkit-text-size-adjust: none;color: #2f2f2f;font-family: arial, sans-serif, 'Lato';font-size: 19px;line-height: 24px;padding: 6px 0 12px 0;text-align: left;font-weight: normal;text-decoration: none;width: 100%;">Hi Vincent,</td>
                 </tr>
                 <tr>
-                  <td class="fallback-font-Lato" align="left" bgcolor="#ffffff" valign="top" style="-webkit-text-size-adjust: none;color: #2f2f2f;font-family: arial, sans-serif, 'Lato';font-size: 24px;line-height: 32px;padding: 6px 0 6px 0;text-align: left;text-decoration: none;/* font-weight: 600; */width: 100%;">Campaign Supernova helps you brief, build and manage modular&nbsp;emails.</td>
+                  <td class="fallback-font-Lato" align="left" bgcolor="#ffffff" valign="top" style="-webkit-text-size-adjust: none;color: #2f2f2f;font-family: arial, sans-serif, 'Lato';font-size: 23px;line-height: 32px;padding: 6px 0 6px 0;text-align: left;text-decoration: none;/* font-weight: 600; */width: 100%;">Campaign Supernova helps you brief, build and manage modular&nbsp;emails.</td>
                 </tr>
                 <tr>
                   <td class="fallback-font-Lato" align="left" bgcolor="#ffffff" valign="top" style="letter-spacing: 0;-webkit-text-size-adjust: none;color: #2f2f2f;font-family: arial, sans-serif, 'Lato';font-size: 16px;line-height: 24px;padding: 6px 0 6px 0;text-align: left;font-weight: normal;text-decoration: none;width: 100%;text-transform: none;">Campaign Supernova provides a simple user interface to devise and brief layouts for email campaign templates; store and edit all your assets; and get layouts and assets reviewed and approved by other members of your&nbsp;team.</td>
                 </tr>
-             </table>
+              </table>
             </td>
           </tr>
           <!--/ 1UPText -->
-       </table>
+        </table>
         <!--/ Single Column -->
       </td>
     </tr>
- </table> 
+  </table> 
   <!--/ Wrapper -->
 
   <!-- Wrapper -->
   <table class="wrapper" width="100%" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#fbfbfb" style="background-color: #fbfbfb !important;width: 100%">
-   <tr>
+    <tr>
       <td width="100%" valign="top" bgcolor="#fbfbfb" style="background-color: #fbfbfb !important;width: 100%">
         <!--  Two Column (Text/Text) -->
         <table class="deviceWidth" width="600" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#ffffff" style="margin:0 auto;width: 600px">
-         <tr class="center" align="left" valign="top">
+          <tr class="center" align="left" valign="top">
             <td class="cellpad" style="padding-top: 6px;padding-bottom: 24px;padding-left: 5%;padding-right: 5%;">
               <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#ffffff" style="width: 100%">
-               <tr>
+                <tr>
                   <td align="left" valign="top" style="font-size:0; ">
                     <table class="width-100percent" width="286" border="0" cellpadding="0" cellspacing="0" align="left" bgcolor="#ffffff" style="width: 286px">
-                     <tr>
+                      <tr>
                         <td class="fallback-font-Lato" align="left" valign="top" style="letter-spacing: 0;-webkit-text-size-adjust: none;color: #2f2f2f;font-family: arial, sans-serif, 'Lato';font-size: 20px;line-height: 24px;padding: 10px 28px 4px 0;text-align: left;/* font-weight: bold; */letter-spacing: 0px;text-decoration: none;width: 100%;">Compose Emails</td>
                       </tr>
                       <tr>
@@ -277,10 +279,10 @@
                       <tr>
                         <td class="fallback-font-Lato" align="left" valign="top" style="-webkit-text-size-adjust: none;color: #2f2f2f;font-family: arial, sans-serif, 'Lato';font-size: 15px;line-height: 21px;padding: 6px 28px 6px 0;text-align: left;text-decoration: none;width: 100%;">Upload copy; ctas; links; images; and assign them to html&nbsp;modules</td>
                       </tr>
-                   </table>
+                    </table>
                     <!--[if mso]></td><td valign="top"><![endif]-->
                       <table class="width-100percent" width="245" border="0" cellpadding="0" cellspacing="0" align="left" bgcolor="#ffffff" style="width: 245px">
-                       <tr>
+                        <tr>
                           <td class="fallback-font-Lato" align="left" valign="top" style="letter-spacing: 0;-webkit-text-size-adjust: none;color: #2f2f2f;font-family: arial, sans-serif, 'Lato';font-size: 20px;line-height: 24px;padding: 10px 0 4px 0;text-align: left;/* font-weight: bold; */text-decoration: none;width: 100%;">Catch Errors</td>
                         </tr>
                         <tr>
@@ -298,44 +300,51 @@
                         <tr>
                           <td class="fallback-font-Lato" align="left" valign="top" style="-webkit-text-size-adjust: none;color: #2f2f2f;font-family: arial, sans-serif, 'Lato';font-size: 15px;line-height: 21px;padding: 6px 0 6px 0;text-align: left;text-decoration: none;width: 100%;">QA, feedback and approval controls to aid&nbsp;workflow</td>
                         </tr>
-                     </table>
+                      </table>
                     </td>
                   </tr>
-               </table>
-              </td>
-            </tr>
-            <tr>
-            <td class="cellpad" style="padding-left: 5%;padding-right: 5%;">
-                <div style="padding-top: 12px;padding-bottom: 24px;line-height: 1px;"><img src="https://www.shillingtoneducation.com/content/themes/shillingtoncollege/edm/assets/img/sep.gif" class="shi-edm-sep" border="0" width="100%" height="1" alt="sep.gif" style="-ms-interpolation-mode: bicubic;border: 0;height: 1px;line-height: 100%;outline: none;text-decoration: none;width: 100%;">
-                </div>
+                </table>
               </td>
             </tr>
 
-         </table><table class="deviceWidth" width="600" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#ffffff" style="margin:0 auto;width: 600px">
-            <!-- 1UPText -->
-           <tr>
-              <td class="cellpad" align="center" valign="top" bgcolor="#ffffff" style="background-color: #ffffff;padding-top: 0;padding-bottom: 0;padding-left: 5%;padding-right: 5%;">
-                <table border="0" cellspacing="0" cellpadding="0" width="100%" style="color: #2f2f2f; font-family: sans-serif;width: 100%">
-
-                 <tr>
-                    <td class="fallback-font-Lato" align="left" bgcolor="#ffffff" valign="top" style="-webkit-text-size-adjust: none;color: #2f2f2f;font-family: arial, sans-serif, 'Lato';font-size: 24px;line-height: 24px;padding: 12px 0 12px 0;text-align: left;text-decoration: none;/* font-weight: 600; */width: 100%;">Choose a package that suits your needs...</td>
-                  </tr>
-
-               </table>
-              </td>
-            </tr>
-            <!--/ 1UPText -->
-         </table>
+          </table>
           <!--/Two Column (Text/Text) -->
         </td>
       </tr>
-   </table> 
+    </table> 
+    <!--/ Wrapper -->
+
+
+    <!-- Wrapper  -->
+    <table class="wrapper" width="100%" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#fbfbfb" style="background-color: #fbfbfb !important;width:100%">
+      <!-- Two Column Banner -->
+      <tr>
+        <td width="100%" valign="top" bgcolor="#fbfbfb" style="width:100%">
+          <table class="deviceWidth" width="600" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#ffffff" style="margin:0 auto;width: 600px">
+            <tr>
+              <td class="cellpad" style="padding-left: 5%;padding-right: 5%; line-height: 1px;padding-top: 12px; padding-bottom: 24px;margin:0;font-size:0;width:100%" ><img src="https://via.placeholder.com/540x1"  border="0" width="540" height="auto" alt="" style="-ms-interpolation-mode: bicubic;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none; display: block; max-width: 540px; outline: none; width: 100%;"></td>
+            </tr>
+            <!-- 1UPText -->
+            <tr>
+              <td class="cellpad" align="center" valign="top" bgcolor="#ffffff" style="background-color: #ffffff;padding-top: 0;padding-bottom: 0;padding-left: 5%;padding-right: 5%;">
+                <table border="0" cellspacing="0" cellpadding="0" width="100%" style="color: #2f2f2f; font-family: sans-serif;width: 100%">
+                  <tr>
+                    <td class="fallback-font-Lato" align="left" bgcolor="#ffffff" valign="top" style="-webkit-text-size-adjust: none;color: #2f2f2f;font-family: arial, sans-serif, 'Lato';font-size: 24px;line-height: 24px;padding: 12px 0 12px 0;text-align: left;text-decoration: none; width: 100%;">Choose a package that suits your needs...</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <!--/ 1UPText -->
+          </table>
+        </td>
+      </tr>
+    </table> 
     <!--/ Wrapper -->
 
     <!-- Wrapper  -->
     <table class="wrapper" width="100%" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#fbfbfb" style="background-color: #fbfbfb !important;width:100%">
       <!-- Two Column Banner -->
-     <tr>
+      <tr>
         <td width="100%" valign="top" bgcolor="#fbfbfb" style="width:100%">
 
           <table class="deviceWidth" width="600" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#fbfbfb" style="margin:0 auto;width:600px">
@@ -346,93 +355,93 @@
 
             <!-- Two Column (Image/Text) -->
 
-           <tr class="center">
+            <tr class="center">
               <td class="cellpad" style="padding-top: 24px;padding-bottom: 0;padding-left: 5%;padding-right: 5%;" bgcolor="#ffffff">
                 <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#e03030" style="width:100%">
-              <!--[if !mso]><!--> 
-             <tr>
-                      <td class="full-width-image" colspan="2" align="left" valign="top" style="padding: 0;margin:0;line-height:1px;font-size:0;width:100%" width="100%"><img src="https://firebasestorage.googleapis.com/v0/b/ngdataformdemo.appspot.com/o/divider-red-white.png?alt=media&amp;token=6b99b190-9320-4873-91d2-7fe191ca2fce" alt="" width="540" height="auto" style="border: 0; display: block; height: auto; line-height: 100%; max-width: 540px; outline: none; text-decoration: none; width: 100%;"></td>
-                    </tr> 
-                <!--<![endif]-->       
+                  <!--[if !mso]><!--> 
+                  <tr>
+                    <td class="full-width-image" colspan="2" align="left" valign="top" style="padding: 0;margin:0;line-height:1px;font-size:0;width:100%" width="100%"><img src="https://firebasestorage.googleapis.com/v0/b/ngdataformdemo.appspot.com/o/divider-red-white.png?alt=media&amp;token=6b99b190-9320-4873-91d2-7fe191ca2fce" alt="" width="540" height="auto" style="border: 0; display: block; height: auto; line-height: 100%; max-width: 540px; outline: none; text-decoration: none; width: 100%;"></td>
+                  </tr> 
+                  <!--<![endif]-->       
                   <tr>
                     <td align="left" valign="top">
                       <table class="width-270 width-100percent" width="270" border="0" cellpadding="0" cellspacing="0" align="left" style="width:45%">
-                       <tr>
+                        <tr>
                           <td class="nomob" align="center" width="100%" style="font-size:0;padding: 24px 7px 30px 7px;"> 
                             <table class="width-100percent" align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#e03030" width="100%" style="width:100%">
-                             <tr>
+                              <tr>
                                 <td align="center" valign="top" width="100%" class="" style="padding: 0 0 0 30px;width:100%;">
                                   <a href="#LINK" target="_blank"><img src="https://firebasestorage.googleapis.com/v0/b/ngdataformdemo.appspot.com/o/rocket_man_trans_2.png?alt=media&amp;token=643336ab-2c22-420f-aeb3-abe304730ef4" width="212" style="margin:0;padding: 0px;border:none;display:block;width: 100%;max-width: 212px;" border="0" alt=""></a>
                                 </td>
                               </tr>
-                           </table>
+                            </table>
                           </td>
                         </tr>
 
-                     </table>
+                      </table>
                       <!--[if (gte mso 9) | (IE)]>
                       </td><td width="330" style="width:330px">
                       <![endif]-->
                       <table class="width-100percent" width="330" border="0" cellpadding="0" cellspacing="0" align="center" style="width:55%">
-                       <tr>
+                        <tr>
                           <td align="center" width="100%" style="text-align: left;vertical-align: top;padding: 0px 0 0px 0;width:100%;padding: 24px 12px 48px 12px;"> 
                             <table class="width-100percent" align="center" border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#e03030" style="width:100%">
-                             <tr>
+                              <tr>
                                 <td class="mso-title-pad" align="center" valign="top" style="font-size:0;padding: 12px 26px 0px 26px;" colspan="2">
                                   <table border="0" cellspacing="0" cellpadding="0" align="center">
-                                   <tr>
+                                    <tr>
                                       <td align="center" bgcolor="#e03030"><a class="fallback-font-Lato" href="######" target="_blank" style="
-                                      font-size: 27px;
+                                      font-size: 31px;
                                       line-height: 36px;
                                       color: #fffffd;
-                                      font-family: arial, sans-serif, 'Lato';
+                                      font-family: arial, sans-serif, 'BigShouldersText';
                                       font-weight: bold;
                                       text-decoration: none;
-                                      /* padding: 6px 0px; */
                                       display: inline-block;
+                                      letter-spacing: 1px;
                                       text-align: center;
                                       ">Rocket Man</a></td>
                                     </tr>
-                                 </table>
+                                  </table>
                                 </td>
                               </tr>
                               <tr>
                                 <td class="mso-text-pad" colspan="2" style="font-size: 0px;padding: 6px 56px 12px;" valign="top" align="center">
                                   <table border="0" cellspacing="0" cellpadding="0" align="center">
-                                   <tr>
+                                    <tr>
                                       <td class="mso-text-pad-inner" style="mso-line-height-alt:150%;line-height: 24px;padding: 2px 0 2px 0;font-family: arial, sans-serif, 'Lato';color: #e03030;font-size: 14px;" bgcolor="#e03030" align="center"><a style="font-family: arial, sans-serif, 'Lato';color: #fffae6;background-color: #e03030;text-decoration:none;" target="_blank" href="######" class="fallback-font-Lato"> Access essential features for a team of up to&nbsp;five</a></td>
                                     </tr>
-                                 </table>
+                                  </table>
                                 </td>
                               </tr> 
 
                               <tr>
                                 <td align="center" style="padding: 6px 0 0px 0;">
                                   <table width="100%" border="0" cellspacing="0" cellpadding="0" style="width:100%">
-                                   <tr>
+                                    <tr>
                                       <td align="center">
                                         <table border="0" cellspacing="0" cellpadding="0">
-                                         <tr>
+                                          <tr>
                                             <td class="mso-button-pad" align="center" style="-webkit-border-radius: 50px;-moz-border-radius: 50px;border-radius: 50px;box-shadow:0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);background-color:#ffffff"><a class="fallback-font-Lato" href="######" target="_blank" style="background-color:#ffffff;border-radius:50px !important;-webkit-border-radius: 50px !important;-moz-border-radius: 50px !important;border: 1px solid #ffffff;text-transform: capitalize;font-size: 18px;line-height: 24px;color: #2f2f2f;font-family: arial, sans-serif, 'Lato';font-weight: bold;text-decoration:none;padding: 13px 21px;display: inline-block;">sign up →</a></td>
                                           </tr>
-                                       </table>
+                                        </table>
                                       </td>
                                     </tr>
-                                 </table>
+                                  </table>
                                 </td>
                               </tr>
-                           </table>
+                            </table>
                           </td>
                         </tr>
-                     </table>
+                      </table>
                     </td>
                   </tr>
-                   <!--[if !mso]><!--> 
-              <tr>
-                      <td class="full-width-image" colspan="2" align="left" valign="top" style="padding: 0;margin:0;line-height:1px;font-size:0;width:100%" width="100%"><img src="https://firebasestorage.googleapis.com/v0/b/ngdataformdemo.appspot.com/o/divider-red-white.png?alt=media&amp;token=6b99b190-9320-4873-91d2-7fe191ca2fce" alt="" width="540" height="auto" style="border: 0; display: block; height: auto; line-height: 100%; max-width: 540px; outline: none; text-decoration: none; width: 100%;"></td>
-                    </tr> 
-                <!--<![endif]-->   
-               </table>
+                  <!--[if !mso]><!--> 
+                  <tr>
+                    <td class="full-width-image" colspan="2" align="left" valign="top" style="padding: 0;margin:0;line-height:1px;font-size:0;width:100%" width="100%"><img src="https://firebasestorage.googleapis.com/v0/b/ngdataformdemo.appspot.com/o/divider-red-white.png?alt=media&amp;token=6b99b190-9320-4873-91d2-7fe191ca2fce" alt="" width="540" height="auto" style="border: 0; display: block; height: auto; line-height: 100%; max-width: 540px; outline: none; text-decoration: none; width: 100%;"></td>
+                  </tr> 
+                  <!--<![endif]-->   
+                </table>
               </td>
             </tr>
             <!--/ Two Column (Image/Text)  -->
@@ -441,7 +450,7 @@
 
 
             <!--/ divider  -->
-         </table>
+          </table>
         </td>
       </tr>
       <!--/ Two Column Banner -->
@@ -455,93 +464,91 @@
             <!--  divider end  -->   
 
             <!-- Two Column (Image/Text) -->
-           <tr class="center">
+            <tr class="center">
               <td class="cellpad" style="padding-top: 36px;padding-bottom: 60px;padding-left: 5%;padding-right: 5%;" bgcolor="#ffffff">
                 <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#FFD83C" style="width:100%">
-                   <!--[if !mso]><!--> 
-                   <tr>
-                      <td colspan="2" width="540" style="padding: 0;margin:0;line-height:1px;font-size:0;width:100%" valign="top" align="left" class="full-width-image"><img style="border: 0; display: block; height: auto; line-height: 100%; max-width: 540px; outline: none; text-decoration: none; width: 100%;" height="auto" width="540" alt="" src="https://firebasestorage.googleapis.com/v0/b/ngdataformdemo.appspot.com/o/white-border.png?alt=media&amp;token=9cea976f-39bf-4a2a-9625-b3f8b0e9604d"></td>
-                    </tr>
-                <!--<![endif]-->   
+                  <!--[if !mso]><!--> 
+                  <tr>
+                    <td colspan="2" width="540" style="padding: 0;margin:0;line-height:1px;font-size:0;width:100%" valign="top" align="left" class="full-width-image"><img style="border: 0; display: block; height: auto; line-height: 100%; max-width: 540px; outline: none; text-decoration: none; width: 100%;" height="auto" width="540" alt="" src="https://firebasestorage.googleapis.com/v0/b/ngdataformdemo.appspot.com/o/white-border.png?alt=media&amp;token=9cea976f-39bf-4a2a-9625-b3f8b0e9604d"></td>
+                  </tr>
+                  <!--<![endif]-->   
                   <tr>
                     <td align="left" valign="top">
                       <table class="width-270 width-100percent" width="270" border="0" cellpadding="0" cellspacing="0" align="left" style="width:45%">
-                       <tr>
+                        <tr>
                           <td class="nomob" align="center" width="100%" style="padding: 25px 7px 28px 7px;width:100%;"> 
                             <table class="width-100percent" align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFD83C" width="100%" style="width:100%">
-                             <tr>
+                              <tr>
                                 <td align="center" valign="top" width="100%" style="padding: 0 0 0 30px;width:100%;">
                                   <a href="#LINK" target="_blank"><img src="https://firebasestorage.googleapis.com/v0/b/ngdataformdemo.appspot.com/o/total_tool_trans_2.png?alt=media&amp;token=93f9b843-5cc6-439a-abd2-7cea5fdaa129" width="212" style="margin:0;padding: 0;border:none;display:block;width: 100%;max-width: 212px;" border="0" alt=""></a>
                                 </td>
                               </tr>
-                           </table>
+                            </table>
                           </td>
                         </tr>
-                     </table>
+                      </table>
                       <!--[if (gte mso 9) | (IE)]>
                       </td><td width="270" style="width:270px">
                       <![endif]-->
                       <table class="width-100percent" width="270" border="0" cellpadding="0" cellspacing="0" align="center" style="width:55%">
-                       <tr>
+                        <tr>
                           <td align="center" width="100%" style="text-align: left;vertical-align: top;padding: 24px 12px 48px 12px;width:100%;"> 
                             <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#FFD83C" class="width-100percent" style="width:100%">
-                             <tr>
+                              <tr>
                                 <td class="mso-title-pad" align="center" valign="top" style="font-size:0;padding: 12px 26px 0px 26px;" colspan="2">
                                   <table border="0" cellspacing="0" cellpadding="0" align="center">
-                                   <tr>
+                                    <tr>
                                       <td align="center" bgcolor="#FFD83C"><a class="fallback-font-Lato" href="######" target="_blank" style="
                                       background-color: #ffd83d;
-                                      font-size: 27px;
+                                      font-size: 32px;
                                       line-height: 36px;
                                       color: #0e5436;
-                                      font-family: arial, sans-serif, 'Lato';
+                                      font-family: arial, sans-serif, 'BigShouldersText';
                                       font-weight: bold;
-                                      /* font-style: italic; */
                                       text-decoration: none;
-                                      /* padding: 6px 0; */
                                       display: inline-block;
                                       text-align: center;
                                       ">Total Tool</a></td>
                                     </tr>
-                                 </table>
+                                  </table>
                                 </td>
                               </tr>  
                               <tr>
-                                <td class="mso-text-pad" align="center" valign="top" style="font-size:0;padding: 6px 41px 12px;" colspan="2">
+                                <td class="mso-text-pad" align="center" valign="top" style="font-size:0;padding: 6px 34px 12px;" colspan="2">
                                   <table border="0" cellspacing="0" cellpadding="0" align="center">
-                                   <tr>
+                                    <tr>
                                       <td class="mso-text-pad-inner" align="center" bgcolor="#FFD83C" style="mso-line-height-alt:150%;line-height: 24px;padding: 2px 0 2px 0;font-family: arial, sans-serif,'Lato';color: #611717;font-size: 14px;"><a class="fallback-font-Lato" href="######" target="_blank" style="font-family: arial, sans-serif, 'Lato';color: #6b1818;background-color: #FFD83C;text-decoration:none;">Access full features for an unlimted number of users</a></td>
                                     </tr>
-                                 </table>
+                                  </table>
                                 </td>
                               </tr>
                               <tr>
                                 <td align="center" style="padding: 6px 0 0px 0;">
                                   <table width="100%" border="0" cellspacing="0" cellpadding="0" style="width:100%">
-                                   <tr>
+                                    <tr>
                                       <td align="center">
                                         <table border="0" cellspacing="0" cellpadding="0">
-                                         <tr>
+                                          <tr>
                                             <td class="mso-button-pad" align="center" style="-webkit-border-radius: 50px;-moz-border-radius: 50px;border-radius: 50px;box-shadow:0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);background-color:#ffffff"><a class="fallback-font-Lato" href="######" target="_blank" style="background-color:#ffffff;border-radius:50px !important;-webkit-border-radius: 50px !important;-moz-border-radius: 50px !important;border: 1px solid #ffffff;text-transform: capitalize;font-size: 18px;line-height: 24px;color: #2f2f2f;font-family: arial, sans-serif, 'Lato';font-weight: bold;text-decoration:none;padding: 13px 21px;display: inline-block;">sign up →</a></td>
                                           </tr>
-                                       </table>
+                                        </table>
                                       </td>
                                     </tr>
-                                 </table>
+                                  </table>
                                 </td>
                               </tr>
-                           </table>
+                            </table>
                           </td>
                         </tr>
-                     </table>
+                      </table>
                     </td>
                   </tr>
-                   <!--[if !mso]><!--> 
-                    <tr>
-                      <td colspan="2" width="540" style="padding: 0;margin:0;line-height:1px;font-size:0;width:100%" valign="top" align="left" class="full-width-image"><img style="border: 0; display: block; height: auto; line-height: 100%; max-width: 540px; outline: none; text-decoration: none; width: 100%;" height="auto" width="540" alt="" src="https://firebasestorage.googleapis.com/v0/b/ngdataformdemo.appspot.com/o/white-border.png?alt=media&amp;token=9cea976f-39bf-4a2a-9625-b3f8b0e9604d"></td>
-                    </tr> 
-                <!--<![endif]-->   
-               </table>
+                  <!--[if !mso]><!--> 
+                  <tr>
+                    <td colspan="2" width="540" style="padding: 0;margin:0;line-height:1px;font-size:0;width:100%" valign="top" align="left" class="full-width-image"><img style="border: 0; display: block; height: auto; line-height: 100%; max-width: 540px; outline: none; text-decoration: none; width: 100%;" height="auto" width="540" alt="" src="https://firebasestorage.googleapis.com/v0/b/ngdataformdemo.appspot.com/o/white-border.png?alt=media&amp;token=9cea976f-39bf-4a2a-9625-b3f8b0e9604d"></td>
+                  </tr> 
+                  <!--<![endif]-->   
+                </table>
               </td>
             </tr>
 
@@ -550,7 +557,7 @@
 
             <!--/ divider  -->
 
-         </table>
+          </table>
         </td>
       </tr>   
       <!--/ Two Column Banner -->
@@ -561,13 +568,13 @@
 
 
             <!-- Footer -->
-           <tr>
+            <tr>
               <td class="cellpad" style="padding-top: 0; padding-bottom:36px; padding-left: 5%; padding-right: 5%;background-color: #fbfbfb; ">
                 <table border="0" cellspacing="0" cellpadding="0" width="100%" style="color: #2f2f2f; font-family: sans-serif;width:100%">
-                 <tr>
+                  <tr>
                     <td class="footer-container" align="center" valign="top" style="background-color: #fbfbfb;padding: 35px 0 0 0;">
                       <table border="0" cellspacing="0" cellpadding="0" width="100%" style="color: #2f2f2f; font-family: sans-serif;width:100%">
-                       <tr>
+                        <tr>
                           <td class="footer" align="left" valign="top" style="color: #2f2f2f; font-family: arial, sans-serif, 'Lato'; font-size: 11px; line-height: 15px; padding: 5px 0 15px 0;">
                             Please don’t reply to this email as the mailbox doesn’t accept incoming messages. Visit <a href="https://ngdataformdemo.firebaseapp.com" target="_blank" style="color: #2f2f2f; text-decoration: underline;">https://ngdataformdemo.firebaseapp.com</a> to find the best way to contact&nbsp;us.<br><br> If you no longer want to receive emails from Campaign Supernova please&nbsp;<a href="_UNSUB__" target="_blank" style="color: #2f2f2f; text-decoration: underline;">click here</a>.<br><br>
                             Campaign Supernova will never ask for confidential information or for you to confirm your security details via email. Links within our emails will only take you to information pages
@@ -575,17 +582,17 @@
                             Building, <a class="black" style="text-decoration: none; color: #2f2f2f;">22 Haymarket Yards, Edinburgh EH12&nbsp;5BH.</a><br><br>
                           </td>
                         </tr>
-                     </table>
+                      </table>
                     </td>
                   </tr>
-               </table>
+                </table>
               </td>
             </tr>
             <!--/ Footer  -->
-         </table>
+          </table>
         </td>
       </tr>
-   </table> 
+    </table> 
     <!--/ Wrapper -->
 
     <div style="display:none; white-space:nowrap; font:15px courier; color:#ffffff;">
