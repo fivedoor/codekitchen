@@ -1,0 +1,286 @@
+{% comment %}   ----  ASSIGN CAMPAIGN TYPE ----   {% endcomment %}
+
+{% if canvas.${name} contains "confirmation" %}
+   {% assign campaign_type = "confirmation" %}
+{% endif %}
+
+{% comment %}   ----  en ----   {% endcomment %}
+
+  {% assign upcoming_order_title =  "Dispatches and charges on " | append:  dispatch_date_informal %}
+  {% assign interval_months_alt_text = "ongoing" %}
+    {% assign order_text_DELIVERY = "Delivery" %}
+  {% assign order_text_TOTAL = "Total" %}
+  {% assign order_text_FREE = "Free" %}
+
+ {% comment %}{% assign delivery_alt_text = "truck" %}{% endcomment %}
+  {% assign credit_alt_text = "credit box" %}
+  {% assign credit_title = "First Box Credit" %}
+  {% assign credit_message = "Automatically applied when your first Shave Plan box&nbsp;ships." %}
+
+  {% assign reminder_alt_text = "reminder" %}
+  {% assign reminder_message = "We’ll send a reminder email before each delivery so you have enough time to modify or cancel your&nbsp;plan." %}
+  
+
+ <!-- UPCOMING ORDERSHEET start -->
+   <table class="es-content" role="presentation" width="650" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#f7f7f7" style="margin: 0 auto; max-width: 650px; padding: 0; width: 100%;">
+      <tr class="upcoming ordersheet">
+        <td class="esd-stripe" bgcolor="#f7f7f7" align="center" height="100%" valign="top" width="100%" style="padding: 20px 16px;">
+        
+        <!--[if (gte mso 9)|(IE)]>
+          <table role="presentation" width="570" align="center"  border="0" cellspacing="0" cellpadding="0" style="width:570px">
+            <tr>
+              <td>
+              <![endif]-->
+              <table class="container" role="presentation" width="570" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#ffffff" style="margin: 0 auto; max-width: 570px; padding: 0; width: 100%;background-color: #ffffff;-moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; ">
+                <tr >
+                  <td class="container__td" align="center" bgcolor="#ffffff" style="background-color: #ffffff; -moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; ">
+                  {% comment %} TRIAL & SP CONFIRMATION VERSION start {% endcomment %}
+                  {% if campaign_type == "confirmation" %}
+                  <!-- HEADINGS start -->
+                   <table class="inner-container" role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="padding: 0; width: 100%;" >
+                        <tr>
+                          <td class="inner-container__td" align="left" valign="top" style="padding: 16px 16px 2px;">
+                            <table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0" align="left">
+                              <tr>
+                                  <td class="col-1 subtitle-2" align="left" valign="top" width="160" style="color: #4E4E4E; font-family: Futura, Trebuchet MS, Arial, sans-serif; font-size: 12px; font-weight: normal; letter-spacing: 2px; line-height: 24px; mso-text-raise:6pt; text-transform: uppercase; width: 100%;">{{upcoming_order_title}} </td>
+                              
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                       </table>
+                       <!-- HEADINGS end -->
+
+
+                     {% for product in merge_vars.upcoming_order.order_details.products %}
+
+                     <!-- PRODUCTS start -->
+                      <table class="inner-container" role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="padding: 0; width: 100%;" >
+                        <tr>
+                          <td class="inner-container__td" align="left" valign="top" style="padding: 14px 16px;">
+                            <table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0" align="left">
+                              <tr>
+                                  <td class="col-1 img" align="left" valign="top" width="96" style="width: 96px;"><img src="{{ product.image | append: "?auto=compress%2Cformat&dpr=1&w=256" }}" width="96" height="96" style=";max-width: 96px; min-width: 60px; border: none; display: block; height: auto; line-height: 100%; margin: 0; outline: none; padding: 0px; text-decoration: none; width: 100%;" border="0" alt="{{ product.name }}"></td>
+                                   <td class="gutter-1" align="left" width="26" style="width: 26px;"></td>
+                                     <td  align="left" width="290" valign="middle" style="width: 290px;vertical-align: middle;"> 
+
+                                     <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="100%" style="width: 100%;">
+                                             <tr>
+                                              <td class="col-2 body-2" align="left" width="290" style="color: #666666; font-family: Verdana, Geneva, sans-serif; font-size: 14px; font-weight: normal; letter-spacing: 0.5px; line-height: 24px; word-break:  break-word!important;width: 290px;"> <span class="body-2m" style="color: #4E4E4E;"> 
+                                                {% if product.quantity > 1 %}{{ product.quantity }}<span style="text-transform: lowercase;" >x</span> {% endif %} 
+                                              {{ product.name }}
+                                               {% if product.name == "Harry's Blades" %}
+                                          <br><span class="body-2" style="font-size:12.5px">{{ product.description }}</span>{% endif %}
+                                            </span></td>
+
+                                            </tr>
+                                        <!-- Ongoing Message --> 
+                                           {% if merge_vars.subscription.interval_seconds != blank %} 
+                                           {% if is_sp_product_upc[forloop.index0] == 'true' %} 
+                                          <tr>
+                                            <td align="left" valign="top" valign="middle" style="vertical-align: middle; padding-top:2px">
+                                              <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="100%" style="width: 100%;">
+                                                <tr>
+                                                    <td class="ongoing" align="left" valign="middle" style="padding-right: 5px"><img src="https://cdn.harrys.com/harrys-email-int/transactional/2020/_shared/icons/ongoing-48.png" width="20" style="border: none; display: block; height: auto; line-height: 100%; margin: 0; outline: none; padding: 0px; text-decoration: none; width: 20px;" border="0" alt="{{interval_months_alt_text}}"></td>
+                                                    <td class="body-3m primary" align="left" width="280" valign="middle" style="color: #025F9C; font-family: Verdana, Geneva, sans-serif; font-size: 13px; font-weight: normal; letter-spacing: 0.5px;line-height: 100%; line-height: 24px; mso-text-raise:5.5pt; vertical-align: middle; padding-top: 1px">
+                                                       {% assign interval = merge_vars.subscription.interval_seconds | divided_by: 2592000.0 | round %}
+                                                  
+                                                        {% if interval == 1 %}Every Month{% endif %}
+                                                        {% if interval == 2 %}Every 2 Months{% endif %}
+                                                        {% if interval == 3 %}Every 3 Months{% endif %}
+                                                        {% if interval == 4 %}Every 4 Months{% endif %}
+                                                        {% if interval == 5 %}Every 5 Months{% endif %}
+                                                        {% if interval == 6 %}Every 6 Months{% endif %}
+                                                        
+                                                    </td>
+                                                </tr>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                           {% endif %}
+                                           {% endif %}
+                                      
+                                      <!-- Ongoing Message --> 
+                                    </table>
+                                  </td>
+                                  <td class="gutter-2" align="left" width="32" style="width: 32px;"></td>
+                                  <td class="col-3 body-2m" align="right" width="94" valign="middle"  style="color: #666666; font-family: Verdana, Geneva, sans-serif; font-size: 14px; font-weight: normal; letter-spacing: 0.5px; vertical-align: middle; line-height: 24px; width: 94px;vertical-align:middle">
+                                     {{ upcoming_order_product_price[forloop.index0] }}
+
+                                       {% comment %} Temporary Fix to show full price with strikethrough with 'price' data which is currently not discounted. Only works for single product {% endcomment %}
+                                   
+                                   {% if product.full_price == '' or product.full_price == null or product.full_price == blank or product.full_price == 'GBP0.00' or product.full_price == 'EUR0.00' or product.full_price == '£0.00' or product.full_price == '€0.00' %} 
+
+                                  {% if is_sp_product_upc[forloop.index0] == 'true' %} <br/><span style="color: #bfbfbf;text-decoration: line-through;font-size: 14px; " >{{ upcoming_order_product_price_undiscounted[forloop.index0] }}</span>{% endif %}
+
+                                  {% else %}
+                                        {% if product.price != product.full_price %}
+
+                                            <br/><span style="color: #bfbfbf;text-decoration: line-through;font-size: 14px; " >{{ product.full_price | replace: 'EUR', '&euro;' | replace: 'GBP', '&pound;'}}</span>
+
+                                      {% endif %}
+
+                                  {% endif %}
+
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                       </table>
+                      {% endfor %}
+                       <!-- PRODUCTS end -->
+                      {% comment %} TRIAL CONFIRMATION VERSION end {% endcomment %}
+                    
+                      {% else %}
+                      
+                      {% comment %} UPCOMING / ROLLOVER VERSION start {% endcomment %}
+                       {% for product in merge_vars.confirmation_order.products %}
+
+                       <!-- PRODUCTS start -->
+                        <table class="inner-container" role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="padding: 0; width: 100%;" >
+                          <tr>
+                            <td class="inner-container__td" align="left" valign="top" style="padding: 14px 16px;">
+                              <table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0" align="left">
+                                <tr>
+                                    <td class="col-1 img" align="left" valign="top" width="96" style="width: 96px;"><img src="{{ product.image | append: "?auto=compress%2Cformat&dpr=1&w=256" }}" width="96" height="96" style=";max-width: 96px; min-width: 60px; border: none; display: block; height: auto; line-height: 100%; margin: 0; outline: none; padding: 0px; text-decoration: none; width: 100%;" border="0" alt="{{ product.name }}"></td>
+                                     <td class="gutter-1" align="left" width="26" style="width: 26px;"></td>
+                                     <td  align="left" width="290" valign="middle" style="vertical-align: middle;width: 290px;"> 
+                                       <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="100%" style="width: 100%;">
+                                         <tr>
+                                          <td class="col-2 body-2" align="left" width="290" valign="middle" style="color: #666666; font-family: Verdana, Geneva, sans-serif; font-size: 14px; font-weight: normal; letter-spacing: 0.5px; line-height: 24px;vertical-align: middle; width: 290px;"> <span class="body-2m" style="color: #4E4E4E;"> 
+                                            {% if product.quantity > 1 %}{{ product.quantity }}<span style="text-transform: lowercase;" >x</span> {% endif %} 
+                                           
+                                          {{ product.name }}
+
+                                            {% if product.name == "Harry's Blades" %}
+                                          <br><span class="body-2" style="font-size:12.5px">{{ product.description }}</span>{% endif %}
+                                        </span></td>
+
+                                        </tr>
+
+                                          <!-- Ongoing Message --> 
+
+                                           {% if merge_vars.subscription.interval_seconds != blank %} 
+                                           {% if is_sp_product[forloop.index0] == 'true' %} 
+                                          <tr>
+                                            <td align="left" valign="top" valign="middle" style="vertical-align: middle;padding-top:2px">
+                                              <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="100%" style="width: 100%;">
+                                                <tr>
+                                                    <td class="ongoing" align="left" valign="middle" style="padding-right: 5px"><img src="https://cdn.harrys.com/harrys-email-int/transactional/2020/_shared/icons/ongoing-48.png" width="20" style="border: none; display: block; height: auto; line-height: 100%; margin: 0; outline: none; padding: 0px; text-decoration: none; width: 20px;" border="0" alt="{{interval_months_alt_text}}"></td>
+                                                    <td class="body-3m primary" align="left" width="280" valign="middle" style="color: #025F9C; font-family: Verdana, Geneva, sans-serif; font-size: 13px; font-weight: normal; letter-spacing: 0.5px;line-height: 100%; line-height: 24px;mso-text-raise:5.5pt; vertical-align: middle; padding-top: 1px">
+                                                       {% assign interval = merge_vars.subscription.interval_seconds | divided_by: 2592000.0 | round %}
+                                                     
+                                                        {% if interval == 1 %}Every Month{% endif %}
+                                                        {% if interval == 2 %}Every 2 Months{% endif %}
+                                                        {% if interval == 3 %}Every 3 Months{% endif %}
+                                                        {% if interval == 4 %}Every 4 Months{% endif %}
+                                                        {% if interval == 5 %}Every 5 Months{% endif %}
+                                                        {% if interval == 6 %}Every 6 Months{% endif %}
+                                                        
+                                                    </td>
+                                                </tr>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                          {% endif %}
+                                          {% endif %}
+                                        <!-- Ongoing Message --> 
+                                      </table>
+                                    </td>
+                                    <td class="gutter-2" align="left" width="32" style="width: 32px;"></td>
+                                    <td class="col-3 body-2m" align="right" width="94" valign="middle" style="color: #666666; font-family: Verdana, Geneva, sans-serif; font-size: 14px; font-weight: normal; letter-spacing: 0.5px; line-height: 24px; width: 94px;vertical-align:middle">
+
+
+{{ confirmation_order_product_price[forloop.index0] }}
+                                       
+
+    {% if product.price != product.full_price %}
+
+          <br/><span style="color: #bfbfbf;text-decoration: line-through;font-size: 14px; " >{{ confirmation_order_product_full_price[forloop.index0]}}</span>
+
+    {% endif %}
+
+
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                         </table>
+                         {% endfor %}
+                         <!-- PRODUCTS end -->
+                    
+                    {% comment %}
+
+                      <!-- TOTALS SECTION start -->
+                      <table class="final-container" role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-top: 4px solid #f7f7f7; width: 100%;" >
+
+                        {% if credit_live == true %}
+                        {% if merge_vars.confirmation_order.credit_applied %}
+                        {% if credit_no_currency > 0 %} 
+                        
+                        <!-- CREDIT start -->
+                        <tr>
+                          <td class="final-container__td first" align="left" valign="top" style="padding: 8px 16px 0;">
+                            <table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0" align="left">
+                               <tr>
+                                <td class="col-1 body-3m" align="right" valign="top" width="309" style="color: #666666; font-family: Verdana, Geneva, sans-serif; font-size: 13px; font-weight: normal; letter-spacing: 0.5px; line-height: 24px; text-transform: uppercase;width: 30%;">{{credit_applied_text}}</td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                       
+                        {% endif %}
+                        {% endif %}
+                        {% endif %}
+                        <!-- CREDIT end -->
+
+                        <!-- DELIVERY start -->
+                        <tr>
+                          <td class="final-container__td first" align="left" valign="top" style="padding: 8px 16px 0;">
+                            <table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0" align="left">
+                               <tr>
+                                <td class="col-1 subtitle-2" align="left" valign="top" width="309" style="color: #4E4E4E; font-family: Futura, Trebuchet MS, Arial, sans-serif; font-size: 12px; font-weight: normal; letter-spacing: 2px; line-height: 24px; text-transform: uppercase; width: 70%;">{{order_text_DELIVERY}} </td>
+                                <td class="col-2 body-3m" align="right" valign="top" width="309" style="color: #666666; font-family: Verdana, Geneva, sans-serif; font-size: 13px; font-weight: normal; letter-spacing: 0.5px; line-height: 24px; text-transform: uppercase;width: 30%;">{% if shipping_price_no_currency == "0.00" %}{{order_text_FREE}}{% else %}{{ shipping_price }}{% endif %}</td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <!-- DELIVERY end -->
+
+                       <!-- TOTAL start -->
+                        <tr>
+                          <td class="final-container__td" align="left" valign="top" style="padding: 8px 16px">
+                            <table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0" align="left">
+                              <tr>
+                                <td class="col-1 subtitle-2" align="left"  valign="top" width="309" style="color: #4E4E4E; font-family: Futura, Trebuchet MS, Arial, sans-serif; font-size: 12px; font-weight: normal; letter-spacing: 2px; line-height: 24px; text-transform: uppercase; width: 70%;">  {{order_text_TOTAL}}</td>
+                                <td class="col-2 body-3m" align="right"  valign="top" width="309" style="color: #666666; font-family: Verdana, Geneva, sans-serif; font-size: 13px; font-weight: normal; letter-spacing: 0.5px; line-height: 24px; text-transform: uppercase;width: 30%;">{{ confirmation_order_total }}</td>
+                              </tr>
+                            </table>
+                          
+                          </td>
+                        </tr>
+                       </table>                    {% endcomment %}
+
+                       <!-- TOTAL end -->
+                       <!-- TOTALS SECTION end -->
+                     {% endif %}
+                      {% comment %} UPCOMING / ROLLOVER VERSION end {% endcomment %}
+
+                    </td>
+                  </tr>
+                </table>
+
+               <!--[if (gte mso 9)|(IE)]>
+            </td>
+          </tr>
+        </table>
+        <![endif]-->
+       </td>
+     </tr>
+  </table>
+  <!--  UPCOMING ORDERSHEET end -->
+
+
+

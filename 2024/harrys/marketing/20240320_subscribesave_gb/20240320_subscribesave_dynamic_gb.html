@@ -1,0 +1,666 @@
+{% comment %}  I N C L U D E S   {% endcomment %}
+{{content_blocks.${int_global_locale_declaration}}}
+{{content_blocks.${int_global_tracking_declaration}}}
+
+
+{% comment %} 
+*******************************************************************************************************
+Prioritise products the user has purchased previously (use  xxxx_order_count attributes). *******************************************************************************************************
+{% endcomment %}  
+
+
+{% comment %} PRIORITY 1 - Previous purchased Gel {% endcomment %} 
+{% if custom_attribute.${shave_gel_order_count} != null and custom_attribute.${shave_gel_order_count} != blank and custom_attribute.${shave_gel_order_count} > 0  %} 
+
+    {% if custom_attribute.${aftershave_order_count} != null and custom_attribute.${aftershave_order_count} != blank and custom_attribute.${aftershave_order_count} > 0 %} 
+    {% capture product_prefs_string %}Gel,Post-Shave Balm{% endcapture %}
+
+    {% elsif custom_attribute.${face_wash_order_count} != null and custom_attribute.${face_wash_order_count} != blank and custom_attribute.${face_wash_order_count} > 0 %} 
+    {% capture product_prefs_string %}Gel,Face Wash{% endcapture %}
+
+    {% elsif custom_attribute.${face_lotion_order_count} != null and custom_attribute.${face_lotion_order_count} != blank and custom_attribute.${face_lotion_order_count} > 0 %} 
+    {% capture product_prefs_string %}Gel,Face Lotion{% endcapture %}
+
+    {% elsif custom_attribute.${body_wash_order_count} != null and custom_attribute.${body_wash_order_count} != blank and custom_attribute.${body_wash_order_count} > 0 %} 
+    {% capture product_prefs_string %}Gel,BW{% endcapture %}
+
+    {% else %} 
+    {% capture product_prefs_string %}Gel,Post-Shave Balm{% endcapture %}
+    {% endif %} 
+
+{% comment %} PRIORITY 2 - Previous purchased Post-Shave Balm {% endcomment %} 
+{% elsif custom_attribute.${aftershave_order_count} != null and custom_attribute.${aftershave_order_count} != blank and custom_attribute.${aftershave_order_count} > 0 %} 
+
+    {% if custom_attribute.${face_wash_order_count} != null and custom_attribute.${face_wash_order_count} != blank and custom_attribute.${face_wash_order_count} > 0 %} 
+    {% capture product_prefs_string %}Post-Shave Balm,Face Wash{% endcapture %}
+
+    {% elsif custom_attribute.${face_lotion_order_count} != null and custom_attribute.${face_lotion_order_count} != blank and custom_attribute.${face_lotion_order_count} > 0 %} 
+    {% capture product_prefs_string %}Post-Shave Balm,Face Lotion{% endcapture %}
+
+    {% elsif custom_attribute.${body_wash_order_count} != null and custom_attribute.${body_wash_order_count} != blank and custom_attribute.${body_wash_order_count} > 0 %} 
+    {% capture product_prefs_string %}Post-Shave Balm,BW{% endcapture %}
+
+    {% else %} 
+     {% capture product_prefs_string %}Post-Shave Balm,Gel{% endcapture %}
+    {% endif %} 
+
+{% comment %}  PRIORITY 3 - Previous purchased Face Wash {% endcomment %} 
+{% elsif custom_attribute.${face_wash_order_count} != null and custom_attribute.${face_wash_order_count} != blank and custom_attribute.${face_wash_order_count} > 0 %} 
+
+    {% if custom_attribute.${face_lotion_order_count} != null and custom_attribute.${face_lotion_order_count} != blank and custom_attribute.${face_lotion_order_count} > 0 %} 
+    {% capture product_prefs_string %}Face Wash,Face Lotion{% endcapture %}
+
+    {% elsif custom_attribute.${body_wash_order_count} != null and custom_attribute.${body_wash_order_count} != blank and custom_attribute.${body_wash_order_count} > 0 %} 
+    {% capture product_prefs_string %}Face Wash,BW{% endcapture %}
+
+    {% else %} 
+     {% capture product_prefs_string %}Face Wash,Gel{% endcapture %}
+    {% endif %} 
+
+{% comment %} PRIORITY 4 - Previous purchased Face Lotion {% endcomment %} 
+{% elsif custom_attribute.${face_lotion_order_count} != null and custom_attribute.${face_lotion_order_count} != blank and custom_attribute.${face_lotion_order_count} > 0 %} 
+
+    {% if custom_attribute.${body_wash_order_count} != null and custom_attribute.${body_wash_order_count} != blank and custom_attribute.${body_wash_order_count} > 0 %} 
+    {% capture product_prefs_string %}Face Lotion,BW{% endcapture %}
+
+    {% else %} 
+     {% capture product_prefs_string %}Face Lotion,Gel{% endcapture %}
+
+    {% endif %} 
+
+
+{% comment %}  PRIORITY 5 - Previous purchased Shower Gel {% endcomment %} 
+{% elsif custom_attribute.${body_wash_order_count} != null and custom_attribute.${body_wash_order_count} != blank and  custom_attribute.${body_wash_order_count} > 0 %} 
+     {% capture product_prefs_string %}BW,Gel{% endcapture %}
+
+{% else %} 
+     {% capture product_prefs_string %}Gel,Post-Shave Balm{% endcapture %}
+
+{% endif %} 
+
+
+{% comment %} ----- Create Prefs array ----- {% endcomment %} 
+
+{% assign product_prefs_array = product_prefs_string | split: ','  %} 
+
+{% assign product_pref_1 = product_prefs_array[0] %}
+{% assign product_pref_2 = product_prefs_array[1] %}
+
+
+{% comment %} ----- D E B U G  ----- {% endcomment %} 
+
+PRODUCT PREFS based on order_count attributes: 
+<br/>
+product_pref_1: {{product_pref_1}}
+<br/>
+product_pref_2: {{product_pref_2}}
+ <br/>
+
+{% comment %} 
+*******************************************************************************************************
+Create matachable string based on custom attribute data  
+*******************************************************************************************************
+{% endcomment %} 
+
+{% assign latest_active_variant_name_bundle_lowcase = custom_attribute.${latest_active_variant_name_bundle} | downcase %} 
+
+ {% capture latest_active_bundle_products_matched %}
+  {% if latest_active_variant_name_bundle_lowcase contains "fsg" 
+     or latest_active_variant_name_bundle_lowcase contains "shave gel" 
+     or latest_active_variant_name_bundle_lowcase contains "2 gel"
+     or latest_active_variant_name_bundle_lowcase contains "1 gel" %}Gel, {% endif %}
+
+  {% if latest_active_variant_name_bundle_lowcase contains "post-shave b" 
+     or latest_active_variant_name_bundle_lowcase contains "post shave b" 
+     or latest_active_variant_name_bundle_lowcase contains "psb" %}Post-Shave Balm, {% endif %}
+
+  {% if latest_active_variant_name_bundle_lowcase contains "fw" 
+     or latest_active_variant_name_bundle_lowcase contains "face wash"%}Face Wash, {% endif %}
+
+   {% if latest_active_variant_name_bundle_lowcase contains "face lotion"%}Face Lotion, {% endif %}
+
+  {% if latest_active_variant_name_bundle_lowcase contains "shower gel" 
+     or latest_active_variant_name_bundle_lowcase contains "shower duo"%}BW, {% endif %}
+
+ {% endcapture %}
+
+ {% comment %} ----- D E B U G  ----- {% endcomment %} 
+<br/>
+READABLE PRODUCT FORMATTING TO SCAN: 
+<br/>
+latest_active_variant_name_bundle_lowcase:  {{latest_active_variant_name_bundle_lowcase}}
+<br/>
+latest_active_bundle_products_matched: {{latest_active_bundle_products_matched}}
+<br/>
+ <br/>
+
+
+{% comment %} 
+*******************************************************************************************************
+Create list of SUBSCRIBED products, UNSUBSCRIBED products and viable FALLBACKS
+*******************************************************************************************************
+{% endcomment %} 
+
+
+{% comment %} List all potential products {% endcomment %} 
+{% capture all_products_string %}Gel,Post-Shave Balm,Face Wash,Face Lotion,BW{% endcapture %}
+{% assign all_products_array = all_products_string | split: ','  %} 
+
+
+{% comment %} -------- Create array of SUBSCRIBED products  --------  {% endcomment %} 
+
+{% capture subscribed_products_string %}{% for product in all_products_array %}{% if latest_active_bundle_products_matched contains product %}{{product}}{% if forloop.last == false %},{% endif%}{% else %}{% endif%}{% endfor %}{% endcapture %}
+
+{% assign subscribed_products_array = subscribed_products_string | split: ',' %}
+
+{% comment %} Fix trailing comma{% endcomment %} 
+{% if subscribed_products_array.last == blank or subscribed_products_array.last == null %}
+  {% assign subscribed_products_string = subscribed_products_string | replace_last: ',', '' %}
+  {% assign subscribed_products_array = subscribed_products_string | split: ','  %}
+ {% endif %}
+ 
+ {% comment %} ----- D E B U G  ----- {% endcomment %} 
+<br/>SUBSCRIBED PRODUCTS:  {{subscribed_products_string}} <br/>
+
+
+{% comment %} --------  Create array of UNSUBSCRIBED  products  -------- {% endcomment %} 
+{% capture unsubscribed_products_string %}{% for product in all_products_array %}{% if subscribed_products_array contains product %}{% else %}{{product}}{% if forloop.last == false %},{% endif%}{% endif%}{% endfor %}{% endcapture %}
+
+{% assign unsubscribed_products_array = unsubscribed_products_string | split: ','  %} 
+
+{% comment %} Fix trailing comma{% endcomment %}
+{% if unsubscribed_products_array.last == blank or unsubscribed_products_array.last == null %}
+  {% assign unsubscribed_products_string = unsubscribed_products_string | replace_last: ',', '' %}
+  {% assign unsubscribed_products_array = unsubscribed_products_string | split: ','  %}
+ {% endif %}
+
+{% comment %} ----- D E B U G  ----- {% endcomment %} 
+<br/>UNSUBSCRIBED PRODUCTS:   {{unsubscribed_products_string}} <br/>
+
+
+
+{% comment %} --------  Create array of FALLBACKS i.e. not allready prefs and not subs  -------- {% endcomment %} 
+
+{% capture fallbacks_string %}{% for product in unsubscribed_products_array %}{% if product_prefs_array contains product %}{% else %}{{product}}{% if forloop.last == false %},{% endif%}{% endif%}{% endfor %}{% endcapture %}
+
+{% assign fallbacks_array = fallbacks_string | split: ','  %} 
+
+{% comment %} Fix trailing comma{% endcomment %} 
+{% if fallbacks_array.last == blank or fallbacks_array.last == null %}
+  {% assign fallbacks_string = fallbacks_string | replace_last: ',', '' %}
+  {% assign fallbacks_array = fallbacks_string | split: ','  %}
+ {% endif %}
+
+{% comment %} ----- D E B U G  ----- {% endcomment %} 
+<br/>AVAILABLE FALLBACKS :  {{fallbacks_string}}<br/>
+
+
+
+{% comment %} 
+*******************************************************************************************************
+For each PREF - replace SUBSCRIBED products with viable FALLBACKS 
+*******************************************************************************************************
+{% endcomment %} 
+
+
+{% comment %} -------- Pref 1 Replace subs with fallback    -------- {% endcomment %} 
+
+{% if subscribed_products_array contains product_pref_1 and fallbacks_array[0] != null and fallbacks_array[0] != blank %}
+  {% assign final_product_pref_1 = product_pref_1 | replace: product_pref_1, fallbacks_array[0] %}
+  {% else %}
+  {% assign final_product_pref_1 = product_pref_1 %}
+{% endif %}
+
+
+{% comment %} -------- Pref 2 replace subs a fallback not used for pref 1. If no viable fallbacks leave as is.  -------- {% endcomment %}
+
+
+  {% if subscribed_products_array contains product_pref_2 %}
+     {% if fallbacks_array[0] != null and fallbacks_array[0] != blank and fallbacks_array[0] != final_product_pref_1 %}
+     {% assign final_product_pref_2 = product_pref_2 | replace: product_pref_2, fallbacks_array[0] %}
+     
+     {% elsif fallbacks_array[1] != null and fallbacks_array[1] != blank and fallbacks_array[1] != final_product_pref_1 %}
+     {% assign final_product_pref_2 = product_pref_2 | replace: product_pref_2, fallbacks_array[1] %}
+     {% else %}
+     {% assign final_product_pref_2 = product_pref_2  %}
+    {% endif %}
+  {% else  %}
+     {% assign final_product_pref_2 = product_pref_2  %}
+  {% endif %}
+
+
+{% comment %} ----- D E B U G  ----- {% endcomment %}
+<br/><br/>final_product_pref_1: {{final_product_pref_1}}<br/>
+
+final_product_pref_2: {{final_product_pref_2}}<br/><br/>
+
+
+
+
+
+
+
+{% comment %} 
+*******************************************************************************************************
+ASSIGN PREFS META DATA
+*******************************************************************************************************
+{% endcomment %} 
+
+{% if final_product_pref_1 == "Gel" %}
+  {% comment %} Shave Gel {% endcomment %}
+  {% assign pdp_1_img = "https://cdn.harrys.com/harrys-email-int/transactional/2023/_shared/products/gb/fsg-660.jpg" %}
+  {% assign pdp_1_title = "Foaming Shave Gel" %}
+  {% assign pdp_1_message = "Cushions and protects for a close, comfortable&nbsp;shave." %}
+  {% assign pdp_1_link_path = "/products/shave-gel" %} 
+  {% assign pdp_1_utm_content = "fsg" %} 
+
+
+{% elsif final_product_pref_1 == "Post-Shave Balm" %}
+  {% comment %} Post-Shave Balm {% endcomment %}
+  {% assign pdp_1_img = "https://cdn.harrys.com/harrys-email-int/transactional/2023/_shared/products/gb/psb-660.jpg" %}
+  {% assign pdp_1_title = "Post-Shave Balm" %}
+  {% assign pdp_1_message = "For a soothing &ldquo;ahhh&rdquo; feeling after every&nbsp;shave." %}
+  {% assign pdp_1_link_path = "/products/post-shave-balm" %} 
+  {% assign pdp_1_utm_content = "psb" %} 
+
+{% elsif final_product_pref_1 == "Face Wash" %}
+  {% comment %} Face Wash {% endcomment %}
+    {% assign pdp_1_img = "https://cdn.harrys.com/harrys-email-int/one-off/2024/20240320_subscribesave_uk/fw-640.jpg" %}
+  {% assign pdp_1_title = "Face Wash" %}
+  {% assign pdp_1_message = "With eucalyptus, peppermint, and gentle&nbsp;exfoliants" %}
+  {% assign pdp_1_link_path = "/products/face-wash" %} 
+  {% assign pdp_1_utm_content = "fw" %} 
+
+{% elsif final_product_pref_1 == "Face Lotion" %}
+  {% comment %} Face Lotion {% endcomment %}
+  {% assign pdp_1_img = "https://www.harrys.com/harrys-cdnx-prod/assets/images/products/checkout/1e2e2470bf117df20d2c15c58583d545c4fb6485.jpg" %}
+  {% assign pdp_1_title = "Face Lotion" %}
+  {% assign pdp_1_message = "Non-greasy, light lotion with SPF to hydrate and&nbsp;protect." %}
+  {% assign pdp_1_link_path = "/products/face-lotion" %} 
+  {% assign pdp_1_utm_content = "fl" %} 
+
+
+{% elsif final_product_pref_1 == "BW" %}
+ {% comment %} Shower Gel {% endcomment %}
+  {% assign pdp_1_img = "https://cdn.harrys.com/harrys-email-int/transactional/2023/_shared/products/gb/showergels-uk-2023-370.jpg" %}
+  {% assign pdp_1_title = "Shower Gel" %}
+  {% assign pdp_1_message = "Cleanses deeply without drying skin. Four signature&nbsp;scents." %}
+  {% assign pdp_1_link_path = "/products/shower-gel" %} 
+  {% assign pdp_1_utm_content = "shower_gel" %} 
+
+{% else %}
+  {% comment %} Shave Gel {% endcomment %}
+  {% assign pdp_1_img = "https://cdn.harrys.com/harrys-email-int/transactional/2023/_shared/products/gb/fsg-660.jpg" %}
+  {% assign pdp_1_title = "Foaming Shave Gel" %}
+  {% assign pdp_1_message = "Cushions and protects for a close, comfortable&nbsp;shave." %}
+  {% assign pdp_1_link_path = "/products/shave-gel" %} 
+  {% assign pdp_1_utm_content = "fsg" %} 
+
+{% endif %}
+
+
+
+{% if final_product_pref_2 == "Gel" %}
+  {% comment %} Shave Gel {% endcomment %}
+  {% assign pdp_2_img = "https://cdn.harrys.com/harrys-email-int/transactional/2023/_shared/products/gb/fsg-660.jpg" %}
+  {% assign pdp_2_title = "Foaming Shave Gel" %}
+  {% assign pdp_2_message = "Cushions and protects for a close, comfortable&nbsp;shave." %}
+  {% assign pdp_2_link_path = "/products/shave-gel" %} 
+  {% assign pdp_2_utm_content = "fsg" %} 
+
+
+{% elsif final_product_pref_2 == "Post-Shave Balm" %}
+  {% comment %} Post-Shave Balm {% endcomment %}
+  {% assign pdp_2_img = "https://cdn.harrys.com/harrys-email-int/transactional/2023/_shared/products/gb/psb-660.jpg" %}
+  {% assign pdp_2_title = "Post-Shave Balm" %}
+  {% assign pdp_2_message = "For a soothing &ldquo;ahhh&rdquo; feeling after every&nbsp;shave." %}
+  {% assign pdp_2_link_path = "/products/post-shave-balm" %} 
+  {% assign pdp_2_utm_content = "psb" %} 
+
+{% elsif final_product_pref_2 == "Face Wash" %}
+  {% comment %} Face Wash {% endcomment %}
+    {% assign pdp_2_img = "https://cdn.harrys.com/harrys-email-int/one-off/2024/20240320_subscribesave_uk/fw-640.jpg" %}
+  {% assign pdp_2_title = "Face Wash" %}
+  {% assign pdp_2_message = "With eucalyptus, peppermint, and gentle&nbsp;exfoliants" %}
+  {% assign pdp_2_link_path = "/products/face-wash" %} 
+  {% assign pdp_2_utm_content = "fw" %} 
+
+{% elsif final_product_pref_2 == "Face Lotion" %}
+  {% comment %} Face Lotion {% endcomment %}
+  {% assign pdp_2_img = "https://www.harrys.com/harrys-cdnx-prod/assets/images/products/checkout/1e2e2470bf117df20d2c15c58583d545c4fb6485.jpg" %}
+  {% assign pdp_2_title = "Face Lotion" %}
+  {% assign pdp_2_message = "Non-greasy, light lotion with SPF to hydrate and&nbsp;protect." %}
+  {% assign pdp_2_link_path = "/products/face-lotion" %} 
+  {% assign pdp_2_utm_content = "fl" %} 
+
+
+{% elsif final_product_pref_2 == "BW" %}
+ {% comment %} Shower Gel {% endcomment %}
+  {% assign pdp_2_img = "https://cdn.harrys.com/harrys-email-int/transactional/2023/_shared/products/gb/showergels-uk-2023-370.jpg" %}
+  {% assign pdp_2_title = "Shower Gel" %}
+  {% assign pdp_2_message = "Cleanses deeply without drying skin. Four signature&nbsp;scents." %}
+  {% assign pdp_2_link_path = "/products/shower-gel" %} 
+  {% assign pdp_2_utm_content = "shower_gel" %} 
+
+{% else %}
+  {% comment %} Post-Shave Balm {% endcomment %}
+  {% assign pdp_2_img = "https://cdn.harrys.com/harrys-email-int/transactional/2023/_shared/products/gb/psb-660.jpg" %}
+  {% assign pdp_2_title = "Post-Shave Balm" %}
+  {% assign pdp_2_message = "For a soothing &ldquo;ahhh&rdquo; feeling after every&nbsp;shave." %}
+  {% assign pdp_2_link_path = "/products/post-shave-balm" %} 
+  {% assign pdp_2_utm_content = "psb" %} 
+
+{% endif %}
+
+
+
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head></head>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="x-apple-disable-message-reformatting">
+<!--[if !mso]><!-- -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!--<![endif]-->
+<meta name="format-detection" content="telephone=no">
+<meta name="format-detection" content="date=no">
+<meta name="format-detection" content="address=no">
+<!--[if gte mso 9]><xml>
+  <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+  <o:PixelsPerInch>96</o:PixelsPerInch>
+</o:OfficeDocumentSettings>
+</xml><![endif]-->
+<title>Harry's</title>
+<style type="text/css">
+body {width: 100% !important;height: 100% !important;padding: 0 !important;margin: 0;background-color: #f7f7f7; } body, table, td, a {-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;} table, td {mso-table-lspace: 0;mso-table-rspace: 0;} p {margin: 1em 0;} img {-ms-interpolation-mode: bicubic;}
+table {border-spacing: 0;border-collapse: collapse !important;} * {padding: 0;margin: 0;} div[style*="margin:16px 0"] {margin: 0 auto !important;}
+body {margin: 0 auto !important;} a[x-apple-data-detectors] {font-family: inherit !important;font-size: inherit !important;font-weight: inherit !important;line-height: inherit !important;text-decoration: none !important;color: inherit !important;} a[href^="tel"], a[href^="sms"] {cursor: default;text-decoration: none;pointer-events: none;color: #666666; } .mobile_link a[href^="tel"], .mobile_link a[href^="sms"] {cursor: default;text-decoration: default;pointer-events: auto;color: #666666 !important; } #MessageViewBody a {color: inherit;text-decoration: none;} #body a, #body a:hover, #body a:visited{ color:inherit; font:inherit; text-decoration:none; }
+</style>
+<style type="text/css">
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+    @font-face {font-family: 'Museo Sans Bold'; src: url('https://cdn.harrys.com/email/webfonts/2D9B47_0_0.woff') format('woff');font-weight: 700; font-style: normal;} @font-face {font-family: 'Museo Sans';src: url('https://cdn.harrys.com/email/webfonts/2D9B47_1_0.woff') format('woff');font-weight: 300;font-style: normal;} @font-face {font-family: 'Museo Sans';src: url('https://cdn.harrys.com/email/webfonts/2D9B47_2_0.woff') format('woff');font-weight: 700;font-style: italic;} @font-face {font-family: 'Museo Sans';src: url('https://cdn.harrys.com/email/webfonts/2D9B47_3_0.woff') format('woff');font-weight: 300;font-style: italic;} @font-face {font-family: 'Museo Sans';src: url('https://cdn.harrys.com/email/webfonts/Museo-Sans-500.woff') format('woff');font-weight: 500;font-style: normal;} @font-face {font-family: 'Brandon Grotesque';src: url('https://cdn.harrys.com/email/webfonts/3083F9_2_0.woff') format('woff');font-weight: normal;font-style: normal;} @font-face {font-family: 'Brandon Grotesque';src: url('https://cdn.harrys.com/email/webfonts/2D9B47_6_0.woff') format('woff'); font-weight: bold;font-style: normal;} .body-1, .body-1m, .body-2, .body-2m, .body-3, .body-3m, .body-4, .body-5 { font-family: 'Museo Sans', Verdana, Geneva, sans-serif !important; letter-spacing: 0.5px !important;} .body-1 { font-size: 16px !important; font-weight: 300 !important;} .body-1m {font-size: 16px !important; font-weight: 500 !important;} .body-2 { font-size: 15px !important; font-weight: 300 !important;} .body-2m {font-size: 15px !important; font-weight: 500 !important;} .body-3 { font-size: 13px !important; font-weight: 300 !important;} .body-3m {font-size: 13px !important; font-weight: 500 !important;} .body-4 { font-size: 11px !important; font-weight: 300 !important;} .header-1, .header-1b, .header-2, .header-3, .subtitle-0, .subtitle-1, .subtitle-2, .button.large a, .button.medium a, .button.small a, .link-1 ,.link-2 {font-family: 'Brandon Grotesque', Futura, Trebuchet MS, Arial, sans-serif !important; } h1.header-1, h1.header-1b {font-size: 36px !important; font-weight: normal !important;} h1.header-1b {font-weight: bold !important;} h2.header-2 {font-size: 28px !important;font-weight: normal !important;} h3.header-3,h3.header-3 a {font-size: 24px !important;font-weight: bold !important;}.subtitle-0 { font-size: 16px !important; font-weight: bold !important;} .subtitle-1 { font-size: 14px !important; font-weight: bold !important;} .subtitle-2 { font-size: 12px !important; font-weight: bold !important;} .link-1 { font-size: 16px !important; font-weight: bold !important;} .link-2 { font-size: 13px !important; font-weight: bold !important;} [class~="x_header-2"]{font-size: 24px !important;} [class~="x_header-3"]{font-size: 21px !important;} [class~="x_body-1"],[class~="x_body-1m"],[class~="x_subtitle-0"]{font-size: 15px !important;} [class~="x_body-3"],[class~="x_body-3m"],[class~="x_subtitle-1"]{font-size: 13px !important;} .button.large a {font-size: 16px !important; font-weight: normal !important; padding-top: 19px !important; padding-bottom: 13px !important;} .button.medium a {font-size: 13px !important; font-weight: normal !important;padding-top: 15px !important; padding-bottom: 11px !important;} .button.small a {font-size: 13px !important; font-weight: normal !important;padding-top: 12px !important; padding-bottom: 8px !important; }
+}
+</style>
+
+
+
+<style type="text/css">
+
+@media only screen and (max-width: 580px){
+  .max-width-none { max-width: none !important;} .width-100percent {width: 100% !important;} .align-center {text-align: center !important; margin: 0 auto !important; }.col-2-txt-img-s .column-left { display: table-footer-group !important; } .col-2-txt-img-s .column-right { display: table-header-group !important; } div.column-right, div.column-left { max-width: none !important;}
+}
+
+@media only screen and (max-width: 480px){
+.nomob {display: none !important;} .es-desk-hidden { display:table-row!important; width:auto!important; overflow:visible!important; float:none!important; max-height:inherit!important; line-height:inherit!important } .es-mobile-hidden { display: none!important; max-height:0!important; overflow:hidden!important; visibility: hidden!important; mso-hide:all!important; } .logo-default {max-width: 100px !important;} 
+}
+</style>
+
+<!--[if gte mso 9]><style type="text/css"> .ol-valign { height: 242px !important;} .border-none { border: none !important;}</style><![endif]-->
+ </head>
+ <body class="body-tag" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" bgcolor="#f7f7f7" style="width:100%;font-family:arial, 'helvetica neue', helvetica, sans-serif;-webkit-font-smoothing: antialiased;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;margin:0px;min-width:100%;padding:0px"><!-- PREHEADER start -->
+  <div style="display:none;font-size:1px;color:#f7f7f7;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden">Upgrade your subscription & save 10%
+&#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847;
+&#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847;
+&#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847;
+&#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847;
+&#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847;
+&#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847;
+&#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847;
+&#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847;
+&#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847;
+&#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847;
+&#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847;
+&#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847;
+&#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847;
+&#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847;
+&#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847;
+&#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847; &#8199;&shy;&#847;
+&nbsp;
+  </div><!-- PREHEADER end --><!-- Wrapper start -->
+      <table cellpadding="0" cellspacing="0" class="es-content" align="center" style="width:100%">
+        <tr>
+         <td class="hero" valign="top" align="center" style="width:100%">
+          <table class="es-content-body" role="presentation" width="580" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#005677" style="background-color:#005677;margin:0px auto;max-width:580px;padding:0px;width:100%">
+            <tr>
+             <td align="center" style="padding:12px"><a href="https://www.harrys.com/en/gb?utm_medium=email&utm_campaign={{campaign_name}}&utm_content=logo&hidemodal=true" target="_blank" style="text-decoration:underline"><img class="logo-default" src="https://cdn.harrys.com/harrys-email-int/global/2022/header/logo-full-w-276.png" width="138" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;height:auto;line-height:100%;width:138px" alt="HARRY'S" border="0"></a></td>
+            </tr>
+          </table></td>
+        </tr>
+      </table>
+      <table cellpadding="0" cellspacing="0" class="es-content" align="center" style="width:100%">
+        <tr>
+         <td class="hero" valign="top" align="center" style="width:100%">
+          <table class="es-content-body" role="presentation" width="580" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#ffffff" style="background-color:#ffffff;margin:0px auto;padding:0px;max-width:580px;width:100%">
+            <tr>
+             <td valign="top" align="center">
+              <table class="container" role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0" align="center" style="margin:0 auto;padding:0;width:100%">
+                <tr>
+                 <td valign="top" align="center">
+                  <table class="block" role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%"><!-- IMG -->
+                    <tr>
+                     <td align="center" valign="top" width="100%" style="width:100%;font-size:0px"><a href="https://www.harrys.com/en/gb/products?utm_source=penpal&utm_medium=email&utm_campaign={{campaign_name}}&utm_content=hero#shave-bundles&hidemodal=true" target="_blank" style="text-decoration:underline"><img src="https://cdn.harrys.com/harrys-email-int/one-off/2024/20240320_subscribesave_uk/hero-1160.png" alt="Bigger Better. 10% OFF" width="580" style="display:block;border:0px;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;height:auto;line-height:100%;max-width:580px;width:100%" title="Introducing Subscribe and Save"></a></td>
+                    </tr>
+                  </table></td>
+                </tr>
+              </table></td>
+            </tr>
+          </table></td>
+        </tr>
+      </table>
+      <table cellpadding="0" cellspacing="0" class="es-content" align="center" style="width:100%">
+        <tr>
+         <td class="hero" valign="top" align="center" style="width:100%">
+          <table class="es-content-body" role="presentation" width="580" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#ffffff" style="background-color:#ffffff;margin:0px auto;padding:0px;max-width:580px;width:100%">
+            <tr>
+             <td valign="top" align="center" style="padding:32px 16px"><!--[if (gte mso 9)|(IE)]>
+                <table role="presentation" width="470" align="center" border="0" cellspacing="0" cellpadding="0" style="width: 470px">
+                  <tr>
+                    <td>
+                    <![endif]-->
+              <table class="container" role="presentation" width="470" border="0" cellpadding="0" cellspacing="0" align="center" style="margin:0 auto;padding:0;max-width:470px;width:100%">
+                <tr>
+                 <td valign="top" align="center" style="padding:0">
+                  <table class="block" role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%">
+                    <tr>
+                     <td align="center" style="width:100%;padding-bottom:24px"><p class="body-2" style="Margin:0;font-family:Verdana, Geneva, sans-serif;line-height:24px;letter-spacing:0.5px;font-size:14px;font-weight:normal;color:#263645">We love to give you more for less. And with subscribe and save, you can now add extra products to your monthly box, and get 10% off every one. And don&rsquo;t worry. If you&rsquo;re already getting something extra, we&rsquo;ll automatically apply your discount&nbsp;&mdash; because we&rsquo;re nice like&nbsp;that&hellip;</p></td>
+                    </tr><!-- BUTTON start -->
+                    <tr>
+                     <td class="button large secondary" align="center" style="color:#ffffff;padding-bottom:16px"><!--[if mso]>
+                          <table role="presentation" border="0" cellpadding="0" cellspacing="0" style="margin:0 auto;">
+                            <tr>
+                              <td align="center" bgcolor="#D1461C" style="mso-padding-alt: 12px 10px 12px 10px;">
+                              <![endif]--><a href="https://www.harrys.com/en/gb/products?utm_source=penpal&utm_medium=email&utm_campaign={{campaign_name}}&utm_content=hero_btn&hidemodal=true#shave-bundles" role="button" style="text-decoration:none;font-family:Futura, 'Trebuchet MS', Arial, sans-serif;font-size:15px;font-weight:normal;padding-top:16px;padding-bottom:16px;background-color:#D1461C;display:inline-block;border:0;text-align:center;text-transform:uppercase;letter-spacing:2px;line-height:16px;color:#ffffff;padding-left:30px;border-radius:4px;padding-right:30px;mso-line-height-rule:exactly;mso-ansi-font-weight:bold;min-width:130px"><!--[if mso]>&nbsp;&nbsp;&nbsp;<![endif]-->Shop Now<!--[if mso]>&nbsp;&nbsp;&nbsp;<![endif]--></a><!--[if mso]>
+                              </td>
+                            </tr>
+                          </table>   
+                        <![endif]--></td>
+                    </tr><!--/ BUTTON end -->
+                  </table></td>
+                </tr>
+              </table><!--[if (gte mso 9)|(IE)]>
+                </td>
+              </tr>
+             </table>
+             <![endif]--></td>
+            </tr>
+          </table></td>
+        </tr>
+      </table>
+   
+        <!-- blue wrapper start -->
+          <table class="es-content-body" role="presentation" width="580" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#005677" style="background-color:#005677;margin:0px auto;padding:0px;max-width:580px;width:100%">
+            <tr>
+             <td valign="top" align="center" style="padding:24px 0">
+
+                <!--[if (gte mso 9)|(IE)]>
+            <table role="presentation" width="516" align="center" border="0" cellspacing="0" cellpadding="0" style="width: 516px">
+              <tr>
+                <td>
+                <![endif]-->
+              <table class="container" role="presentation" width="516" border="0" cellpadding="0" cellspacing="0" align="center" style="margin:0 auto;padding:0;max-width:516px;width:100%">
+                <tr>
+                 <td valign="top" align="center" style="padding-bottom:24px">
+                  <table class="block" role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%"><!-- IMG -->
+                    <tr>
+                     <td align="center" valign="top" width="100%" style="padding:0px;width:100%;font-size:0px"><a href="https://www.harrys.com/en/gb/products?utm_source=penpal&utm_medium=email&utm_campaign={{campaign_name}}&utm_content=products&hidemodal=true" target="_blank" style="text-decoration:underline"><img src="https://cdn.harrys.com/harrys-email-int/one-off/2024/20240320_subscribesave_uk/subheader-646.gif" alt="We Think You might like" width="323" style="display:block;border:0px;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;height:auto;line-height:100%;max-width:323px;width:100%" ></a></td>
+                    </tr>
+                  </table></td>
+                </tr>
+              </table><!--[if (gte mso 9)|(IE)]>
+              </td>
+         </tr>
+         </table>
+        <![endif]-->
+   
+
+
+        <!-- 2 x PRODUCT HYBRID start -->
+       <table class="container" role="presentation" width="580" border="0" cellpadding="0" cellspacing="0" align="center"  style="margin: 0 auto; max-width: 580px; padding: 0; width: 100%;">
+        
+          <tr class="details-pod-h">
+            <td class="container__td container-pad-mob" align="center" height="100%" valign="top" width="100%" style="font-size: 0; padding: 0 12px; text-align: center; width: 100%;background-color: #005677;">
+              <!--[if (gte mso 9)|(IE)]>
+                <table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="556" style="width: 556px;">
+                  <tr>
+                    <td width="278" valign="top" style="width: 278px;">
+                    <![endif]-->
+                    <div class="max-width-none width-100percent" style="display: inline-block;min-width: 278px;  max-width: 278px; vertical-align: top; width: 100%;font-size: 0; ">
+                      <table class="column-left" role="presentation" border="0" cellspacing="0" cellpadding="0" width="100%" style="border-spacing: 0; font-family: sans-serif; width: 100%;" >
+                        <tr>
+                          <td class="column-left__td" valign="top" align="center" style="padding: 12px;" >
+                            <table class="content-container" role="presentation" border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff" style="-moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; width: 100%;">
+                              <tr>
+                                <td class="pad-adjust content-container__td" valign="top" align="center" style="padding: 24px; width: 100%;"> 
+                                 
+                                        <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="100%" style="width: 100%;">
+                                           <!-- IMG start -->
+                                          <tr>
+                                            <td class="img" align="center" valign="top" style="max-width: 240px; padding: 16px 0 8px 0; width: 100%;">
+                                              <a href="https://www.harrys.com/en/gb{{pdp_1_link_path}}?utm_source=penpal&utm_medium=email&utm_campaign={{campaign_name}}&utm_content={{pdp_1_utm_content}}&hidemodal=true" target="_blank"><img src="{{pdp_1_img}}" width="185" height="185" border="0" alt="{{pdp_1_title}}" style="border: 0; display: block; height: auto; line-height: 100%; max-width: 185px; outline: none; text-decoration: none; width: 100%;"></a>
+                                            </td>
+                                          </tr>
+                                          <!-- IMG end -->
+                                          <tr>
+                                            <td class="note note-title" align="center" style="color: #666666; font-family: Verdana, Geneva, sans-serif; font-size: 13px; font-weight: normal; letter-spacing: 0.312369px; line-height: 21px; padding: 0; padding-top: 16px; text-decoration: none; width: 100%;"> <a href="https://www.harrys.com/en/gb{{pdp_1_link_path}}?utm_source=penpal&utm_medium=email&utm_campaign={{campaign_name}}&utm_content={{pdp_1_utm_content}}&hidemodal=true" target="_blank" style="color: #666666; text-decoration: none;word-break: break-word;">{{pdp_1_title}}</a> </td>
+                                          </tr>
+                                           <tr>
+                                            <td class="note" align="center" style="color: #868686; font-family: Verdana, Geneva, sans-serif; font-size: 12px; font-weight: normal; letter-spacing: 0.312369px; line-height: 21px; padding: 0; width: 100%;"> <a href="https://www.harrys.com/en/gb{{pdp_1_link_path}}?utm_source=penpal&utm_medium=email&utm_campaign={{campaign_name}}&utm_content={{pdp_1_utm_content}}&hidemodal=true" target="_blank" style="color: #868686; text-decoration: none;">{{pdp_1_message}}</a> </td>
+                                          </tr>
+                                          <!--  BUTTON RSP start -->
+                                          <tr>
+                                              <td class="button small primary" align="center" style="padding: 16px 0 0; width: 100%;">
+                                              <!--[if mso]>
+                                                <table role="presentation" border="0" cellpadding="0" cellspacing="0" style="margin:0 auto;" width="84">
+                                                  <tr>
+                                                    <td align="center" bgcolor="#D1461C" style="mso-padding-alt: 5px 0 6px 0;"><![endif]-->
+                                                    <a href="https://www.harrys.com/en/gb{{pdp_1_link_path}}?utm_source=penpal&utm_medium=email&utm_campaign={{campaign_name}}&utm_content={{pdp_1_utm_content}}&hidemodal=true" role="button" style="background-color: #D1461C; padding: 0 ; display: inline-block;text-decoration: none;border:0; text-align: center; text-transform:uppercase; letter-spacing: 2px; font-weight: normal;font-family: Futura, Trebuchet MS, Arial, sans-serif;  font-size: 10.5px; line-height:14.3px; color: #FFFFFF;  padding-bottom: 11px; padding-left: 16px ; border-radius: 4px; padding-right: 16px ; padding-top: 11px ;  mso-line-height-rule: exactly; mso-ansi-font-weight:bold; line-height:12px;min-width: 64px"><!--[if mso]>&nbsp;&nbsp;&nbsp;<![endif]-->ADD<!--[if mso]>&nbsp;&nbsp;&nbsp;<![endif]--></a>
+                                                    <!--[if mso]>
+                                                    </td>
+                                                  </tr>
+                                                </table>  
+                                              <![endif]-->                           
+                                              </td>
+                                          </tr>
+                                            <!--  BUTTON RSP end -->
+                                      
+                                </table>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </div>
+                    <!--[if false]> <table role="presentation" style="display:none;"><tr><td><![endif]-->
+                    <!--[if (gte mso 9)|(IE)]>
+                    </td><td width="278"  style="width: 278px;" valign="top"> 
+                    <![endif]-->
+                    <!--[if false]></td></tr></table><![endif]-->
+                    <div class="max-width-none width-100percent" style="display: inline-block;min-width: 278px;  max-width: 278px; vertical-align: top; width: 100%;font-size: 0; ">
+                      <table class="column-right" role="presentation" border="0" cellspacing="0" cellpadding="0" width="100%" style="border-spacing: 0; font-family: sans-serif; width: 100%;">
+                        <tr>
+                          <td class="column-right__td" valign="top" align="center" style="padding: 12px;">
+                            <table class="content-container" role="presentation" border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff" style="-moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; width: 100%;">
+                              <tr>
+                                <td class="pad-adjust content-container__td" valign="top" align="center" style="padding: 24px; width: 100%;">  
+                                 
+                                        <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="100%" style="width: 100%;">
+                                          <!-- ING -->
+                                          <tr>
+                                            <td class="img" align="center" valign="top" style="max-width: 240px; padding: 16px 0 8px 0; width: 100%;">
+                                              <a href="https://www.harrys.com/en/gb{{pdp_2_link_path}}?utm_source=penpal&utm_medium=email&utm_campaign={{campaign_name}}&utm_content={{pdp_2_utm_content}}" target="_blank"><img src="{{pdp_2_img}}" width="185" height="185" border="0" alt="{{pdp_2_title}}" style="border: 0; display: block; height: auto; line-height: 100%; max-width: 185px; outline: none; text-decoration: none; width: 100%;"></a>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td class="note note-title" align="center" style="color: #666666; font-family: Verdana, Geneva, sans-serif; font-size: 13px; font-weight: normal; letter-spacing: 0.312369px; line-height: 21px; padding: 0; padding-top: 16px; text-decoration: none; width: 100%;"> <a href="https://www.harrys.com/en/gb{{pdp_2_link_path}}?utm_source=penpal&utm_medium=email&utm_campaign={{campaign_name}}&utm_content={{pdp_2_utm_content}}&hidemodal=true" target="_blank" style="color: #666666; text-decoration: none;word-break: break-word;">{{pdp_2_title}}</a> </td>
+                                          </tr>
+                                           <tr>
+                                            <td class="note" align="center" style="color: #868686; font-family: Verdana, Geneva, sans-serif; font-size: 12px; font-weight: normal; letter-spacing: 0.312369px; line-height: 21px; padding: 0; width: 100%;"> <a href="https://www.harrys.com/en/gb{{pdp_2_link_path}}?utm_source=penpal&utm_medium=email&utm_campaign={{campaign_name}}&utm_content={{pdp_2_utm_content}}&hidemodal=true" target="_blank" style="color: #868686; text-decoration: none;">{{pdp_2_message}}</a></td>
+                                          </tr>
+                                            <!--  BUTTON RSP start -->
+                                          <tr>
+                                              <td class="button small primary" align="center" style="padding: 16px 0 0; width: 100%;">
+                                              <!--[if mso]>
+                                                <table role="presentation" border="0" cellpadding="0" cellspacing="0" style="margin:0 auto;" width="84">
+                                                  <tr>
+                                                    <td align="center" bgcolor="#D1461C" style="mso-padding-alt: 5px 0 6px 0;"><![endif]-->
+                                                    <a  href="https://www.harrys.com/en/gb{{pdp_2_link_path}}?utm_source=penpal&utm_medium=email&utm_campaign={{campaign_name}}&utm_content={{pdp_2_utm_content}}&hidemodal=true" role="button" style="background-color: #D1461C; padding: 0 ; display: inline-block;text-decoration: none;border:0; text-align: center; text-transform:uppercase; letter-spacing: 2px; font-weight: normal;font-family: Futura, Trebuchet MS, Arial, sans-serif;  font-size: 10.5px; line-height:14.3px; color: #FFFFFF;  padding-bottom: 11px; padding-left: 16px ; border-radius: 4px; padding-right: 16px ; padding-top: 11px ;  mso-line-height-rule: exactly; mso-ansi-font-weight:bold; line-height:12px;min-width: 64px"><!--[if mso]>&nbsp;&nbsp;&nbsp;<![endif]-->ADD<!--[if mso]>&nbsp;&nbsp;&nbsp;<![endif]--></a>
+                                                    <!--[if mso]>
+                                                    </td>
+                                                  </tr>
+                                                </table>  
+                                              <![endif]-->                           
+                                              </td>
+                                          </tr>
+                                            <!--  BUTTON RSP end -->
+                                       
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </div>
+                    <!--[if (gte mso 9)|(IE)]>
+                    </td>
+                  </tr>
+                </table>
+              <![endif]-->
+            </td>
+          </tr>
+        
+        </table>
+        <!-- 2 x PRODUCT HYBRID end -->
+
+
+
+
+
+
+         </td>
+            </tr>
+          </table>
+        <!-- blue wrapper end -->
+
+
+      <!-- FIXED WIDTH FOOTER WRAPPER start -->
+     <table class="container" role="presentation" width="580" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#868686" style="margin: 0 auto; max-width: 580px; padding: 0; width: 100%;">
+      <tr>
+        <td  align="center" style="padding: 0">
+          {{content_blocks.${int_global_footer_standard_en}}}
+        </td>
+      </tr>
+    </table>
+    <!-- FIXED WIDTH FOOTER WRAPPER end --> <!--[if (gte mso 9)|(IE)]>
+                  </td>
+                </tr>
+              </table>
+            <![endif]--></td>
+    </tr>
+  </table><!-- Wrapper end -->
+ </body>
+</html>
